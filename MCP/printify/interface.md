@@ -1,13 +1,20 @@
 # Interface — MCP printify
 
-## Methodes exposees
+Transport: stdio. Protocol: MCP `2024-11-05`. Server identifies itself as `Printify-MCP` (upstream's own
+name).
 
-A definir lors de l'implementation.
+## Tools
 
-## Schema d'entree
+Full list: [upstream README "Available Tools"](https://github.com/TSavo/printify-mcp#available-tools) —
+shop management, product CRUD, blueprint/variant catalog, image upload, AI image generation (optional,
+needs `REPLICATE_API_TOKEN`). Also exposes an MCP prompt: "Generate Product Description".
 
-A definir.
+## Auth (interior, not an MCP tool)
 
-## Schema de sortie
+Reads `PRINTIFY_API_KEY` (required) and `PRINTIFY_SHOP_ID` (optional) from the environment at startup — set
+via `.env` (see `.env.example`) or GitHub Actions secrets in production.
 
-A definir.
+## Errors
+
+Upstream's Printify SDK client surfaces HTTP errors with status + body (e.g. `401 Unauthorized`) — observed
+directly during smoke testing with a dummy key.

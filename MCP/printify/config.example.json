@@ -1,5 +1,11 @@
 {
   "name": "printify",
-  "enabled": false,
-  "credentials_env": "PRINTIFY_API_KEY"
+  "enabled": true,
+  "scope": "full-crud-see-readme-caveat",
+  "vendor": {
+    "source": "https://github.com/TSavo/printify-mcp",
+    "npm": "@tsavo/printify-mcp",
+    "license": "ISC"
+  },
+  "env_vars": ["PRINTIFY_API_KEY", "PRINTIFY_SHOP_ID"]
 }

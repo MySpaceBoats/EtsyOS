@@ -1,0 +1,18 @@
+{
+  "name": "@etsyos/mcp-etsy",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "EtsyOS wrapper — OAuth2 PKCE auth/refresh in front of the vendored etsy-mcp-2026-complete MCP server",
+  "scripts": {
+    "authorize": "node --env-file=.env --experimental-strip-types scripts/authorize.ts",
+    "vendor:build": "npm install --prefix vendor/etsy-mcp-2026-complete && npm run build --prefix vendor/etsy-mcp-2026-complete",
+    "start": "node --env-file=.env --experimental-strip-types src/run.ts",
+    "typecheck": "tsc -p . --noEmit",
+    "test": "node --experimental-strip-types --test \"tests/**/*.test.ts\""
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3",
+    "@types/node": "^22.10.5"
+  }
+}

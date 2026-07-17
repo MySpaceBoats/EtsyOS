@@ -16,9 +16,14 @@
 
 ## Phase 1 — Authentification & infrastructure (priorite 1)
 
-- [ ] Secrets GitHub Actions (Etsy API, Printify API, Higgsfield, R2)
-- [ ] MCP `etsy` — auth OAuth + lecture seule (shop, listings)
-- [ ] MCP `printify` — auth API key + lecture seule (catalogue, produits)
+- [x] MCP `etsy` — auth OAuth2 PKCE (wrapper maison) + serveur vendored `etsy-mcp-2026-complete` (50+ outils,
+      voir THIRD_PARTY_NOTICES.md) — smoke-teste bout-en-bout
+- [x] MCP `printify` — auth token personnel + dependance npm `@tsavo/printify-mcp` — smoke-teste bout-en-bout
+- [ ] **Gate d'ecriture** — les deux MCP exposent du CRUD complet, pas juste de la lecture comme prevu
+      initialement. Rien n'empeche aujourd'hui la creation/suppression d'un listing/produit avant Phase 4
+      (`Quality-Agent`). Discipline de prompt uniquement pour l'instant — voir README.md de chaque MCP.
+- [ ] Secrets GitHub Actions (Etsy API, Printify API, Higgsfield, R2) — a configurer par Reda, voir INSTALL.md
+- [ ] Persistance du `refresh_token` Etsy sur runner ephemere (voir MCP/etsy/README.md "Limitation connue")
 - [ ] MCP `storage` — client R2 fonctionnel
 - [ ] Routine `Health-Check` fonctionnelle
 
@@ -31,7 +36,9 @@
 
 ## Phase 3 — Creation produit (priorite 3)
 
-- [ ] MCP `seo`, `higgsfield`, `assets`
+- [ ] MCP `higgsfield` — resoudre l'auth headless (hosted remote MCP, auth navigateur par defaut — voir
+      MCP/higgsfield/README.md) avant de l'utiliser depuis une routine GitHub Actions
+- [ ] MCP `seo`, `assets`
 - [ ] Agent `SEO-Agent`, `Design-Agent`
 - [ ] Routine `Product-Generation`, `SEO-Optimization`, `Mockup-Generation`
 
@@ -55,7 +62,9 @@
 
 ## Priorites immediates (prochaine session)
 
-1. Definir les secrets et l'auth Etsy/Printify (bloquant pour tout le reste)
-2. Implementer MCP `etsy` en lecture seule
-3. Implementer Routine `Health-Check`
-4. Premiere iteration de `Market-Agent` + MCP `market` (donnees reelles, pas de mock)
+1. Reda : creer l'app Etsy (developer.etsy.com), le token Printify, et configurer les secrets GitHub Actions
+2. Reda : `git submodule update --init MCP/etsy/vendor/etsy-mcp-2026-complete`, puis `cd MCP/etsy && npm run authorize` une fois `ETSY_CLIENT_ID` renseigne, reporter `ETSY_SHOP_ID`
+3. Definir le gate d'ecriture (allowlist d'outils MCP en lecture seule tant que `Quality-Agent` n'existe pas)
+4. Resoudre la persistance du refresh token Etsy pour les runners GitHub Actions (ephemeres)
+5. Implementer MCP `storage` (client R2) + Routine `Health-Check`
+6. Premiere iteration de `Market-Agent` + MCP `market` (donnees reelles, pas de mock)

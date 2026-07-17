@@ -1,0 +1,14 @@
+{
+  "name": "@etsyos/mcp-printify",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "EtsyOS wrapper around @tsavo/printify-mcp (upstream: https://github.com/TSavo/printify-mcp, ISC)",
+  "scripts": {
+    "start": "printify-mcp",
+    "test": "node --test \"tests/**/*.test.js\""
+  },
+  "dependencies": {
+    "@tsavo/printify-mcp": "^0.1.1"
+  }
+}

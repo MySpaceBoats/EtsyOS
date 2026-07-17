@@ -32,6 +32,7 @@ Ce depot est aussi un **Vault Obsidian** directement utilisable — voir OBSIDIA
 | [OBSIDIAN.md](OBSIDIAN.md) | Usage du depot comme Vault Obsidian |
 | [DEPLOYMENT.md](DEPLOYMENT.md) | Deploiement et infrastructure |
 | [CHANGELOG.md](CHANGELOG.md) | Historique des versions |
+| [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) | Code/dependances tiers vendored (MCP etsy/printify) |
 
 ## Structure
 
@@ -47,5 +48,7 @@ EtsyOS/
 
 ## Statut
 
-Fondation initiale — architecture, documentation et squelettes en place. Aucune logique metier des MCP/agents
+Fondation en place. Phase 1 (auth Etsy + Printify) implementee — voir MCP/etsy et MCP/printify, tous deux
+vendored depuis des serveurs MCP existants (voir THIRD_PARTY_NOTICES.md) plutot que construits maison, avec
+smoke-tests bout-en-bout qui passent. Reste de la logique metier (agents, routines, autres MCP) non
 implementee. Voir ROADMAP.md pour l'ordre d'implementation.

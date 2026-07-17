@@ -1,5 +1,11 @@
 {
   "name": "etsy",
-  "enabled": false,
-  "credentials_env": "ETSY_API_KEY"
+  "enabled": true,
+  "scope": "full-crud-see-readme-caveat",
+  "vendor": {
+    "source": "https://github.com/BusyBee3333/etsy-mcp-2026-complete",
+    "license": "MIT",
+    "path": "vendor/etsy-mcp-2026-complete"
+  },
+  "env_vars": ["ETSY_CLIENT_ID", "ETSY_REDIRECT_URI", "ETSY_SCOPES", "ETSY_TOKEN_CACHE_PATH", "ETSY_SHOP_ID"]
 }

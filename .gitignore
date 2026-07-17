@@ -1,7 +1,12 @@
 .DS_Store
 .env
-.env.*
+.env.local
+.env.*.local
+!.env.example
 .obsidian/workspace*
 .obsidian/plugins/*/data.json
 node_modules/
+dist/
 *.log
+.etsy-tokens.json
+*.tokens.json
