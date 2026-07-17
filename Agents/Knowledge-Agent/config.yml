@@ -1,0 +1,6 @@
+# Configuration — Knowledge-Agent
+# ponytail: valeurs par defaut minimales, etendre a l'implementation
+name: Knowledge-Agent
+enabled: false
+model: claude-sonnet-5
+max_tokens: 4096

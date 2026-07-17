@@ -1,0 +1,15 @@
+name: analytics
+# ponytail: squelette documente — logique metier ajoutee a l'implementation de chaque routine.
+# Couvre: Analytics
+on:
+  schedule:
+    - cron: '0 7 * * *'
+  workflow_dispatch:
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Placeholder — not yet implemented
+        run: echo "EtsyOS workflow 'analytics' — implementation pending. See /Routines and ROADMAP.md"

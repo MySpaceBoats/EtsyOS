@@ -1,0 +1,5 @@
+{
+  "name": "higgsfield",
+  "enabled": false,
+  "credentials_env": "HIGGSFIELD_API_KEY"
+}

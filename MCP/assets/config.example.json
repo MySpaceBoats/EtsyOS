@@ -1,0 +1,5 @@
+{
+  "name": "assets",
+  "enabled": false,
+  "credentials_env": "ASSETS_API_KEY"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "printify",
+  "enabled": false,
+  "credentials_env": "PRINTIFY_API_KEY"
+}

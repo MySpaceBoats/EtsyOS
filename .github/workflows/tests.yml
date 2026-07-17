@@ -1,0 +1,16 @@
+name: tests
+# ponytail: squelette documente — logique metier ajoutee a l'implementation de chaque routine.
+# Couvre: Suite de tests du repo (agents, MCP, scripts)
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Placeholder — not yet implemented
+        run: echo "EtsyOS workflow 'tests' — implementation pending. See /Routines and ROADMAP.md"

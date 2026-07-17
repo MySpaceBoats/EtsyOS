@@ -1,0 +1,15 @@
+name: daily
+# ponytail: squelette documente — logique metier ajoutee a l'implementation de chaque routine.
+# Couvre: Competitor-Scan, Trend-Discovery, Product-Generation, SEO-Optimization, Mockup-Generation, Publishing, Analytics, Optimization, Backup
+on:
+  schedule:
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Placeholder — not yet implemented
+        run: echo "EtsyOS workflow 'daily' — implementation pending. See /Routines and ROADMAP.md"

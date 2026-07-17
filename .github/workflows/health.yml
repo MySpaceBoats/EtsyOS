@@ -1,0 +1,15 @@
+name: health
+# ponytail: squelette documente — logique metier ajoutee a l'implementation de chaque routine.
+# Couvre: Health-Check
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Placeholder — not yet implemented
+        run: echo "EtsyOS workflow 'health' — implementation pending. See /Routines and ROADMAP.md"

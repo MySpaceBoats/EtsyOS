@@ -1,0 +1,5 @@
+{
+  "name": "competitor",
+  "enabled": false,
+  "credentials_env": "COMPETITOR_API_KEY"
+}

@@ -1,0 +1,6 @@
+# Configuration — Design-Agent
+# ponytail: valeurs par defaut minimales, etendre a l'implementation
+name: Design-Agent
+enabled: false
+model: claude-sonnet-5
+max_tokens: 4096

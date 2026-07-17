@@ -1,0 +1,5 @@
+{
+  "name": "market",
+  "enabled": false,
+  "credentials_env": "MARKET_API_KEY"
+}

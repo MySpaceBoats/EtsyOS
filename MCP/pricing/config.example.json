@@ -1,0 +1,5 @@
+{
+  "name": "pricing",
+  "enabled": false,
+  "credentials_env": "PRICING_API_KEY"
+}

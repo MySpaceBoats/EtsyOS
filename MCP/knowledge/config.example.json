@@ -1,0 +1,5 @@
+{
+  "name": "knowledge",
+  "enabled": false,
+  "credentials_env": "KNOWLEDGE_API_KEY"
+}

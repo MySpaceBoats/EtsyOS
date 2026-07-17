@@ -1,0 +1,5 @@
+{
+  "name": "etsy",
+  "enabled": false,
+  "credentials_env": "ETSY_API_KEY"
+}

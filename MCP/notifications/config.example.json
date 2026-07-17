@@ -1,0 +1,5 @@
+{
+  "name": "notifications",
+  "enabled": false,
+  "credentials_env": "NOTIFICATIONS_API_KEY"
+}

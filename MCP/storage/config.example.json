@@ -1,0 +1,5 @@
+{
+  "name": "storage",
+  "enabled": false,
+  "credentials_env": "STORAGE_API_KEY"
+}

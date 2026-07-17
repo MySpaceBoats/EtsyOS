@@ -1,0 +1,5 @@
+{
+  "name": "experiments",
+  "enabled": false,
+  "credentials_env": "EXPERIMENTS_API_KEY"
+}

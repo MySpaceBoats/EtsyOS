@@ -1,0 +1,5 @@
+{
+  "name": "analytics",
+  "enabled": false,
+  "credentials_env": "ANALYTICS_API_KEY"
+}

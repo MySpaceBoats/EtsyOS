@@ -1,0 +1,5 @@
+{
+  "name": "seo",
+  "enabled": false,
+  "credentials_env": "SEO_API_KEY"
+}

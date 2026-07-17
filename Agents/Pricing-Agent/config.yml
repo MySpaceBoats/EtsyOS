@@ -1,0 +1,6 @@
+# Configuration — Pricing-Agent
+# ponytail: valeurs par defaut minimales, etendre a l'implementation
+name: Pricing-Agent
+enabled: false
+model: claude-sonnet-5
+max_tokens: 4096

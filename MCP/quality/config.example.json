@@ -1,0 +1,5 @@
+{
+  "name": "quality",
+  "enabled": false,
+  "credentials_env": "QUALITY_API_KEY"
+}

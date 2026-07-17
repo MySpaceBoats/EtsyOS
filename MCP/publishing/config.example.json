@@ -1,0 +1,5 @@
+{
+  "name": "publishing",
+  "enabled": false,
+  "credentials_env": "PUBLISHING_API_KEY"
+}
