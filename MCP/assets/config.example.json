@@ -1,5 +1,5 @@
 {
   "name": "assets",
-  "enabled": false,
-  "credentials_env": "ASSETS_API_KEY"
+  "enabled": true,
+  "env_vars": ["ASSETS_BASE_DIR"]
 }

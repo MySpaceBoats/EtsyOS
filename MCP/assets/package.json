@@ -1,0 +1,19 @@
+{
+  "name": "@etsyos/mcp-assets",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "EtsyOS assets MCP server — records generated-asset fiches into the Obsidian vault",
+  "scripts": {
+    "start": "node --experimental-strip-types src/run.ts",
+    "typecheck": "tsc -p . --noEmit",
+    "test": "node --experimental-strip-types --test \"tests/**/*.test.ts\""
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3",
+    "@types/node": "^22.10.5"
+  }
+}
