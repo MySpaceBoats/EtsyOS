@@ -10,7 +10,10 @@ status: active
 
 ## Role
 
-Genere images et mockups produits via le MCP `higgsfield` et le MCP `assets`.
+Genere images et mockups produits via le pipeline `MCP/image-generation` (chemin principal —
+generation multi-fournisseurs avec bascule automatique), puis `MCP/storage` (upload R2) et
+`MCP/assets` (fiche d'asset). Le MCP `higgsfield` reste disponible comme alternative invoquee
+separement, en attente de la resolution de son auth headless (Phase 3).
 
 ## Responsabilites
 

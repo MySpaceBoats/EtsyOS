@@ -16,7 +16,9 @@
 2. Ouvrir le dossier dans Obsidian comme Vault (racine du depot = racine du Vault)
 3. Configurer les secrets GitHub Actions (Settings > Secrets and variables > Actions) :
    `ETSY_CLIENT_ID`, `ETSY_SHOP_ID`, `PRINTIFY_API_KEY`, `PRINTIFY_SHOP_ID`, `HIGGSFIELD_API_KEY`,
-   `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`, `R2_BUCKET`
+   `R2_ACCOUNT_ID`, `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`, `R2_BUCKET`, `R2_ENDPOINT` (optionnel),
+   `R2_PUBLIC_URL_BASE` (optionnel), `CF_ACCOUNT_ID`, `CF_API_TOKEN`, `GOOGLE_AI_STUDIO_API_KEY`,
+   `HUGGINGFACE_API_KEY`
 4. Verifier que les workflows `.github/workflows/health.yml` s'executent correctement
 5. Suivre ROADMAP.md pour l'ordre d'implementation des MCP et agents
 
@@ -50,3 +52,27 @@ npm start
 
 Une fois les deux `.env` remplis, `.mcp.json` a la racine du depot les enregistre automatiquement aupres de
 Claude Code (avec `higgsfield`, en mode connecteur distant — auth via compte Higgsfield, pas de cle API).
+
+## MCP — storage et image-generation (Phase 1)
+
+Deux serveurs MCP construits maison, sans secret commite (variables d'environnement uniquement).
+
+```bash
+# storage — client Cloudflare R2 (S3-compatible)
+cd MCP/storage
+npm install
+cp .env.example .env      # renseigner R2_ACCOUNT_ID, R2_ACCESS_KEY_ID, R2_SECRET_ACCESS_KEY, R2_BUCKET
+                           # (R2_ENDPOINT et R2_PUBLIC_URL_BASE optionnels)
+npm start
+
+# image-generation — generation multi-fournisseurs avec bascule automatique
+cd ../image-generation
+npm install
+cp .env.example .env      # renseigner au moins un fournisseur : CF_ACCOUNT_ID + CF_API_TOKEN (Workers AI),
+                           # GOOGLE_AI_STUDIO_API_KEY (Imagen), HUGGINGFACE_API_KEY (HuggingFace)
+npm start
+```
+
+`.mcp.json` enregistre automatiquement `storage` et `image-generation` aupres de Claude Code. Le serveur
+`image-generation` essaie les fournisseurs dans l'ordre de priorite de `config.example.json` et bascule
+automatiquement ; un seul fournisseur configure suffit pour demarrer.

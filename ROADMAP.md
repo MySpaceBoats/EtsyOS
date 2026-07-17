@@ -24,7 +24,9 @@
       (`Quality-Agent`). Discipline de prompt uniquement pour l'instant — voir README.md de chaque MCP.
 - [ ] Secrets GitHub Actions (Etsy API, Printify API, Higgsfield, R2) — a configurer par Reda, voir INSTALL.md
 - [ ] Persistance du `refresh_token` Etsy sur runner ephemere (voir MCP/etsy/README.md "Limitation connue")
-- [ ] MCP `storage` — client R2 fonctionnel
+- [x] MCP `storage` — client R2 fonctionnel (upload/download/delete/list/getSignedUrl/publicUrl, teste hors ligne)
+- [x] MCP `image-generation` — generation multi-fournisseurs avec bascule automatique (Workers AI → Imagen →
+      HuggingFace), avancee depuis Phase 3 a la demande explicite de Reda (l'item Higgsfield reste en Phase 3)
 - [ ] Routine `Health-Check` fonctionnelle
 
 ## Phase 2 — Marche & connaissance (priorite 2)

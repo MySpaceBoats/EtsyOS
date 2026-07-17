@@ -8,6 +8,14 @@
       "command": "npm",
       "args": ["--prefix", "MCP/printify", "start"]
     },
+    "storage": {
+      "command": "npm",
+      "args": ["--prefix", "MCP/storage", "start"]
+    },
+    "image-generation": {
+      "command": "npm",
+      "args": ["--prefix", "MCP/image-generation", "start"]
+    },
     "higgsfield": {
       "type": "http",
       "url": "https://mcp.higgsfield.ai/mcp"
