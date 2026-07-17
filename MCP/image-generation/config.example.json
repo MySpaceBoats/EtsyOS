@@ -1,0 +1,34 @@
+{
+  "providers": {
+    "workers-ai": {
+      "model": "@cf/black-forest-labs/flux-1-schnell",
+      "costPerImageUsd": 0.0,
+      "timeoutMs": 60000
+    },
+    "imagen": {
+      "model": "gemini-2.5-flash-image",
+      "costPerImageUsd": 0.03,
+      "timeoutMs": 60000
+    },
+    "huggingface": {
+      "model": "black-forest-labs/FLUX.1-schnell",
+      "provider": "together",
+      "costPerImageUsd": 0.0,
+      "timeoutMs": 60000
+    }
+  },
+  "priority": ["workers-ai", "imagen", "huggingface"],
+  "retry": {
+    "baseDelayMs": 500,
+    "maxDelayMs": 8000,
+    "maxAttempts": 3
+  },
+  "health": {
+    "cooldownMs": 300000
+  },
+  "defaults": {
+    "width": 1024,
+    "height": 1024,
+    "steps": 4
+  }
+}

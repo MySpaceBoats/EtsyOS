@@ -10,3 +10,4 @@ dist/
 *.log
 .etsy-tokens.json
 *.tokens.json
+.claude-flow/
