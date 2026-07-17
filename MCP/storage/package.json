@@ -1,0 +1,20 @@
+{
+  "name": "@etsyos/mcp-storage",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "EtsyOS storage MCP server — Cloudflare R2 (S3-compatible) client over aws4fetch",
+  "scripts": {
+    "start": "node --env-file=.env --experimental-strip-types src/run.ts",
+    "typecheck": "tsc -p . --noEmit",
+    "test": "node --experimental-strip-types --test \"tests/**/*.test.ts\""
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "aws4fetch": "^1.0.20"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3",
+    "@types/node": "^22.10.5"
+  }
+}
