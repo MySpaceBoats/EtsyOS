@@ -1,0 +1,217 @@
+{
+  "id": "wf_cozy-knit-sweater_1",
+  "productId": "prod_cozy-knit-sweater",
+  "slug": "cozy-knit-sweater",
+  "pipeline": [
+    "trend-discovery",
+    "market-analysis",
+    "opportunity-scoring",
+    "product-planner",
+    "product-generator",
+    "image-generator",
+    "mockup-generator",
+    "seo-generator",
+    "quality-assurance",
+    "validation",
+    "publishing"
+  ],
+  "dryRun": true,
+  "status": "completed",
+  "createdAt": "2026-07-18T12:32:10.001Z",
+  "updatedAt": "2026-07-18T12:32:10.035Z",
+  "pausedReason": null,
+  "steps": [
+    {
+      "id": "trend-discovery",
+      "status": "completed",
+      "startedAt": "2026-07-18T12:32:10.003Z",
+      "finishedAt": "2026-07-18T12:32:10.004Z",
+      "durationMs": 0,
+      "attempts": 1,
+      "logs": [
+        "[2026-07-18T12:32:10.004Z] Derived 10 keywords for \"Cozy Oversized Knit Sweater — Handmade-Style Wool Blend Pullover, Unisex\" (season: summer)"
+      ],
+      "error": null,
+      "result": {
+        "keywords": 10,
+        "topKeyword": "unisex t-shirt",
+        "season": "summer"
+      }
+    },
+    {
+      "id": "market-analysis",
+      "status": "completed",
+      "startedAt": "2026-07-18T12:32:10.005Z",
+      "finishedAt": "2026-07-18T12:32:10.006Z",
+      "durationMs": 0,
+      "attempts": 1,
+      "logs": [
+        "[2026-07-18T12:32:10.006Z] Market: demand 88, competition 67, median price 32.96€"
+      ],
+      "error": null,
+      "result": {
+        "demand": 88,
+        "competition": 67,
+        "priceMedian": 32.96
+      }
+    },
+    {
+      "id": "opportunity-scoring",
+      "status": "completed",
+      "startedAt": "2026-07-18T12:32:10.007Z",
+      "finishedAt": "2026-07-18T12:32:10.008Z",
+      "durationMs": 0,
+      "attempts": 1,
+      "logs": [
+        "[2026-07-18T12:32:10.008Z] Opportunity score 72/100"
+      ],
+      "error": null,
+      "result": {
+        "total": 72,
+        "seo": 66,
+        "competition": 33,
+        "potential": 88,
+        "difficulty": 51,
+        "profitability": 88
+      }
+    },
+    {
+      "id": "product-planner",
+      "status": "completed",
+      "startedAt": "2026-07-18T12:32:10.011Z",
+      "finishedAt": "2026-07-18T12:32:10.012Z",
+      "durationMs": 0,
+      "attempts": 1,
+      "logs": [
+        "[2026-07-18T12:32:10.012Z] Plan: t-shirt, priority high, 2 variant group(s)"
+      ],
+      "error": null,
+      "result": {
+        "priority": "high",
+        "productType": "t-shirt",
+        "collection": "summer-shirts"
+      }
+    },
+    {
+      "id": "product-generator",
+      "status": "completed",
+      "startedAt": "2026-07-18T12:32:10.013Z",
+      "finishedAt": "2026-07-18T12:32:10.016Z",
+      "durationMs": 0,
+      "attempts": 1,
+      "logs": [
+        "[2026-07-18T12:32:10.016Z] Prompt v1 built (296 chars)"
+      ],
+      "error": null,
+      "result": {
+        "version": 1,
+        "concept": "Cozy Oversized Knit Sweater — Handmade-Style Wool Blend Pullover, Unisex — t-shirt design for the \"summer-shirts\" collection, aimed at the \"unisex t-shirt\" niche."
+      }
+    },
+    {
+      "id": "image-generator",
+      "status": "completed",
+      "startedAt": "2026-07-18T12:32:10.017Z",
+      "finishedAt": "2026-07-18T12:32:10.018Z",
+      "durationMs": 0,
+      "attempts": 1,
+      "logs": [
+        "[2026-07-18T12:32:10.018Z] Planned 3 assets under products/cozy-knit-sweater/v1/ (simulated — image-generation MCP not invoked from this run)"
+      ],
+      "error": null,
+      "result": {
+        "assets": 3,
+        "simulated": true,
+        "baseKey": "products/cozy-knit-sweater/v1"
+      }
+    },
+    {
+      "id": "mockup-generator",
+      "status": "completed",
+      "startedAt": "2026-07-18T12:32:10.020Z",
+      "finishedAt": "2026-07-18T12:32:10.021Z",
+      "durationMs": 0,
+      "attempts": 1,
+      "logs": [
+        "[2026-07-18T12:32:10.021Z] Planned 4 mockup scenes: flat-lay, model-front, model-back, hanger"
+      ],
+      "error": null,
+      "result": {
+        "mockups": 4,
+        "scenes": [
+          "flat-lay",
+          "model-front",
+          "model-back",
+          "hanger"
+        ]
+      }
+    },
+    {
+      "id": "seo-generator",
+      "status": "completed",
+      "startedAt": "2026-07-18T12:32:10.022Z",
+      "finishedAt": "2026-07-18T12:32:10.023Z",
+      "durationMs": 0,
+      "attempts": 1,
+      "logs": [
+        "[2026-07-18T12:32:10.023Z] SEO: title 137 chars, 13 tags, score 74/100"
+      ],
+      "error": null,
+      "result": {
+        "score": 74,
+        "tags": 13,
+        "titleLength": 137
+      }
+    },
+    {
+      "id": "quality-assurance",
+      "status": "completed",
+      "startedAt": "2026-07-18T12:32:10.026Z",
+      "finishedAt": "2026-07-18T12:32:10.028Z",
+      "durationMs": 1,
+      "attempts": 1,
+      "logs": [
+        "[2026-07-18T12:32:10.028Z] QA PASSED — 9/9 checks ok"
+      ],
+      "error": null,
+      "result": {
+        "passed": true,
+        "checks": 9,
+        "failed": []
+      }
+    },
+    {
+      "id": "validation",
+      "status": "completed",
+      "startedAt": "2026-07-18T12:32:10.030Z",
+      "finishedAt": "2026-07-18T12:32:10.031Z",
+      "durationMs": 0,
+      "attempts": 1,
+      "logs": [
+        "[2026-07-18T12:32:10.031Z] Fiche status: PublishRequested"
+      ],
+      "error": null,
+      "result": {
+        "fiche_status": "PublishRequested",
+        "approved": true
+      }
+    },
+    {
+      "id": "publishing",
+      "status": "completed",
+      "startedAt": "2026-07-18T12:32:10.033Z",
+      "finishedAt": "2026-07-18T12:32:10.033Z",
+      "durationMs": 0,
+      "attempts": 1,
+      "logs": [
+        "[2026-07-18T12:32:10.033Z] Dry-run: publication simulée — aurait créé le produit Printify puis le listing Etsy (draft) via les MCP."
+      ],
+      "error": null,
+      "result": {
+        "published": false,
+        "simulated": true,
+        "note": "dry-run — aucun appel Printify/Etsy"
+      }
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "tasks": [
+    {
+      "id": "task_1784377929898_1",
+      "kind": "run-pipeline",
+      "payload": {
+        "slug": "midnight-cosmos-mug",
+        "category": "Mugs",
+        "title": "Midnight Cosmos Galaxy Mug — Celestial 11oz Ceramic Coffee Cup, Astronomy Gift",
+        "dryRun": true
+      },
+      "status": "completed",
+      "attempts": 1,
+      "maxAttempts": 3,
+      "createdAt": "2026-07-18T12:32:09.898Z",
+      "updatedAt": "2026-07-18T12:32:09.962Z",
+      "lastError": null
+    },
+    {
+      "id": "task_1784377929900_2",
+      "kind": "run-pipeline",
+      "payload": {
+        "slug": "sage-ceramic-mug",
+        "category": "Mugs",
+        "title": "Sage Green Ceramic Coffee Mug — Minimalist Handmade Style Cup, 11oz & 15oz",
+        "dryRun": true
+      },
+      "status": "completed",
+      "attempts": 1,
+      "maxAttempts": 3,
+      "createdAt": "2026-07-18T12:32:09.900Z",
+      "updatedAt": "2026-07-18T12:32:09.998Z",
+      "lastError": null
+    },
+    {
+      "id": "task_1784377929902_3",
+      "kind": "run-pipeline",
+      "payload": {
+        "slug": "cozy-knit-sweater",
+        "category": "Shirts",
+        "title": "Cozy Oversized Knit Sweater — Handmade-Style Wool Blend Pullover, Unisex",
+        "dryRun": true
+      },
+      "status": "completed",
+      "attempts": 1,
+      "maxAttempts": 3,
+      "createdAt": "2026-07-18T12:32:09.902Z",
+      "updatedAt": "2026-07-18T12:32:10.039Z",
+      "lastError": null
+    },
+    {
+      "id": "task_1784377929904_4",
+      "kind": "run-pipeline",
+      "payload": {
+        "slug": "highland-wool-pullover",
+        "category": "Shirts",
+        "title": "Highland Wool Pullover — Rustic Fair Isle Knit Sweater, Nordic Style",
+        "dryRun": true
+      },
+      "status": "completed",
+      "attempts": 1,
+      "maxAttempts": 3,
+      "createdAt": "2026-07-18T12:32:09.904Z",
+      "updatedAt": "2026-07-18T12:32:10.091Z",
+      "lastError": null
+    },
+    {
+      "id": "task_1784377929905_5",
+      "kind": "run-pipeline",
+      "payload": {
+        "slug": "abstract-horizon-print",
+        "category": "Wall-Art",
+        "title": "Abstract Horizon Fine Art Print — Modern Minimalist Wall Decor, Terracotta",
+        "dryRun": true
+      },
+      "status": "completed",
+      "attempts": 1,
+      "maxAttempts": 3,
+      "createdAt": "2026-07-18T12:32:09.905Z",
+      "updatedAt": "2026-07-18T12:32:10.131Z",
+      "lastError": null
+    },
+    {
+      "id": "task_1784377929906_6",
+      "kind": "run-pipeline",
+      "payload": {
+        "slug": "golden-ratio-poster",
+        "category": "Wall-Art",
+        "title": "Golden Ratio Sacred Geometry Poster — Nautilus Spiral Art Print, Fibonacci",
+        "dryRun": true
+      },
+      "status": "completed",
+      "attempts": 1,
+      "maxAttempts": 3,
+      "createdAt": "2026-07-18T12:32:09.906Z",
+      "updatedAt": "2026-07-18T12:32:10.172Z",
+      "lastError": null
+    }
+  ]
+}

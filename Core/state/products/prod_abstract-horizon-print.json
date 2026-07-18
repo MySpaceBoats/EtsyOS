@@ -1,0 +1,405 @@
+{
+  "id": "prod_abstract-horizon-print",
+  "slug": "abstract-horizon-print",
+  "title": "Abstract Horizon Fine Art Print — Modern Minimalist Wall Decor, Terracotta",
+  "category": "Wall-Art",
+  "createdAt": "2026-07-18T12:32:10.095Z",
+  "updatedAt": "2026-07-18T12:32:10.125Z",
+  "stage": "publishing",
+  "listingPath": "Products/Wall-Art/Listings/abstract-horizon-print.md",
+  "history": [
+    {
+      "at": "2026-07-18T12:32:10.095Z",
+      "step": "engine",
+      "event": "created"
+    },
+    {
+      "at": "2026-07-18T12:32:10.100Z",
+      "step": "trend-discovery",
+      "event": "completed"
+    },
+    {
+      "at": "2026-07-18T12:32:10.102Z",
+      "step": "market-analysis",
+      "event": "completed"
+    },
+    {
+      "at": "2026-07-18T12:32:10.104Z",
+      "step": "opportunity-scoring",
+      "event": "completed"
+    },
+    {
+      "at": "2026-07-18T12:32:10.106Z",
+      "step": "product-planner",
+      "event": "completed"
+    },
+    {
+      "at": "2026-07-18T12:32:10.108Z",
+      "step": "product-generator",
+      "event": "completed"
+    },
+    {
+      "at": "2026-07-18T12:32:10.111Z",
+      "step": "image-generator",
+      "event": "completed"
+    },
+    {
+      "at": "2026-07-18T12:32:10.114Z",
+      "step": "mockup-generator",
+      "event": "completed"
+    },
+    {
+      "at": "2026-07-18T12:32:10.117Z",
+      "step": "seo-generator",
+      "event": "completed"
+    },
+    {
+      "at": "2026-07-18T12:32:10.121Z",
+      "step": "quality-assurance",
+      "event": "completed"
+    },
+    {
+      "at": "2026-07-18T12:32:10.123Z",
+      "step": "validation",
+      "event": "completed"
+    },
+    {
+      "at": "2026-07-18T12:32:10.125Z",
+      "step": "publishing",
+      "event": "completed"
+    }
+  ],
+  "trend": {
+    "meta": {
+      "source": "offline-heuristic",
+      "generatedAt": "2026-07-18T12:32:10.100Z",
+      "durationMs": 1
+    },
+    "keywords": [
+      {
+        "keyword": "abstract art print",
+        "popularity": 89,
+        "momentum": -0.4,
+        "source": "offline-heuristic"
+      },
+      {
+        "keyword": "print art print",
+        "popularity": 83,
+        "momentum": -0.4,
+        "source": "offline-heuristic"
+      },
+      {
+        "keyword": "decor art print",
+        "popularity": 82,
+        "momentum": -0.7,
+        "source": "offline-heuristic"
+      },
+      {
+        "keyword": "terracotta art print",
+        "popularity": 77,
+        "momentum": 0.2,
+        "source": "offline-heuristic"
+      },
+      {
+        "keyword": "modern art print",
+        "popularity": 74,
+        "momentum": 0.1,
+        "source": "offline-heuristic"
+      },
+      {
+        "keyword": "art art print",
+        "popularity": 56,
+        "momentum": -0.8,
+        "source": "offline-heuristic"
+      },
+      {
+        "keyword": "minimalist art print",
+        "popularity": 49,
+        "momentum": 0.4,
+        "source": "offline-heuristic"
+      },
+      {
+        "keyword": "fine art print",
+        "popularity": 45,
+        "momentum": -0.4,
+        "source": "offline-heuristic"
+      },
+      {
+        "keyword": "wall art print",
+        "popularity": 37,
+        "momentum": -0.6,
+        "source": "offline-heuristic"
+      },
+      {
+        "keyword": "horizon art print",
+        "popularity": 36,
+        "momentum": 0.8,
+        "source": "offline-heuristic"
+      }
+    ],
+    "season": "summer",
+    "summary": "Top keyword \"abstract art print\" (popularity 89/100), season window: summer."
+  },
+  "market": {
+    "meta": {
+      "source": "offline-heuristic",
+      "generatedAt": "2026-07-18T12:32:10.102Z",
+      "durationMs": 0
+    },
+    "competition": 30,
+    "demand": 85,
+    "priceLow": 8,
+    "priceMedian": 39.45,
+    "priceHigh": 45,
+    "monthlyVolumeEstimate": 1445,
+    "seasonality": "summer",
+    "notes": "Heuristic estimate for \"abstract art print\": demand 85/100 vs competition 30/100 in Wall-Art."
+  },
+  "opportunity": {
+    "meta": {
+      "source": "offline-heuristic",
+      "generatedAt": "2026-07-18T12:32:10.104Z",
+      "durationMs": 0
+    },
+    "total": 77,
+    "seo": 63,
+    "competition": 70,
+    "potential": 85,
+    "difficulty": 34,
+    "profitability": 85,
+    "explanation": [
+      "SEO 63/100 — moyenne de popularité des 10 mots-clés détectés (poids 25%).",
+      "Concurrence 70/100 — inverse de la saturation marché (30/100 de concurrence brute, poids 20%).",
+      "Potentiel 85/100 — demande estimée (poids 30%).",
+      "Rentabilité 85/100 — position du prix médian 39.45€ dans la fourchette 8–45€ (poids 25%).",
+      "Difficulté 34/100 — indicatif, non pondéré dans le total.",
+      "Score global: 77/100."
+    ]
+  },
+  "plan": {
+    "meta": {
+      "source": "offline-heuristic",
+      "generatedAt": "2026-07-18T12:32:10.106Z",
+      "durationMs": 0
+    },
+    "productType": "art print",
+    "collection": "summer-wall-art",
+    "priority": "high",
+    "variants": [
+      {
+        "name": "Size",
+        "options": [
+          "A4",
+          "A3",
+          "30x40cm",
+          "50x70cm"
+        ]
+      }
+    ],
+    "colors": [
+      "Full Color"
+    ],
+    "formats": [
+      "Portrait",
+      "Landscape",
+      "Square"
+    ]
+  },
+  "generation": {
+    "meta": {
+      "source": "offline-heuristic",
+      "generatedAt": "2026-07-18T12:32:10.108Z",
+      "durationMs": 0
+    },
+    "prompt": "Design for a art print: \"Abstract Horizon Fine Art Print — Modern Minimalist Wall Decor, Terracotta\". Style keywords: abstract art print, print art print, decor art print. Colors: Full Color. Formats: Portrait, Landscape, Square. High resolution, print-ready, no text artifacts, no watermark.",
+    "negativePrompt": "blurry, low quality, watermark, trademarked characters, brand logos",
+    "version": 1,
+    "previousVersions": [],
+    "concept": "Abstract Horizon Fine Art Print — Modern Minimalist Wall Decor, Terracotta — art print design for the \"summer-wall-art\" collection, aimed at the \"abstract art print\" niche."
+  },
+  "images": {
+    "meta": {
+      "source": "offline-heuristic",
+      "generatedAt": "2026-07-18T12:32:10.111Z",
+      "durationMs": 0
+    },
+    "assets": [
+      {
+        "key": "products/abstract-horizon-print/v1/design.png",
+        "kind": "design",
+        "width": 4000,
+        "height": 4000,
+        "provider": "image-generation-mcp",
+        "simulated": true
+      },
+      {
+        "key": "products/abstract-horizon-print/v1/design-alt.png",
+        "kind": "variant",
+        "width": 4000,
+        "height": 4000,
+        "provider": "image-generation-mcp",
+        "simulated": true
+      },
+      {
+        "key": "products/abstract-horizon-print/v1/thumb.png",
+        "kind": "thumbnail",
+        "width": 800,
+        "height": 800,
+        "provider": "image-generation-mcp",
+        "simulated": true
+      }
+    ]
+  },
+  "mockups": {
+    "meta": {
+      "source": "offline-heuristic",
+      "generatedAt": "2026-07-18T12:32:10.114Z",
+      "durationMs": 0
+    },
+    "assets": [
+      {
+        "key": "products/abstract-horizon-print/v1/mockup-living-room.png",
+        "scene": "living-room",
+        "provider": "image-generation-mcp",
+        "simulated": true
+      },
+      {
+        "key": "products/abstract-horizon-print/v1/mockup-bedroom.png",
+        "scene": "bedroom",
+        "provider": "image-generation-mcp",
+        "simulated": true
+      },
+      {
+        "key": "products/abstract-horizon-print/v1/mockup-frame-closeup.png",
+        "scene": "frame-closeup",
+        "provider": "image-generation-mcp",
+        "simulated": true
+      },
+      {
+        "key": "products/abstract-horizon-print/v1/mockup-gallery-wall.png",
+        "scene": "gallery-wall",
+        "provider": "image-generation-mcp",
+        "simulated": true
+      }
+    ]
+  },
+  "seo": {
+    "meta": {
+      "source": "offline-heuristic",
+      "generatedAt": "2026-07-18T12:32:10.117Z",
+      "durationMs": 0
+    },
+    "title": "Abstract Horizon Fine Art Print — Modern Minimalist Wall Decor, Terracotta | abstract art print | print art print | decor art print",
+    "description": "Abstract Horizon Fine Art Print — Modern Minimalist Wall Decor, Terracotta — art print design for the \"summer-wall-art\" collection, aimed at the \"abstract art print\" niche.\n\n• Size: A4 / A3 / 30x40cm / 50x70cm\n• Colors: Full Color\n\nPerfect for: abstract art print, print art print, decor art print.\nShips worldwide via print-on-demand.",
+    "tags": [
+      "abstract art print",
+      "print art print",
+      "decor art print",
+      "terracotta art print",
+      "modern art print",
+      "art art print",
+      "minimalist art print",
+      "fine art print",
+      "wall art print",
+      "horizon art print",
+      "abstract",
+      "horizon",
+      "fine"
+    ],
+    "categories": [
+      "Art & Collectibles",
+      "Prints",
+      "Digital Prints"
+    ],
+    "score": 71,
+    "suggestions": [
+      "Couvrir plus de mots-clés tendance dans le titre."
+    ]
+  },
+  "qa": {
+    "meta": {
+      "source": "offline-heuristic",
+      "generatedAt": "2026-07-18T12:32:10.121Z",
+      "durationMs": 1
+    },
+    "passed": true,
+    "checks": [
+      {
+        "id": "tags-budget",
+        "label": "Tags ≤ 13 (limite Etsy)",
+        "passed": true,
+        "detail": "13/13 tags"
+      },
+      {
+        "id": "tag-length",
+        "label": "Tags ≤ 20 caractères",
+        "passed": true,
+        "detail": "ok"
+      },
+      {
+        "id": "title-length",
+        "label": "Titre ≤ 140 caractères",
+        "passed": true,
+        "detail": "131/140"
+      },
+      {
+        "id": "has-design",
+        "label": "Au moins un design",
+        "passed": true,
+        "detail": "3 asset(s)"
+      },
+      {
+        "id": "has-mockups",
+        "label": "Au moins un mockup",
+        "passed": true,
+        "detail": "4 mockup(s)"
+      },
+      {
+        "id": "resolution",
+        "label": "Design ≥ 2000px (print-ready)",
+        "passed": true,
+        "detail": "4000x4000"
+      },
+      {
+        "id": "copyright",
+        "label": "Aucune marque protégée (copyright / politique Etsy)",
+        "passed": true,
+        "detail": "aucun terme bloqué"
+      },
+      {
+        "id": "duplicates",
+        "label": "Pas de doublon de titre",
+        "passed": true,
+        "detail": "unique"
+      },
+      {
+        "id": "price",
+        "label": "Prix > 0",
+        "passed": true,
+        "detail": "39.45€"
+      }
+    ]
+  },
+  "validation": {
+    "meta": {
+      "source": "human",
+      "generatedAt": "2026-07-18T12:32:10.123Z",
+      "durationMs": 0
+    },
+    "fiche_status": "Published",
+    "approved": true,
+    "decidedBy": "console"
+  },
+  "publication": {
+    "meta": {
+      "source": "offline-heuristic",
+      "generatedAt": "2026-07-18T12:32:10.125Z",
+      "durationMs": 0
+    },
+    "published": false,
+    "simulated": true,
+    "printifyProductId": null,
+    "etsyListingId": null,
+    "blockedReason": null
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "id": "wf_golden-ratio-poster_1",
+  "productId": "prod_golden-ratio-poster",
+  "slug": "golden-ratio-poster",
+  "pipeline": [
+    "trend-discovery",
+    "market-analysis",
+    "opportunity-scoring",
+    "product-planner",
+    "product-generator",
+    "image-generator",
+    "mockup-generator",
+    "seo-generator",
+    "quality-assurance",
+    "validation",
+    "publishing"
+  ],
+  "dryRun": true,
+  "status": "paused",
+  "createdAt": "2026-07-18T12:32:10.134Z",
+  "updatedAt": "2026-07-18T12:32:10.165Z",
+  "pausedReason": "En attente de validation humaine (fiche Products/Wall-Art/Listings/golden-ratio-poster.md, statut OnHold)",
+  "steps": [
+    {
+      "id": "trend-discovery",
+      "status": "completed",
+      "startedAt": "2026-07-18T12:32:10.137Z",
+      "finishedAt": "2026-07-18T12:32:10.138Z",
+      "durationMs": 0,
+      "attempts": 1,
+      "logs": [
+        "[2026-07-18T12:32:10.138Z] Derived 10 keywords for \"Golden Ratio Sacred Geometry Poster — Nautilus Spiral Art Print, Fibonacci\" (season: summer)"
+      ],
+      "error": null,
+      "result": {
+        "keywords": 10,
+        "topKeyword": "golden art print",
+        "season": "summer"
+      }
+    },
+    {
+      "id": "market-analysis",
+      "status": "completed",
+      "startedAt": "2026-07-18T12:32:10.139Z",
+      "finishedAt": "2026-07-18T12:32:10.140Z",
+      "durationMs": 0,
+      "attempts": 1,
+      "logs": [
+        "[2026-07-18T12:32:10.140Z] Market: demand 84, competition 53, median price 39.08€"
+      ],
+      "error": null,
+      "result": {
+        "demand": 84,
+        "competition": 53,
+        "priceMedian": 39.08
+      }
+    },
+    {
+      "id": "opportunity-scoring",
+      "status": "completed",
+      "startedAt": "2026-07-18T12:32:10.141Z",
+      "finishedAt": "2026-07-18T12:32:10.142Z",
+      "durationMs": 0,
+      "attempts": 1,
+      "logs": [
+        "[2026-07-18T12:32:10.142Z] Opportunity score 73/100"
+      ],
+      "error": null,
+      "result": {
+        "total": 73,
+        "seo": 70,
+        "competition": 47,
+        "potential": 84,
+        "difficulty": 42,
+        "profitability": 84
+      }
+    },
+    {
+      "id": "product-planner",
+      "status": "completed",
+      "startedAt": "2026-07-18T12:32:10.143Z",
+      "finishedAt": "2026-07-18T12:32:10.144Z",
+      "durationMs": 0,
+      "attempts": 1,
+      "logs": [
+        "[2026-07-18T12:32:10.144Z] Plan: art print, priority high, 1 variant group(s)"
+      ],
+      "error": null,
+      "result": {
+        "priority": "high",
+        "productType": "art print",
+        "collection": "summer-wall-art"
+      }
+    },
+    {
+      "id": "product-generator",
+      "status": "completed",
+      "startedAt": "2026-07-18T12:32:10.145Z",
+      "finishedAt": "2026-07-18T12:32:10.147Z",
+      "durationMs": 1,
+      "attempts": 1,
+      "logs": [
+        "[2026-07-18T12:32:10.147Z] Prompt v1 built (297 chars)"
+      ],
+      "error": null,
+      "result": {
+        "version": 1,
+        "concept": "Golden Ratio Sacred Geometry Poster — Nautilus Spiral Art Print, Fibonacci — art print design for the \"summer-wall-art\" collection, aimed at the \"golden art print\" niche."
+      }
+    },
+    {
+      "id": "image-generator",
+      "status": "completed",
+      "startedAt": "2026-07-18T12:32:10.148Z",
+      "finishedAt": "2026-07-18T12:32:10.149Z",
+      "durationMs": 0,
+      "attempts": 1,
+      "logs": [
+        "[2026-07-18T12:32:10.149Z] Planned 3 assets under products/golden-ratio-poster/v1/ (simulated — image-generation MCP not invoked from this run)"
+      ],
+      "error": null,
+      "result": {
+        "assets": 3,
+        "simulated": true,
+        "baseKey": "products/golden-ratio-poster/v1"
+      }
+    },
+    {
+      "id": "mockup-generator",
+      "status": "completed",
+      "startedAt": "2026-07-18T12:32:10.150Z",
+      "finishedAt": "2026-07-18T12:32:10.151Z",
+      "durationMs": 0,
+      "attempts": 1,
+      "logs": [
+        "[2026-07-18T12:32:10.151Z] Planned 4 mockup scenes: living-room, bedroom, frame-closeup, gallery-wall"
+      ],
+      "error": null,
+      "result": {
+        "mockups": 4,
+        "scenes": [
+          "living-room",
+          "bedroom",
+          "frame-closeup",
+          "gallery-wall"
+        ]
+      }
+    },
+    {
+      "id": "seo-generator",
+      "status": "completed",
+      "startedAt": "2026-07-18T12:32:10.153Z",
+      "finishedAt": "2026-07-18T12:32:10.154Z",
+      "durationMs": 0,
+      "attempts": 1,
+      "logs": [
+        "[2026-07-18T12:32:10.154Z] SEO: title 136 chars, 13 tags, score 71/100"
+      ],
+      "error": null,
+      "result": {
+        "score": 71,
+        "tags": 13,
+        "titleLength": 136
+      }
+    },
+    {
+      "id": "quality-assurance",
+      "status": "completed",
+      "startedAt": "2026-07-18T12:32:10.156Z",
+      "finishedAt": "2026-07-18T12:32:10.161Z",
+      "durationMs": 4,
+      "attempts": 1,
+      "logs": [
+        "[2026-07-18T12:32:10.161Z] QA PASSED — 9/9 checks ok"
+      ],
+      "error": null,
+      "result": {
+        "passed": true,
+        "checks": 9,
+        "failed": []
+      }
+    },
+    {
+      "id": "validation",
+      "status": "paused",
+      "startedAt": "2026-07-18T12:32:10.163Z",
+      "finishedAt": "2026-07-18T12:32:10.164Z",
+      "durationMs": 0,
+      "attempts": 1,
+      "logs": [
+        "[2026-07-18T12:32:10.164Z] Fiche status: OnHold"
+      ],
+      "error": null,
+      "result": {
+        "fiche_status": "OnHold",
+        "approved": false
+      }
+    },
+    {
+      "id": "publishing",
+      "status": "pending",
+      "startedAt": null,
+      "finishedAt": null,
+      "durationMs": null,
+      "attempts": 0,
+      "logs": [],
+      "error": null,
+      "result": null
+    }
+  ]
+}

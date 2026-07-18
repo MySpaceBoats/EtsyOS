@@ -1,0 +1,16 @@
+{
+  "name": "@etsyos/engine",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "EtsyOS Workflow Engine — Product Object, State Manager, Event Bus, Task Queue and the 11-step pipeline (trend → publication). Every EtsyOS feature is a step of this engine.",
+  "scripts": {
+    "typecheck": "tsc -p . --noEmit",
+    "test": "node --experimental-strip-types --test \"tests/**/*.test.ts\"",
+    "pipeline": "node --experimental-strip-types src/cli.ts"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3",
+    "@types/node": "^22.10.5"
+  }
+}
