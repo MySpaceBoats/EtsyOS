@@ -16,6 +16,10 @@
       "command": "npm",
       "args": ["--prefix", "MCP/image-generation", "start"]
     },
+    "assets": {
+      "command": "npm",
+      "args": ["--prefix", "MCP/assets", "start"]
+    },
     "higgsfield": {
       "type": "http",
       "url": "https://mcp.higgsfield.ai/mcp"

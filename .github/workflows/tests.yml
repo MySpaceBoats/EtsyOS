@@ -1,6 +1,8 @@
 name: tests
-# ponytail: squelette documente — logique metier ajoutee a l'implementation de chaque routine.
-# Couvre: Suite de tests du repo (agents, MCP, scripts)
+# Runs the real test suites that exist today (MCP/storage, MCP/image-generation,
+# MCP/assets, Web). Each has its own package.json — no root workspace. Other
+# MCP servers/agents/routines are still skeletons with nothing to test yet; add
+# them here as they gain real code, don't pre-add placeholder steps for them.
 on:
   push:
     branches: [main]
@@ -8,9 +10,58 @@ on:
     branches: [main]
 
 jobs:
-  run:
+  mcp-storage:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Placeholder — not yet implemented
-        run: echo "EtsyOS workflow 'tests' — implementation pending. See /Routines and ROADMAP.md"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - working-directory: MCP/storage
+        run: npm ci
+      - working-directory: MCP/storage
+        run: npm run typecheck
+      - working-directory: MCP/storage
+        run: npm test
+
+  mcp-image-generation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - working-directory: MCP/image-generation
+        run: npm ci
+      - working-directory: MCP/image-generation
+        run: npm run typecheck
+      - working-directory: MCP/image-generation
+        run: npm test
+
+  mcp-assets:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - working-directory: MCP/assets
+        run: npm ci
+      - working-directory: MCP/assets
+        run: npm run typecheck
+      - working-directory: MCP/assets
+        run: npm test
+
+  web:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - working-directory: Web
+        run: npm ci
+      - working-directory: Web
+        run: npm run typecheck
+      - working-directory: Web
+        run: npm run build

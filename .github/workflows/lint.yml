@@ -1,6 +1,8 @@
 name: lint
-# ponytail: squelette documente — logique metier ajoutee a l'implementation de chaque routine.
-# Couvre: Lint markdown, YAML, JSON, scripts
+# ESLint for the one package that has it configured (Web). Markdown/YAML/JSON
+# linting across the rest of the repo stays a placeholder until there's an
+# actual lint config for it — an empty lint job that always passes is worse
+# than an honest "not yet implemented" marker.
 on:
   push:
     branches: [main]
@@ -8,9 +10,21 @@ on:
     branches: [main]
 
 jobs:
-  run:
+  web:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Placeholder — not yet implemented
-        run: echo "EtsyOS workflow 'lint' — implementation pending. See /Routines and ROADMAP.md"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - working-directory: Web
+        run: npm ci
+      - working-directory: Web
+        run: npm run lint
+
+  repo-wide:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Placeholder — markdown/YAML/JSON lint not yet implemented
+        run: echo "Covers non-Web files once a lint config exists for them. See ROADMAP.md."
