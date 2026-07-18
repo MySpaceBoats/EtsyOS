@@ -1,0 +1,21 @@
+# dependencies
+node_modules/
+
+# next
+.next/
+out/
+
+# cloudflare next-on-pages adapter output
+.vercel/
+.wrangler/
+
+# env
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# misc
+*.log
+.DS_Store
+*.tsbuildinfo

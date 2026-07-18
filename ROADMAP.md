@@ -27,6 +27,11 @@
 - [x] MCP `storage` — client R2 fonctionnel (upload/download/delete/list/getSignedUrl/publicUrl, teste hors ligne)
 - [x] MCP `image-generation` — generation multi-fournisseurs avec bascule automatique (Workers AI → Imagen →
       HuggingFace), avancee depuis Phase 3 a la demande explicite de Reda (l'item Higgsfield reste en Phase 3)
+- [x] `Web` — console de validation (Next.js 15 / Cloudflare Pages) : point de controle humain avant
+      Printify/Etsy, avancee depuis Phase 4 a la demande explicite de Reda (meme schema que l'item
+      image-generation ci-dessus). N'appelle jamais Etsy/Printify/MCP — ecrit seulement des demandes d'etat
+      dans le frontmatter des fiches `Products/<Categorie>/Listings/<slug>.md` via la GitHub Contents API.
+      Verifiee (build Next + build next-on-pages + dev curl). Voir Web/README.md
 - [ ] Routine `Health-Check` fonctionnelle
 
 ## Phase 2 — Marche & connaissance (priorite 2)

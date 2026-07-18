@@ -31,6 +31,12 @@ GitHub Actions (cron)
    recuperation apres erreur.
 5. **Vault Obsidian (00-24)** — couche de visibilite humaine et de memoire long terme lisible par Reda. Ne
    duplique jamais le contenu operationnel (Products/, MCP/, Agents/) — y renvoie via wiki-links.
+6. **Web (console de validation)** — application Next.js (Cloudflare Pages) ou un humain valide chaque produit
+   genere par l'IA. Elle se situe **apres la generation des assets, avant Printify/Etsy**. Frontiere de
+   securite : la console ne fait qu'ecrire des demandes de changement d'etat dans le frontmatter des fiches
+   `Products/<Categorie>/Listings/<slug>.md` via la GitHub Contents API — elle n'appelle jamais Etsy, Printify
+   ni aucun MCP, et ne depense jamais d'argent depuis un clic. Une future Routine agit ensuite sur
+   `status: PublishRequested` / `regeneration_requested`. Voir Web/README.md.
 
 ## Stockage
 
