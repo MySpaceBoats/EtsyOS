@@ -66,6 +66,6 @@ jobs:
           workingDirectory: Web
           command: >-
             pages deploy .vercel/output/static
-            --project-name=etsyos-control-center
+            --project-name=etsyos-validation
             --branch=main
             --commit-dirty=true

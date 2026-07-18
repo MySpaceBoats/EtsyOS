@@ -224,7 +224,7 @@ Toutes les Route Handlers / pages dynamiques déclarent `export const runtime =
 
 | Réglage | Valeur |
 |---|---|
-| Nom du projet | `etsyos-control-center` (doit correspondre à `--project-name` dans `deploy.yml`) |
+| Nom du projet | `etsyos-validation` (doit correspondre à `--project-name` dans `deploy.yml`) |
 | Compatibility flags | `nodejs_compat` |
 | Env vars (Production + Preview) | `GITHUB_TOKEN`, `GITHUB_REPO`, `GITHUB_BRANCH` |
 

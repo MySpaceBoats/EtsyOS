@@ -91,7 +91,7 @@
 
 ## Priorites immediates (prochaine session)
 
-1. Reda : creer le projet Cloudflare Pages `etsyos-control-center`, configurer `CLOUDFLARE_API_TOKEN` /
+1. Reda : le projet Cloudflare Pages `etsyos-validation` existe deja (deploiement manuel initial fait) ; configurer `CLOUDFLARE_API_TOKEN` /
    `CLOUDFLARE_ACCOUNT_ID` comme secrets GitHub Actions, et `GITHUB_TOKEN`/`GITHUB_REPO`/`GITHUB_BRANCH` comme
    env vars Pages — voir Web/README.md "Déploiement"
 2. Reda : configurer Cloudflare Access devant le Control Center (allowlist d'emails)
