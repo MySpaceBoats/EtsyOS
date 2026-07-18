@@ -1,0 +1,71 @@
+name: deploy
+# Tests -> Build -> Deploiement Cloudflare Pages -> Invalidation du cache ->
+# Mise en ligne. Ne tourne que sur push vers main (jamais sur PR — pas de
+# preview deploy tant que le projet Pages n'a pas de secrets Preview separes,
+# voir Web/README.md). Le job "web" de tests.yml couvre deja typecheck+build
+# sur chaque PR ; ce workflow re-verifie avant de deployer car un merge peut
+# combiner des changements individuellement verts en un etat rouge.
+on:
+  push:
+    branches: [main]
+
+concurrency:
+  group: deploy-web
+  cancel-in-progress: false
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - working-directory: Web
+        run: npm ci
+      - working-directory: Web
+        run: npm run typecheck
+      - working-directory: Web
+        run: npm run lint
+      - working-directory: Web
+        env:
+          MOCK_DATA: "1"
+        run: npm run build
+
+  deploy:
+    needs: test
+    runs-on: ubuntu-latest
+    environment:
+      name: production
+      url: ${{ steps.deploy.outputs.deployment-url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      # Build — the Cloudflare adapter output (.vercel/output/static) is what
+      # actually ships; the plain `next build` above is a cheaper correctness
+      # check run on every PR.
+      - working-directory: Web
+        run: npm ci
+      - working-directory: Web
+        run: npm run pages:build
+
+      # Deploiement — wrangler uploads the built assets to the Pages project.
+      # Cloudflare's edge automatically invalidates its cache for changed
+      # assets on each deployment (no separate purge step needed for a Pages
+      # project); "Mise en ligne" is the deployment becoming the new
+      # production alias, which wrangler pages deploy does atomically.
+      - name: Deploy to Cloudflare Pages
+        id: deploy
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          workingDirectory: Web
+          command: >-
+            pages deploy .vercel/output/static
+            --project-name=etsyos-control-center
+            --branch=main
+            --commit-dirty=true

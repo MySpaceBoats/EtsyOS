@@ -1,0 +1,5559 @@
+{
+ "builtAt": "2026-07-18T12:37:13.575Z",
+ "index": {
+  "updatedAt": "2026-07-18T12:32:10.178Z",
+  "products": {
+   "total": 6,
+   "byStage": {
+    "publishing": 4,
+    "quality-assurance": 2
+   }
+  },
+  "workflows": {
+   "total": 6,
+   "byStatus": {
+    "completed": 4,
+    "paused": 2
+   },
+   "active": [
+    {
+     "id": "wf_golden-ratio-poster_1",
+     "slug": "golden-ratio-poster",
+     "status": "paused",
+     "currentStep": "validation",
+     "dryRun": true,
+     "updatedAt": "2026-07-18T12:32:10.165Z"
+    },
+    {
+     "id": "wf_midnight-cosmos-mug_1",
+     "slug": "midnight-cosmos-mug",
+     "status": "paused",
+     "currentStep": "validation",
+     "dryRun": true,
+     "updatedAt": "2026-07-18T12:32:09.959Z"
+    }
+   ]
+  },
+  "avgStepDurationMs": {
+   "trend-discovery": 0,
+   "market-analysis": 0,
+   "opportunity-scoring": 0,
+   "product-planner": 0,
+   "product-generator": 0,
+   "image-generator": 0,
+   "mockup-generator": 0,
+   "seo-generator": 0,
+   "quality-assurance": 2,
+   "validation": 0,
+   "publishing": 0
+  }
+ },
+ "products": [
+  {
+   "id": "prod_abstract-horizon-print",
+   "slug": "abstract-horizon-print",
+   "title": "Abstract Horizon Fine Art Print — Modern Minimalist Wall Decor, Terracotta",
+   "category": "Wall-Art",
+   "createdAt": "2026-07-18T12:32:10.095Z",
+   "updatedAt": "2026-07-18T12:32:10.125Z",
+   "stage": "publishing",
+   "listingPath": "Products/Wall-Art/Listings/abstract-horizon-print.md",
+   "history": [
+    {
+     "at": "2026-07-18T12:32:10.095Z",
+     "step": "engine",
+     "event": "created"
+    },
+    {
+     "at": "2026-07-18T12:32:10.100Z",
+     "step": "trend-discovery",
+     "event": "completed"
+    },
+    {
+     "at": "2026-07-18T12:32:10.102Z",
+     "step": "market-analysis",
+     "event": "completed"
+    },
+    {
+     "at": "2026-07-18T12:32:10.104Z",
+     "step": "opportunity-scoring",
+     "event": "completed"
+    },
+    {
+     "at": "2026-07-18T12:32:10.106Z",
+     "step": "product-planner",
+     "event": "completed"
+    },
+    {
+     "at": "2026-07-18T12:32:10.108Z",
+     "step": "product-generator",
+     "event": "completed"
+    },
+    {
+     "at": "2026-07-18T12:32:10.111Z",
+     "step": "image-generator",
+     "event": "completed"
+    },
+    {
+     "at": "2026-07-18T12:32:10.114Z",
+     "step": "mockup-generator",
+     "event": "completed"
+    },
+    {
+     "at": "2026-07-18T12:32:10.117Z",
+     "step": "seo-generator",
+     "event": "completed"
+    },
+    {
+     "at": "2026-07-18T12:32:10.121Z",
+     "step": "quality-assurance",
+     "event": "completed"
+    },
+    {
+     "at": "2026-07-18T12:32:10.123Z",
+     "step": "validation",
+     "event": "completed"
+    },
+    {
+     "at": "2026-07-18T12:32:10.125Z",
+     "step": "publishing",
+     "event": "completed"
+    }
+   ],
+   "trend": {
+    "meta": {
+     "source": "offline-heuristic",
+     "generatedAt": "2026-07-18T12:32:10.100Z",
+     "durationMs": 1
+    },
+    "keywords": [
+     {
+      "keyword": "abstract art print",
+      "popularity": 89,
+      "momentum": -0.4,
+      "source": "offline-heuristic"
+     },
+     {
+      "keyword": "print art print",
+      "popularity": 83,
+      "momentum": -0.4,
+      "source": "offline-heuristic"
+     },
+     {
+      "keyword": "decor art print",
+      "popularity": 82,
+      "momentum": -0.7,
+      "source": "offline-heuristic"
+     },
+     {
+      "keyword": "terracotta art print",
+      "popularity": 77,
+      "momentum": 0.2,
+      "source": "offline-heuristic"
+     },
+     {
+      "keyword": "modern art print",
+      "popularity": 74,
+      "momentum": 0.1,
+      "source": "offline-heuristic"
+     },
+     {
+      "keyword": "art art print",
+      "popularity": 56,
+      "momentum": -0.8,
+      "source": "offline-heuristic"
+     },
+     {
+      "keyword": "minimalist art print",
+      "popularity": 49,
+      "momentum": 0.4,
+      "source": "offline-heuristic"
+     },
+     {
+      "keyword": "fine art print",
+      "popularity": 45,
+      "momentum": -0.4,
+      "source": "offline-heuristic"
+     },
+     {
+      "keyword": "wall art print",
+      "popularity": 37,
+      "momentum": -0.6,
+      "source": "offline-heuristic"
+     },
+     {
+      "keyword": "horizon art print",
+      "popularity": 36,
+      "momentum": 0.8,
+      "source": "offline-heuristic"
+     }
+    ],
+    "season": "summer",
+    "summary": "Top keyword \"abstract art print\" (popularity 89/100), season window: summer."
+   },
+   "market": {
+    "meta": {
+     "source": "offline-heuristic",
+     "generatedAt": "2026-07-18T12:32:10.102Z",
+     "durationMs": 0
+    },
+    "competition": 30,
+    "demand": 85,
+    "priceLow": 8,
+    "priceMedian": 39.45,
+    "priceHigh": 45,
+    "monthlyVolumeEstimate": 1445,
+    "seasonality": "summer",
+    "notes": "Heuristic estimate for \"abstract art print\": demand 85/100 vs competition 30/100 in Wall-Art."
+   },
+   "opportunity": {
+    "meta": {
+     "source": "offline-heuristic",
+     "generatedAt": "2026-07-18T12:32:10.104Z",
+     "durationMs": 0
+    },
+    "total": 77,
+    "seo": 63,
+    "competition": 70,
+    "potential": 85,
+    "difficulty": 34,
+    "profitability": 85,
+    "explanation": [
+     "SEO 63/100 — moyenne de popularité des 10 mots-clés détectés (poids 25%).",
+     "Concurrence 70/100 — inverse de la saturation marché (30/100 de concurrence brute, poids 20%).",
+     "Potentiel 85/100 — demande estimée (poids 30%).",
+     "Rentabilité 85/100 — position du prix médian 39.45€ dans la fourchette 8–45€ (poids 25%).",
+     "Difficulté 34/100 — indicatif, non pondéré dans le total.",
+     "Score global: 77/100."
+    ]
+   },
+   "plan": {
+    "meta": {
+     "source": "offline-heuristic",
+     "generatedAt": "2026-07-18T12:32:10.106Z",
+     "durationMs": 0
+    },
+    "productType": "art print",
+    "collection": "summer-wall-art",
+    "priority": "high",
+    "variants": [
+     {
+      "name": "Size",
+      "options": [
+       "A4",
+       "A3",
+       "30x40cm",
+       "50x70cm"
+      ]
+     }
+    ],
+    "colors": [
+     "Full Color"
+    ],
+    "formats": [
+     "Portrait",
+     "Landscape",
+     "Square"
+    ]
+   },
+   "generation": {
+    "meta": {
+     "source": "offline-heuristic",
+     "generatedAt": "2026-07-18T12:32:10.108Z",
+     "durationMs": 0
+    },
+    "prompt": "Design for a art print: \"Abstract Horizon Fine Art Print — Modern Minimalist Wall Decor, Terracotta\". Style keywords: abstract art print, print art print, decor art print. Colors: Full Color. Formats: Portrait, Landscape, Square. High resolution, print-ready, no text artifacts, no watermark.",
+    "negativePrompt": "blurry, low quality, watermark, trademarked characters, brand logos",
+    "version": 1,
+    "previousVersions": [],
+    "concept": "Abstract Horizon Fine Art Print — Modern Minimalist Wall Decor, Terracotta — art print design for the \"summer-wall-art\" collection, aimed at the \"abstract art print\" niche."
+   },
+   "images": {
+    "meta": {
+     "source": "offline-heuristic",
+     "generatedAt": "2026-07-18T12:32:10.111Z",
+     "durationMs": 0
+    },
+    "assets": [
+     {
+      "key": "products/abstract-horizon-print/v1/design.png",
+      "kind": "design",
+      "width": 4000,
+      "height": 4000,
+      "provider": "image-generation-mcp",
+      "simulated": true
+     },
+     {
+      "key": "products/abstract-horizon-print/v1/design-alt.png",
+      "kind": "variant",
+      "width": 4000,
+      "height": 4000,
+      "provider": "image-generation-mcp",
+      "simulated": true
+     },
+     {
+      "key": "products/abstract-horizon-print/v1/thumb.png",
+      "kind": "thumbnail",
+      "width": 800,
+      "height": 800,
+      "provider": "image-generation-mcp",
+      "simulated": true
+     }
+    ]
+   },
+   "mockups": {
+    "meta": {
+     "source": "offline-heuristic",
+     "generatedAt": "2026-07-18T12:32:10.114Z",
+     "durationMs": 0
+    },
+    "assets": [
+     {
+      "key": "products/abstract-horizon-print/v1/mockup-living-room.png",
+      "scene": "living-room",
+      "provider": "image-generation-mcp",
+      "simulated": true
+     },
+     {
+      "key": "products/abstract-horizon-print/v1/mockup-bedroom.png",
+      "scene": "bedroom",
+      "provider": "image-generation-mcp",
+      "simulated": true
+     },
+     {
+      "key": "products/abstract-horizon-print/v1/mockup-frame-closeup.png",
+      "scene": "frame-closeup",
+      "provider": "image-generation-mcp",
+      "simulated": true
+     },
+     {
+      "key": "products/abstract-horizon-print/v1/mockup-gallery-wall.png",
+      "scene": "gallery-wall",
+      "provider": "image-generation-mcp",
+      "simulated": true
+     }
+    ]
+   },
+   "seo": {
+    "meta": {
+     "source": "offline-heuristic",
+     "generatedAt": "2026-07-18T12:32:10.117Z",
+     "durationMs": 0
+    },
+    "title": "Abstract Horizon Fine Art Print — Modern Minimalist Wall Decor, Terracotta | abstract art print | print art print | decor art print",
+    "description": "Abstract Horizon Fine Art Print — Modern Minimalist Wall Decor, Terracotta — art print design for the \"summer-wall-art\" collection, aimed at the \"abstract art print\" niche.\n\n• Size: A4 / A3 / 30x40cm / 50x70cm\n• Colors: Full Color\n\nPerfect for: abstract art print, print art print, decor art print.\nShips worldwide via print-on-demand.",
+    "tags": [
+     "abstract art print",
+     "print art print",
+     "decor art print",
+     "terracotta art print",
+     "modern art print",
+     "art art print",
+     "minimalist art print",
+     "fine art print",
+     "wall art print",
+     "horizon art print",
+     "abstract",
+     "horizon",
+     "fine"
+    ],
+    "categories": [
+     "Art & Collectibles",
+     "Prints",
+     "Digital Prints"
+    ],
+    "score": 71,
+    "suggestions": [
+     "Couvrir plus de mots-clés tendance dans le titre."
+    ]
+   },
+   "qa": {
+    "meta": {
+     "source": "offline-heuristic",
+     "generatedAt": "2026-07-18T12:32:10.121Z",
+     "durationMs": 1
+    },
+    "passed": true,
+    "checks": [
+     {
+      "id": "tags-budget",
+      "label": "Tags ≤ 13 (limite Etsy)",
+      "passed": true,
+      "detail": "13/13 tags"
+     },
+     {
+      "id": "tag-length",
+      "label": "Tags ≤ 20 caractères",
+      "passed": true,
+      "detail": "ok"
+     },
+     {
+      "id": "title-length",
+      "label": "Titre ≤ 140 caractères",
+      "passed": true,
+      "detail": "131/140"
+     },
+     {
+      "id": "has-design",
+      "label": "Au moins un design",
+      "passed": true,
+      "detail": "3 asset(s)"
+     },
+     {
+      "id": "has-mockups",
+      "label": "Au moins un mockup",
+      "passed": true,
+      "detail": "4 mockup(s)"
+     },
+     {
+      "id": "resolution",
+      "label": "Design ≥ 2000px (print-ready)",
+      "passed": true,
+      "detail": "4000x4000"
+     },
+     {
+      "id": "copyright",
+      "label": "Aucune marque protégée (copyright / politique Etsy)",
+      "passed": true,
+      "detail": "aucun terme bloqué"
+     },
+     {
+      "id": "duplicates",
+      "label": "Pas de doublon de titre",
+      "passed": true,
+      "detail": "unique"
+     },
+     {
+      "id": "price",
+      "label": "Prix > 0",
+      "passed": true,
+      "detail": "39.45€"
+     }
+    ]
+   },
+   "validation": {
+    "meta": {
+     "source": "human",
+     "generatedAt": "2026-07-18T12:32:10.123Z",
+     "durationMs": 0
+    },
+    "fiche_status": "Published",
+    "approved": true,
+    "decidedBy": "console"
+   },
+   "publication": {
+    "meta": {
+     "source": "offline-heuristic",
+     "generatedAt": "2026-07-18T12:32:10.125Z",
+     "durationMs": 0
+    },
+    "published": false,
+    "simulated": true,
+    "printifyProductId": null,
+    "etsyListingId": null,
+    "blockedReason": null
+   }
+  },
+  {
+   "id": "prod_cozy-knit-sweater",
+   "slug": "cozy-knit-sweater",
+   "title": "Cozy Oversized Knit Sweater — Handmade-Style Wool Blend Pullover, Unisex",
+   "category": "Shirts",
+   "createdAt": "2026-07-18T12:32:10.000Z",
+   "updatedAt": "2026-07-18T12:32:10.033Z",
+   "stage": "publishing",
+   "listingPath": "Products/Shirts/Listings/cozy-knit-sweater.md",
+   "history": [
+    {
+     "at": "2026-07-18T12:32:10.000Z",
+     "step": "engine",
+     "event": "created"
+    },
+    {
+     "at": "2026-07-18T12:32:10.004Z",
+     "step": "trend-discovery",
+     "event": "completed"
+    },
+    {
+     "at": "2026-07-18T12:32:10.006Z",
+     "step": "market-analysis",
+     "event": "completed"
+    },
+    {
+     "at": "2026-07-18T12:32:10.008Z",
+     "step": "opportunity-scoring",
+     "event": "completed"
+    },
+    {
+     "at": "2026-07-18T12:32:10.012Z",
+     "step": "product-planner",
+     "event": "completed"
+    },
+    {
+     "at": "2026-07-18T12:32:10.016Z",
+     "step": "product-generator",
+     "event": "completed"
+    },
+    {
+     "at": "2026-07-18T12:32:10.018Z",
+     "step": "image-generator",
+     "event": "completed"
+    },
+    {
+     "at": "2026-07-18T12:32:10.021Z",
+     "step": "mockup-generator",
+     "event": "completed"
+    },
+    {
+     "at": "2026-07-18T12:32:10.023Z",
+     "step": "seo-generator",
+     "event": "completed"
+    },
+    {
+     "at": "2026-07-18T12:32:10.028Z",
+     "step": "quality-assurance",
+     "event": "completed"
+    },
+    {
+     "at": "2026-07-18T12:32:10.031Z",
+     "step": "validation",
+     "event": "completed"
+    },
+    {
+     "at": "2026-07-18T12:32:10.033Z",
+     "step": "publishing",
+     "event": "completed"
+    }
+   ],
+   "trend": {
+    "meta": {
+     "source": "offline-heuristic",
+     "generatedAt": "2026-07-18T12:32:10.004Z",
+     "durationMs": 0
+    },
+    "keywords": [
+     {
+      "keyword": "unisex t-shirt",
+      "popularity": 88,
+      "momentum": -0.6,
+      "source": "offline-heuristic"
+     },
+     {
+      "keyword": "sweater t-shirt",
+      "popularity": 83,
+      "momentum": 0.9,
+      "source": "offline-heuristic"
+     },
+     {
+      "keyword": "wool t-shirt",
+      "popularity": 83,
+      "momentum": 0,
+      "source": "offline-heuristic"
+     },
+     {
+      "keyword": "knit t-shirt",
+      "popularity": 80,
+      "momentum": 0.1,
+      "source": "offline-heuristic"
+     },
+     {
+      "keyword": "pullover t-shirt",
+      "popularity": 79,
+      "momentum": -0.6,
+      "source": "offline-heuristic"
+     },
+     {
+      "keyword": "cozy t-shirt",
+      "popularity": 62,
+      "momentum": -0.6,
+      "source": "offline-heuristic"
+     },
+     {
+      "keyword": "handmade t-shirt",
+      "popularity": 61,
+      "momentum": 0.7,
+      "source": "offline-heuristic"
+     },
+     {
+      "keyword": "oversized t-shirt",
+      "popularity": 48,
+      "momentum": 0.3,
+      "source": "offline-heuristic"
+     },
+     {
+      "keyword": "style t-shirt",
+      "popularity": 41,
+      "momentum": 0.9,
+      "source": "offline-heuristic"
+     },
+     {
+      "keyword": "blend t-shirt",
+      "popularity": 38,
+      "momentum": 0.9,
+      "source": "offline-heuristic"
+     }
+    ],
+    "season": "summer",
+    "summary": "Top keyword \"unisex t-shirt\" (popularity 88/100), season window: summer."
+   },
+   "market": {
+    "meta": {
+     "source": "offline-heuristic",
+     "generatedAt": "2026-07-18T12:32:10.006Z",
+     "durationMs": 0
+    },
+    "competition": 67,
+    "demand": 88,
+    "priceLow": 18,
+    "priceMedian": 32.96,
+    "priceHigh": 35,
+    "monthlyVolumeEstimate": 1496,
+    "seasonality": "summer",
+    "notes": "Heuristic estimate for \"unisex t-shirt\": demand 88/100 vs competition 67/100 in Shirts."
+   },
+   "opportunity": {
+    "meta": {
+     "source": "offline-heuristic",
+     "generatedAt": "2026-07-18T12:32:10.008Z",
+     "durationMs": 0
+    },
+    "total": 72,
+    "seo": 66,
+    "competition": 33,
+    "potential": 88,
+    "difficulty": 51,
+    "profitability": 88,
+    "explanation": [
+     "SEO 66/100 — moyenne de popularité des 10 mots-clés détectés (poids 25%).",
+     "Concurrence 33/100 — inverse de la saturation marché (67/100 de concurrence brute, poids 20%).",
+     "Potentiel 88/100 — demande estimée (poids 30%).",
+     "Rentabilité 88/100 — position du prix médian 32.96€ dans la fourchette 18–35€ (poids 25%).",
+     "Difficulté 51/100 — indicatif, non pondéré dans le total.",
+     "Score global: 72/100."
+    ]
+   },
+   "plan": {
+    "meta": {
+     "source": "offline-heuristic",
+     "generatedAt": "2026-07-18T12:32:10.012Z",
+     "durationMs": 0
+    },
+    "productType": "t-shirt",
+    "collection": "summer-shirts",
+    "priority": "high",
+    "variants": [
+     {
+      "name": "Size",
+      "options": [
+       "S",
+       "M",
+       "L",
+       "XL",
+       "2XL"
+      ]
+     },
+     {
+      "name": "Color",
+      "options": [
+       "White",
+       "Black",
+       "Navy",
+       "Heather Grey"
+      ]
+     }
+    ],
+    "colors": [
+     "White",
+     "Black",
+     "Navy",
+     "Heather Grey"
+    ],
+    "formats": [
+     "Unisex",
+     "Women",
+     "Youth"
+    ]
+   },
+   "generation": {
+    "meta": {
+     "source": "offline-heuristic",
+     "generatedAt": "2026-07-18T12:32:10.016Z",
+     "durationMs": 0
+    },
+    "prompt": "Design for a t-shirt: \"Cozy Oversized Knit Sweater — Handmade-Style Wool Blend Pullover, Unisex\". Style keywords: unisex t-shirt, sweater t-shirt, wool t-shirt. Colors: White, Black, Navy, Heather Grey. Formats: Unisex, Women, Youth. High resolution, print-ready, no text artifacts, no watermark.",
+    "negativePrompt": "blurry, low quality, watermark, trademarked characters, brand logos",
+    "version": 1,
+    "previousVersions": [],
+    "concept": "Cozy Oversized Knit Sweater — Handmade-Style Wool Blend Pullover, Unisex — t-shirt design for the \"summer-shirts\" collection, aimed at the \"unisex t-shirt\" niche."
+   },
+   "images": {
+    "meta": {
+     "source": "offline-heuristic",
+     "generatedAt": "2026-07-18T12:32:10.018Z",
+     "durationMs": 0
+    },
+    "assets": [
+     {
+      "key": "products/cozy-knit-sweater/v1/design.png",
+      "kind": "design",
+      "width": 4000,
+      "height": 4000,
+      "provider": "image-generation-mcp",
+      "simulated": true
+     },
+     {
+      "key": "products/cozy-knit-sweater/v1/design-alt.png",
+      "kind": "variant",
+      "width": 4000,
+      "height": 4000,
+      "provider": "image-generation-mcp",
+      "simulated": true
+     },
+     {
+      "key": "products/cozy-knit-sweater/v1/thumb.png",
+      "kind": "thumbnail",
+      "width": 800,
+      "height": 800,
+      "provider": "image-generation-mcp",
+      "simulated": true
+     }
+    ]
+   },
+   "mockups": {
+    "meta": {
+     "source": "offline-heuristic",
+     "generatedAt": "2026-07-18T12:32:10.021Z",
+     "durationMs": 0
+    },
+    "assets": [
+     {
+      "key": "products/cozy-knit-sweater/v1/mockup-flat-lay.png",
+      "scene": "flat-lay",
+      "provider": "image-generation-mcp",
+      "simulated": true
+     },
+     {
+      "key": "products/cozy-knit-sweater/v1/mockup-model-front.png",
+      "scene": "model-front",
+      "provider": "image-generation-mcp",
+      "simulated": true
+     },
+     {
+      "key": "products/cozy-knit-sweater/v1/mockup-model-back.png",
+      "scene": "model-back",
+      "provider": "image-generation-mcp",
+      "simulated": true
+     },
+     {
+      "key": "products/cozy-knit-sweater/v1/mockup-hanger.png",
+      "scene": "hanger",
+      "provider": "image-generation-mcp",
+      "simulated": true
+     }
+    ]
+   },
+   "seo": {
+    "meta": {
+     "source": "offline-heuristic",
+     "generatedAt": "2026-07-18T12:32:10.023Z",
+     "durationMs": 0
+    },
+    "title": "Cozy Oversized Knit Sweater — Handmade-Style Wool Blend Pullover, Unisex | unisex t-shirt | sweater t-shirt | wool t-shirt | knit t-shirt",
+    "description": "Cozy Oversized Knit Sweater — Handmade-Style Wool Blend Pullover, Unisex — t-shirt design for the \"summer-shirts\" collection, aimed at the \"unisex t-shirt\" niche.\n\n• Size: S / M / L / XL / 2XL\n• Color: White / Black / Navy / Heather Grey\n• Colors: White, Black, Navy, Heather Grey\n\nPerfect for: unisex t-shirt, sweater t-shirt, wool t-shirt.\nShips worldwide via print-on-demand.",
+    "tags": [
+     "unisex t-shirt",
+     "sweater t-shirt",
+     "wool t-shirt",
+     "knit t-shirt",
+     "pullover t-shirt",
+     "cozy t-shirt",
+     "handmade t-shirt",
+     "oversized t-shirt",
+     "style t-shirt",
+     "blend t-shirt",
+     "cozy",
+     "oversized",
+     "knit"
+    ],
+    "categories": [
+     "Clothing",
+     "Unisex Adult Clothing",
+     "Tops & Tees"
+    ],
+    "score": 74,
+    "suggestions": [
+     "Couvrir plus de mots-clés tendance dans le titre."
+    ]
+   },
+   "qa": {
+    "meta": {
+     "source": "offline-heuristic",
+     "generatedAt": "2026-07-18T12:32:10.028Z",
+     "durationMs": 1
+    },
+    "passed": true,
+    "checks": [
+     {
+      "id": "tags-budget",
+      "label": "Tags ≤ 13 (limite Etsy)",
+      "passed": true,
+      "detail": "13/13 tags"
+     },
+     {
+      "id": "tag-length",
+      "label": "Tags ≤ 20 caractères",
+      "passed": true,
+      "detail": "ok"
+     },
+     {
+      "id": "title-length",
+      "label": "Titre ≤ 140 caractères",
+      "passed": true,
+      "detail": "137/140"
+     },
+     {
+      "id": "has-design",
+      "label": "Au moins un design",
+      "passed": true,
+      "detail": "3 asset(s)"
+     },
+     {
+      "id": "has-mockups",
+      "label": "Au moins un mockup",
+      "passed": true,
+      "detail": "4 mockup(s)"
+     },
+     {
+      "id": "resolution",
+      "label": "Design ≥ 2000px (print-ready)",
+      "passed": true,
+      "detail": "4000x4000"
+     },
+     {
+      "id": "copyright",
+      "label": "Aucune marque protégée (copyright / politique Etsy)",
+      "passed": true,
+      "detail": "aucun terme bloqué"
+     },
+     {
+      "id": "duplicates",
+      "label": "Pas de doublon de titre",
+      "passed": true,
+      "detail": "unique"
+     },
+     {
+      "id": "price",
+      "label": "Prix > 0",
+      "passed": true,
+      "detail": "32.96€"
+     }
+    ]
+   },
+   "validation": {
+    "meta": {
+     "source": "human",
+     "generatedAt": "2026-07-18T12:32:10.031Z",
+     "durationMs": 0
+    },
+    "fiche_status": "PublishRequested",
+    "approved": true,
+    "decidedBy": "console"
+   },
+   "publication": {
+    "meta": {
+     "source": "offline-heuristic",
+     "generatedAt": "2026-07-18T12:32:10.033Z",
+     "durationMs": 0
+    },
+    "published": false,
+    "simulated": true,
+    "printifyProductId": null,
+    "etsyListingId": null,
+    "blockedReason": null
+   }
+  },
+  {
+   "id": "prod_golden-ratio-poster",
+   "slug": "golden-ratio-poster",
+   "title": "Golden Ratio Sacred Geometry Poster — Nautilus Spiral Art Print, Fibonacci",
+   "category": "Wall-Art",
+   "createdAt": "2026-07-18T12:32:10.134Z",
+   "updatedAt": "2026-07-18T12:32:10.164Z",
+   "stage": "quality-assurance",
+   "listingPath": "Products/Wall-Art/Listings/golden-ratio-poster.md",
+   "history": [
+    {
+     "at": "2026-07-18T12:32:10.134Z",
+     "step": "engine",
+     "event": "created"
+    },
+    {
+     "at": "2026-07-18T12:32:10.138Z",
+     "step": "trend-discovery",
+     "event": "completed"
+    },
+    {
+     "at": "2026-07-18T12:32:10.140Z",
+     "step": "market-analysis",
+     "event": "completed"
+    },
+    {
+     "at": "2026-07-18T12:32:10.142Z",
+     "step": "opportunity-scoring",
+     "event": "completed"
+    },
+    {
+     "at": "2026-07-18T12:32:10.144Z",
+     "step": "product-planner",
+     "event": "completed"
+    },
+    {
+     "at": "2026-07-18T12:32:10.147Z",
+     "step": "product-generator",
+     "event": "completed"
+    },
+    {
+     "at": "2026-07-18T12:32:10.149Z",
+     "step": "image-generator",
+     "event": "completed"
+    },
+    {
+     "at": "2026-07-18T12:32:10.151Z",
+     "step": "mockup-generator",
+     "event": "completed"
+    },
+    {
+     "at": "2026-07-18T12:32:10.154Z",
+     "step": "seo-generator",
+     "event": "completed"
+    },
+    {
+     "at": "2026-07-18T12:32:10.161Z",
+     "step": "quality-assurance",
+     "event": "completed"
+    }
+   ],
+   "trend": {
+    "meta": {
+     "source": "offline-heuristic",
+     "generatedAt": "2026-07-18T12:32:10.138Z",
+     "durationMs": 0
+    },
+    "keywords": [
+     {
+      "keyword": "golden art print",
+      "popularity": 95,
+      "momentum": 0.3,
+      "source": "offline-heuristic"
+     },
+     {
+      "keyword": "nautilus art print",
+      "popularity": 85,
+      "momentum": -0.6,
+      "source": "offline-heuristic"
+     },
+     {
+      "keyword": "fibonacci art print",
+      "popularity": 83,
+      "momentum": 0.5,
+      "source": "offline-heuristic"
+     },
+     {
+      "keyword": "spiral art print",
+      "popularity": 73,
+      "momentum": 0.6,
+      "source": "offline-heuristic"
+     },
+     {
+      "keyword": "geometry art print",
+      "popularity": 71,
+      "momentum": 0.6,
+      "source": "offline-heuristic"
+     },
+     {
+      "keyword": "art art print",
+      "popularity": 71,
+      "momentum": -1,
+      "source": "offline-heuristic"
+     },
+     {
+      "keyword": "sacred art print",
+      "popularity": 60,
+      "momentum": 0.7,
+      "source": "offline-heuristic"
+     },
+     {
+      "keyword": "print art print",
+      "popularity": 57,
+      "momentum": -0.6,
+      "source": "offline-heuristic"
+     },
+     {
+      "keyword": "ratio art print",
+      "popularity": 55,
+      "momentum": -0.2,
+      "source": "offline-heuristic"
+     },
+     {
+      "keyword": "poster art print",
+      "popularity": 54,
+      "momentum": 0,
+      "source": "offline-heuristic"
+     }
+    ],
+    "season": "summer",
+    "summary": "Top keyword \"golden art print\" (popularity 95/100), season window: summer."
+   },
+   "market": {
+    "meta": {
+     "source": "offline-heuristic",
+     "generatedAt": "2026-07-18T12:32:10.140Z",
+     "durationMs": 0
+    },
+    "competition": 53,
+    "demand": 84,
+    "priceLow": 8,
+    "priceMedian": 39.08,
+    "priceHigh": 45,
+    "monthlyVolumeEstimate": 1680,
+    "seasonality": "summer",
+    "notes": "Heuristic estimate for \"golden art print\": demand 84/100 vs competition 53/100 in Wall-Art."
+   },
+   "opportunity": {
+    "meta": {
+     "source": "offline-heuristic",
+     "generatedAt": "2026-07-18T12:32:10.142Z",
+     "durationMs": 0
+    },
+    "total": 73,
+    "seo": 70,
+    "competition": 47,
+    "potential": 84,
+    "difficulty": 42,
+    "profitability": 84,
+    "explanation": [
+     "SEO 70/100 — moyenne de popularité des 10 mots-clés détectés (poids 25%).",
+     "Concurrence 47/100 — inverse de la saturation marché (53/100 de concurrence brute, poids 20%).",
+     "Potentiel 84/100 — demande estimée (poids 30%).",
+     "Rentabilité 84/100 — position du prix médian 39.08€ dans la fourchette 8–45€ (poids 25%).",
+     "Difficulté 42/100 — indicatif, non pondéré dans le total.",
+     "Score global: 73/100."
+    ]
+   },
+   "plan": {
+    "meta": {
+     "source": "offline-heuristic",
+     "generatedAt": "2026-07-18T12:32:10.144Z",
+     "durationMs": 0
+    },
+    "productType": "art print",
+    "collection": "summer-wall-art",
+    "priority": "high",
+    "variants": [
+     {
+      "name": "Size",
+      "options": [
+       "A4",
+       "A3",
+       "30x40cm",
+       "50x70cm"
+      ]
+     }
+    ],
+    "colors": [
+     "Full Color"
+    ],
+    "formats": [
+     "Portrait",
+     "Landscape",
+     "Square"
+    ]
+   },
+   "generation": {
+    "meta": {
+     "source": "offline-heuristic",
+     "generatedAt": "2026-07-18T12:32:10.147Z",
+     "durationMs": 1
+    },
+    "prompt": "Design for a art print: \"Golden Ratio Sacred Geometry Poster — Nautilus Spiral Art Print, Fibonacci\". Style keywords: golden art print, nautilus art print, fibonacci art print. Colors: Full Color. Formats: Portrait, Landscape, Square. High resolution, print-ready, no text artifacts, no watermark.",
+    "negativePrompt": "blurry, low quality, watermark, trademarked characters, brand logos",
+    "version": 1,
+    "previousVersions": [],
+    "concept": "Golden Ratio Sacred Geometry Poster — Nautilus Spiral Art Print, Fibonacci — art print design for the \"summer-wall-art\" collection, aimed at the \"golden art print\" niche."
+   },
+   "images": {
+    "meta": {
+     "source": "offline-heuristic",
+     "generatedAt": "2026-07-18T12:32:10.149Z",
+     "durationMs": 0
+    },
+    "assets": [
+     {
+      "key": "products/golden-ratio-poster/v1/design.png",
+      "kind": "design",
+      "width": 4000,
+      "height": 4000,
+      "provider": "image-generation-mcp",
+      "simulated": true
+     },
+     {
+      "key": "products/golden-ratio-poster/v1/design-alt.png",
+      "kind": "variant",
+      "width": 4000,
+      "height": 4000,
+      "provider": "image-generation-mcp",
+      "simulated": true
+     },
+     {
+      "key": "products/golden-ratio-poster/v1/thumb.png",
+      "kind": "thumbnail",
+      "width": 800,
+      "height": 800,
+      "provider": "image-generation-mcp",
+      "simulated": true
+     }
+    ]
+   },
+   "mockups": {
+    "meta": {
+     "source": "offline-heuristic",
+     "generatedAt": "2026-07-18T12:32:10.151Z",
+     "durationMs": 0
+    },
+    "assets": [
+     {
+      "key": "products/golden-ratio-poster/v1/mockup-living-room.png",
+      "scene": "living-room",
+      "provider": "image-generation-mcp",
+      "simulated": true
+     },
+     {
+      "key": "products/golden-ratio-poster/v1/mockup-bedroom.png",
+      "scene": "bedroom",
+      "provider": "image-generation-mcp",
+      "simulated": true
+     },
+     {
+      "key": "products/golden-ratio-poster/v1/mockup-frame-closeup.png",
+      "scene": "frame-closeup",
+      "provider": "image-generation-mcp",
+      "simulated": true
+     },
+     {
+      "key": "products/golden-ratio-poster/v1/mockup-gallery-wall.png",
+      "scene": "gallery-wall",
+      "provider": "image-generation-mcp",
+      "simulated": true
+     }
+    ]
+   },
+   "seo": {
+    "meta": {
+     "source": "offline-heuristic",
+     "generatedAt": "2026-07-18T12:32:10.154Z",
+     "durationMs": 0
+    },
+    "title": "Golden Ratio Sacred Geometry Poster — Nautilus Spiral Art Print, Fibonacci | golden art print | nautilus art print | fibonacci art print",
+    "description": "Golden Ratio Sacred Geometry Poster — Nautilus Spiral Art Print, Fibonacci — art print design for the \"summer-wall-art\" collection, aimed at the \"golden art print\" niche.\n\n• Size: A4 / A3 / 30x40cm / 50x70cm\n• Colors: Full Color\n\nPerfect for: golden art print, nautilus art print, fibonacci art print.\nShips worldwide via print-on-demand.",
+    "tags": [
+     "golden art print",
+     "nautilus art print",
+     "fibonacci art print",
+     "spiral art print",
+     "geometry art print",
+     "art art print",
+     "sacred art print",
+     "print art print",
+     "ratio art print",
+     "poster art print",
+     "golden",
+     "ratio",
+     "sacred"
+    ],
+    "categories": [
+     "Art & Collectibles",
+     "Prints",
+     "Digital Prints"
+    ],
+    "score": 71,
+    "suggestions": [
+     "Couvrir plus de mots-clés tendance dans le titre."
+    ]
+   },
+   "qa": {
+    "meta": {
+     "source": "offline-heuristic",
+     "generatedAt": "2026-07-18T12:32:10.161Z",
+     "durationMs": 4
+    },
+    "passed": true,
+    "checks": [
+     {
+      "id": "tags-budget",
+      "label": "Tags ≤ 13 (limite Etsy)",
+      "passed": true,
+      "detail": "13/13 tags"
+     },
+     {
+      "id": "tag-length",
+      "label": "Tags ≤ 20 caractères",
+      "passed": true,
+      "detail": "ok"
+     },
+     {
+      "id": "title-length",
+      "label": "Titre ≤ 140 caractères",
+      "passed": true,
+      "detail": "136/140"
+     },
+     {
+      "id": "has-design",
+      "label": "Au moins un design",
+      "passed": true,
+      "detail": "3 asset(s)"
+     },
+     {
+      "id": "has-mockups",
+      "label": "Au moins un mockup",
+      "passed": true,
+      "detail": "4 mockup(s)"
+     },
+     {
+      "id": "resolution",
+      "label": "Design ≥ 2000px (print-ready)",
+      "passed": true,
+      "detail": "4000x4000"
+     },
+     {
+      "id": "copyright",
+      "label": "Aucune marque protégée (copyright / politique Etsy)",
+      "passed": true,
+      "detail": "aucun terme bloqué"
+     },
+     {
+      "id": "duplicates",
+      "label": "Pas de doublon de titre",
+      "passed": true,
+      "detail": "unique"
+     },
+     {
+      "id": "price",
+      "label": "Prix > 0",
+      "passed": true,
+      "detail": "39.08€"
+     }
+    ]
+   }
+  },
+  {
+   "id": "prod_highland-wool-pullover",
+   "slug": "highland-wool-pullover",
+   "title": "Highland Wool Pullover — Rustic Fair Isle Knit Sweater, Nordic Style",
+   "category": "Shirts",
+   "createdAt": "2026-07-18T12:32:10.042Z",
+   "updatedAt": "2026-07-18T12:32:10.081Z",
+   "stage": "publishing",
+   "listingPath": "Products/Shirts/Listings/highland-wool-pullover.md",
+   "history": [
+    {
+     "at": "2026-07-18T12:32:10.042Z",
+     "step": "engine",
+     "event": "created"
+    },
+    {
+     "at": "2026-07-18T12:32:10.046Z",
+     "step": "trend-discovery",
+     "event": "completed"
+    },
+    {
+     "at": "2026-07-18T12:32:10.049Z",
+     "step": "market-analysis",
+     "event": "completed"
+    },
+    {
+     "at": "2026-07-18T12:32:10.053Z",
+     "step": "opportunity-scoring",
+     "event": "completed"
+    },
+    {
+     "at": "2026-07-18T12:32:10.055Z",
+     "step": "product-planner",
+     "event": "completed"
+    },
+    {
+     "at": "2026-07-18T12:32:10.059Z",
+     "step": "product-generator",
+     "event": "completed"
+    },
+    {
+     "at": "2026-07-18T12:32:10.062Z",
+     "step": "image-generator",
+     "event": "completed"
+    },
+    {
+     "at": "2026-07-18T12:32:10.066Z",
+     "step": "mockup-generator",
+     "event": "completed"
+    },
+    {
+     "at": "2026-07-18T12:32:10.069Z",
+     "step": "seo-generator",
+     "event": "completed"
+    },
+    {
+     "at": "2026-07-18T12:32:10.074Z",
+     "step": "quality-assurance",
+     "event": "completed"
+    },
+    {
+     "at": "2026-07-18T12:32:10.077Z",
+     "step": "validation",
+     "event": "completed"
+    },
+    {
+     "at": "2026-07-18T12:32:10.081Z",
+     "step": "publishing",
+     "event": "completed"
+    }
+   ],
+   "trend": {
+    "meta": {
+     "source": "offline-heuristic",
+     "generatedAt": "2026-07-18T12:32:10.046Z",
+     "durationMs": 0
+    },
+    "keywords": [
+     {
+      "keyword": "wool t-shirt",
+      "popularity": 95,
+      "momentum": 0,
+      "source": "offline-heuristic"
+     },
+     {
+      "keyword": "pullover t-shirt",
+      "popularity": 95,
+      "momentum": -0.1,
+      "source": "offline-heuristic"
+     },
+     {
+      "keyword": "isle t-shirt",
+      "popularity": 90,
+      "momentum": -0.3,
+      "source": "offline-heuristic"
+     },
+     {
+      "keyword": "knit t-shirt",
+      "popularity": 70,
+      "momentum": -0.5,
+      "source": "offline-heuristic"
+     },
+     {
+      "keyword": "style t-shirt",
+      "popularity": 68,
+      "momentum": 0.4,
+      "source": "offline-heuristic"
+     },
+     {
+      "keyword": "highland t-shirt",
+      "popularity": 60,
+      "momentum": 1,
+      "source": "offline-heuristic"
+     },
+     {
+      "keyword": "sweater t-shirt",
+      "popularity": 56,
+      "momentum": 0,
+      "source": "offline-heuristic"
+     },
+     {
+      "keyword": "fair t-shirt",
+      "popularity": 54,
+      "momentum": -0.2,
+      "source": "offline-heuristic"
+     },
+     {
+      "keyword": "rustic t-shirt",
+      "popularity": 46,
+      "momentum": 0.2,
+      "source": "offline-heuristic"
+     },
+     {
+      "keyword": "nordic t-shirt",
+      "popularity": 38,
+      "momentum": 0,
+      "source": "offline-heuristic"
+     }
+    ],
+    "season": "summer",
+    "summary": "Top keyword \"wool t-shirt\" (popularity 95/100), season window: summer."
+   },
+   "market": {
+    "meta": {
+     "source": "offline-heuristic",
+     "generatedAt": "2026-07-18T12:32:10.049Z",
+     "durationMs": 0
+    },
+    "competition": 82,
+    "demand": 89,
+    "priceLow": 18,
+    "priceMedian": 33.13,
+    "priceHigh": 35,
+    "monthlyVolumeEstimate": 1602,
+    "seasonality": "summer",
+    "notes": "Heuristic estimate for \"wool t-shirt\": demand 89/100 vs competition 82/100 in Shirts."
+   },
+   "opportunity": {
+    "meta": {
+     "source": "offline-heuristic",
+     "generatedAt": "2026-07-18T12:32:10.053Z",
+     "durationMs": 0
+    },
+    "total": 69,
+    "seo": 67,
+    "competition": 18,
+    "potential": 89,
+    "difficulty": 58,
+    "profitability": 89,
+    "explanation": [
+     "SEO 67/100 — moyenne de popularité des 10 mots-clés détectés (poids 25%).",
+     "Concurrence 18/100 — inverse de la saturation marché (82/100 de concurrence brute, poids 20%).",
+     "Potentiel 89/100 — demande estimée (poids 30%).",
+     "Rentabilité 89/100 — position du prix médian 33.13€ dans la fourchette 18–35€ (poids 25%).",
+     "Difficulté 58/100 — indicatif, non pondéré dans le total.",
+     "Score global: 69/100."
+    ]
+   },
+   "plan": {
+    "meta": {
+     "source": "offline-heuristic",
+     "generatedAt": "2026-07-18T12:32:10.055Z",
+     "durationMs": 0
+    },
+    "productType": "t-shirt",
+    "collection": "summer-shirts",
+    "priority": "medium",
+    "variants": [
+     {
+      "name": "Size",
+      "options": [
+       "S",
+       "M",
+       "L",
+       "XL",
+       "2XL"
+      ]
+     },
+     {
+      "name": "Color",
+      "options": [
+       "White",
+       "Black",
+       "Navy",
+       "Heather Grey"
+      ]
+     }
+    ],
+    "colors": [
+     "White",
+     "Black",
+     "Navy",
+     "Heather Grey"
+    ],
+    "formats": [
+     "Unisex",
+     "Women",
+     "Youth"
+    ]
+   },
+   "generation": {
+    "meta": {
+     "source": "offline-heuristic",
+     "generatedAt": "2026-07-18T12:32:10.059Z",
+     "durationMs": 0
+    },
+    "prompt": "Design for a t-shirt: \"Highland Wool Pullover — Rustic Fair Isle Knit Sweater, Nordic Style\". Style keywords: wool t-shirt, pullover t-shirt, isle t-shirt. Colors: White, Black, Navy, Heather Grey. Formats: Unisex, Women, Youth. High resolution, print-ready, no text artifacts, no watermark.",
+    "negativePrompt": "blurry, low quality, watermark, trademarked characters, brand logos",
+    "version": 1,
+    "previousVersions": [],
+    "concept": "Highland Wool Pullover — Rustic Fair Isle Knit Sweater, Nordic Style — t-shirt design for the \"summer-shirts\" collection, aimed at the \"wool t-shirt\" niche."
+   },
+   "images": {
+    "meta": {
+     "source": "offline-heuristic",
+     "generatedAt": "2026-07-18T12:32:10.062Z",
+     "durationMs": 0
+    },
+    "assets": [
+     {
+      "key": "products/highland-wool-pullover/v1/design.png",
+      "kind": "design",
+      "width": 4000,
+      "height": 4000,
+      "provider": "image-generation-mcp",
+      "simulated": true
+     },
+     {
+      "key": "products/highland-wool-pullover/v1/design-alt.png",
+      "kind": "variant",
+      "width": 4000,
+      "height": 4000,
+      "provider": "image-generation-mcp",
+      "simulated": true
+     },
+     {
+      "key": "products/highland-wool-pullover/v1/thumb.png",
+      "kind": "thumbnail",
+      "width": 800,
+      "height": 800,
+      "provider": "image-generation-mcp",
+      "simulated": true
+     }
+    ]
+   },
+   "mockups": {
+    "meta": {
+     "source": "offline-heuristic",
+     "generatedAt": "2026-07-18T12:32:10.066Z",
+     "durationMs": 0
+    },
+    "assets": [
+     {
+      "key": "products/highland-wool-pullover/v1/mockup-flat-lay.png",
+      "scene": "flat-lay",
+      "provider": "image-generation-mcp",
+      "simulated": true
+     },
+     {
+      "key": "products/highland-wool-pullover/v1/mockup-model-front.png",
+      "scene": "model-front",
+      "provider": "image-generation-mcp",
+      "simulated": true
+     },
+     {
+      "key": "products/highland-wool-pullover/v1/mockup-model-back.png",
+      "scene": "model-back",
+      "provider": "image-generation-mcp",
+      "simulated": true
+     },
+     {
+      "key": "products/highland-wool-pullover/v1/mockup-hanger.png",
+      "scene": "hanger",
+      "provider": "image-generation-mcp",
+      "simulated": true
+     }
+    ]
+   },
+   "seo": {
+    "meta": {
+     "source": "offline-heuristic",
+     "generatedAt": "2026-07-18T12:32:10.069Z",
+     "durationMs": 0
+    },
+    "title": "Highland Wool Pullover — Rustic Fair Isle Knit Sweater, Nordic Style | wool t-shirt | pullover t-shirt | isle t-shirt | knit t-shirt",
+    "description": "Highland Wool Pullover — Rustic Fair Isle Knit Sweater, Nordic Style — t-shirt design for the \"summer-shirts\" collection, aimed at the \"wool t-shirt\" niche.\n\n• Size: S / M / L / XL / 2XL\n• Color: White / Black / Navy / Heather Grey\n• Colors: White, Black, Navy, Heather Grey\n\nPerfect for: wool t-shirt, pullover t-shirt, isle t-shirt.\nShips worldwide via print-on-demand.",
+    "tags": [
+     "wool t-shirt",
+     "pullover t-shirt",
+     "isle t-shirt",
+     "knit t-shirt",
+     "style t-shirt",
+     "highland t-shirt",
+     "sweater t-shirt",
+     "fair t-shirt",
+     "rustic t-shirt",
+     "nordic t-shirt",
+     "highland",
+     "wool",
+     "pullover"
+    ],
+    "categories": [
+     "Clothing",
+     "Unisex Adult Clothing",
+     "Tops & Tees"
+    ],
+    "score": 74,
+    "suggestions": [
+     "Couvrir plus de mots-clés tendance dans le titre."
+    ]
+   },
+   "qa": {
+    "meta": {
+     "source": "offline-heuristic",
+     "generatedAt": "2026-07-18T12:32:10.074Z",
+     "durationMs": 2
+    },
+    "passed": true,
+    "checks": [
+     {
+      "id": "tags-budget",
+      "label": "Tags ≤ 13 (limite Etsy)",
+      "passed": true,
+      "detail": "13/13 tags"
+     },
+     {
+      "id": "tag-length",
+      "label": "Tags ≤ 20 caractères",
+      "passed": true,
+      "detail": "ok"
+     },
+     {
+      "id": "title-length",
+      "label": "Titre ≤ 140 caractères",
+      "passed": true,
+      "detail": "132/140"
+     },
+     {
+      "id": "has-design",
+      "label": "Au moins un design",
+      "passed": true,
+      "detail": "3 asset(s)"
+     },
+     {
+      "id": "has-mockups",
+      "label": "Au moins un mockup",
+      "passed": true,
+      "detail": "4 mockup(s)"
+     },
+     {
+      "id": "resolution",
+      "label": "Design ≥ 2000px (print-ready)",
+      "passed": true,
+      "detail": "4000x4000"
+     },
+     {
+      "id": "copyright",
+      "label": "Aucune marque protégée (copyright / politique Etsy)",
+      "passed": true,
+      "detail": "aucun terme bloqué"
+     },
+     {
+      "id": "duplicates",
+      "label": "Pas de doublon de titre",
+      "passed": true,
+      "detail": "unique"
+     },
+     {
+      "id": "price",
+      "label": "Prix > 0",
+      "passed": true,
+      "detail": "33.13€"
+     }
+    ]
+   },
+   "validation": {
+    "meta": {
+     "source": "human",
+     "generatedAt": "2026-07-18T12:32:10.077Z",
+     "durationMs": 0
+    },
+    "fiche_status": "Rejected",
+    "approved": false,
+    "decidedBy": "console"
+   },
+   "publication": {
+    "meta": {
+     "source": "offline-heuristic",
+     "generatedAt": "2026-07-18T12:32:10.081Z",
+     "durationMs": 0
+    },
+    "published": false,
+    "simulated": true,
+    "printifyProductId": null,
+    "etsyListingId": null,
+    "blockedReason": "Validation humaine absente ou refusée — publication interdite."
+   }
+  },
+  {
+   "id": "prod_midnight-cosmos-mug",
+   "slug": "midnight-cosmos-mug",
+   "title": "Midnight Cosmos Galaxy Mug — Celestial 11oz Ceramic Coffee Cup, Astronomy Gift",
+   "category": "Mugs",
+   "createdAt": "2026-07-18T12:32:09.908Z",
+   "updatedAt": "2026-07-18T12:32:09.959Z",
+   "stage": "quality-assurance",
+   "listingPath": "Products/Mugs/Listings/midnight-cosmos-mug.md",
+   "history": [
+    {
+     "at": "2026-07-18T12:32:09.908Z",
+     "step": "engine",
+     "event": "created"
+    },
+    {
+     "at": "2026-07-18T12:32:09.929Z",
+     "step": "trend-discovery",
+     "event": "completed"
+    },
+    {
+     "at": "2026-07-18T12:32:09.932Z",
+     "step": "market-analysis",
+     "event": "completed"
+    },
+    {
+     "at": "2026-07-18T12:32:09.936Z",
+     "step": "opportunity-scoring",
+     "event": "completed"
+    },
+    {
+     "at": "2026-07-18T12:32:09.939Z",
+     "step": "product-planner",
+     "event": "completed"
+    },
+    {
+     "at": "2026-07-18T12:32:09.942Z",
+     "step": "product-generator",
+     "event": "completed"
+    },
+    {
+     "at": "2026-07-18T12:32:09.945Z",
+     "step": "image-generator",
+     "event": "completed"
+    },
+    {
+     "at": "2026-07-18T12:32:09.948Z",
+     "step": "mockup-generator",
+     "event": "completed"
+    },
+    {
+     "at": "2026-07-18T12:32:09.952Z",
+     "step": "seo-generator",
+     "event": "completed"
+    },
+    {
+     "at": "2026-07-18T12:32:09.956Z",
+     "step": "quality-assurance",
+     "event": "completed"
+    }
+   ],
+   "trend": {
+    "meta": {
+     "source": "offline-heuristic",
+     "generatedAt": "2026-07-18T12:32:09.929Z",
+     "durationMs": 0
+    },
+    "keywords": [
+     {
+      "keyword": "midnight mug",
+      "popularity": 86,
+      "momentum": 0.3,
+      "source": "offline-heuristic"
+     },
+     {
+      "keyword": "ceramic mug",
+      "popularity": 86,
+      "momentum": -1,
+      "source": "offline-heuristic"
+     },
+     {
+      "keyword": "astronomy mug",
+      "popularity": 81,
+      "momentum": 0.4,
+      "source": "offline-heuristic"
+     },
+     {
+      "keyword": "celestial mug",
+      "popularity": 74,
+      "momentum": 0.4,
+      "source": "offline-heuristic"
+     },
+     {
+      "keyword": "cosmos mug",
+      "popularity": 67,
+      "momentum": -1,
+      "source": "offline-heuristic"
+     },
+     {
+      "keyword": "cup mug",
+      "popularity": 59,
+      "momentum": 0.4,
+      "source": "offline-heuristic"
+     },
+     {
+      "keyword": "coffee mug",
+      "popularity": 49,
+      "momentum": 1,
+      "source": "offline-heuristic"
+     },
+     {
+      "keyword": "11oz mug",
+      "popularity": 46,
+      "momentum": 0.9,
+      "source": "offline-heuristic"
+     },
+     {
+      "keyword": "galaxy mug",
+      "popularity": 45,
+      "momentum": -0.5,
+      "source": "offline-heuristic"
+     },
+     {
+      "keyword": "mug mug",
+      "popularity": 40,
+      "momentum": 0.2,
+      "source": "offline-heuristic"
+     }
+    ],
+    "season": "summer",
+    "summary": "Top keyword \"midnight mug\" (popularity 86/100), season window: summer."
+   },
+   "market": {
+    "meta": {
+     "source": "offline-heuristic",
+     "generatedAt": "2026-07-18T12:32:09.932Z",
+     "durationMs": 0
+    },
+    "competition": 69,
+    "demand": 84,
+    "priceLow": 12,
+    "priceMedian": 22.92,
+    "priceHigh": 25,
+    "monthlyVolumeEstimate": 840,
+    "seasonality": "summer",
+    "notes": "Heuristic estimate for \"midnight mug\": demand 84/100 vs competition 69/100 in Mugs."
+   },
+   "opportunity": {
+    "meta": {
+     "source": "offline-heuristic",
+     "generatedAt": "2026-07-18T12:32:09.935Z",
+     "durationMs": 0
+    },
+    "total": 68,
+    "seo": 63,
+    "competition": 31,
+    "potential": 84,
+    "difficulty": 53,
+    "profitability": 84,
+    "explanation": [
+     "SEO 63/100 — moyenne de popularité des 10 mots-clés détectés (poids 25%).",
+     "Concurrence 31/100 — inverse de la saturation marché (69/100 de concurrence brute, poids 20%).",
+     "Potentiel 84/100 — demande estimée (poids 30%).",
+     "Rentabilité 84/100 — position du prix médian 22.92€ dans la fourchette 12–25€ (poids 25%).",
+     "Difficulté 53/100 — indicatif, non pondéré dans le total.",
+     "Score global: 68/100."
+    ]
+   },
+   "plan": {
+    "meta": {
+     "source": "offline-heuristic",
+     "generatedAt": "2026-07-18T12:32:09.939Z",
+     "durationMs": 0
+    },
+    "productType": "mug",
+    "collection": "summer-mugs",
+    "priority": "medium",
+    "variants": [
+     {
+      "name": "Size",
+      "options": [
+       "11oz",
+       "15oz"
+      ]
+     }
+    ],
+    "colors": [
+     "White",
+     "Black"
+    ],
+    "formats": [
+     "11oz",
+     "15oz"
+    ]
+   },
+   "generation": {
+    "meta": {
+     "source": "offline-heuristic",
+     "generatedAt": "2026-07-18T12:32:09.942Z",
+     "durationMs": 0
+    },
+    "prompt": "Design for a mug: \"Midnight Cosmos Galaxy Mug — Celestial 11oz Ceramic Coffee Cup, Astronomy Gift\". Style keywords: midnight mug, ceramic mug, astronomy mug. Colors: White, Black. Formats: 11oz, 15oz. High resolution, print-ready, no text artifacts, no watermark.",
+    "negativePrompt": "blurry, low quality, watermark, trademarked characters, brand logos",
+    "version": 1,
+    "previousVersions": [],
+    "concept": "Midnight Cosmos Galaxy Mug — Celestial 11oz Ceramic Coffee Cup, Astronomy Gift — mug design for the \"summer-mugs\" collection, aimed at the \"midnight mug\" niche."
+   },
+   "images": {
+    "meta": {
+     "source": "offline-heuristic",
+     "generatedAt": "2026-07-18T12:32:09.945Z",
+     "durationMs": 0
+    },
+    "assets": [
+     {
+      "key": "products/midnight-cosmos-mug/v1/design.png",
+      "kind": "design",
+      "width": 4000,
+      "height": 4000,
+      "provider": "image-generation-mcp",
+      "simulated": true
+     },
+     {
+      "key": "products/midnight-cosmos-mug/v1/design-alt.png",
+      "kind": "variant",
+      "width": 4000,
+      "height": 4000,
+      "provider": "image-generation-mcp",
+      "simulated": true
+     },
+     {
+      "key": "products/midnight-cosmos-mug/v1/thumb.png",
+      "kind": "thumbnail",
+      "width": 800,
+      "height": 800,
+      "provider": "image-generation-mcp",
+      "simulated": true
+     }
+    ]
+   },
+   "mockups": {
+    "meta": {
+     "source": "offline-heuristic",
+     "generatedAt": "2026-07-18T12:32:09.948Z",
+     "durationMs": 0
+    },
+    "assets": [
+     {
+      "key": "products/midnight-cosmos-mug/v1/mockup-kitchen-table.png",
+      "scene": "kitchen-table",
+      "provider": "image-generation-mcp",
+      "simulated": true
+     },
+     {
+      "key": "products/midnight-cosmos-mug/v1/mockup-office-desk.png",
+      "scene": "office-desk",
+      "provider": "image-generation-mcp",
+      "simulated": true
+     },
+     {
+      "key": "products/midnight-cosmos-mug/v1/mockup-gift-box.png",
+      "scene": "gift-box",
+      "provider": "image-generation-mcp",
+      "simulated": true
+     },
+     {
+      "key": "products/midnight-cosmos-mug/v1/mockup-hands-holding.png",
+      "scene": "hands-holding",
+      "provider": "image-generation-mcp",
+      "simulated": true
+     }
+    ]
+   },
+   "seo": {
+    "meta": {
+     "source": "offline-heuristic",
+     "generatedAt": "2026-07-18T12:32:09.952Z",
+     "durationMs": 0
+    },
+    "title": "Midnight Cosmos Galaxy Mug — Celestial 11oz Ceramic Coffee Cup, Astronomy Gift | midnight mug | ceramic mug | astronomy mug | celestial mug",
+    "description": "Midnight Cosmos Galaxy Mug — Celestial 11oz Ceramic Coffee Cup, Astronomy Gift — mug design for the \"summer-mugs\" collection, aimed at the \"midnight mug\" niche.\n\n• Size: 11oz / 15oz\n• Colors: White, Black\n\nPerfect for: midnight mug, ceramic mug, astronomy mug.\nShips worldwide via print-on-demand.",
+    "tags": [
+     "midnight mug",
+     "ceramic mug",
+     "astronomy mug",
+     "celestial mug",
+     "cosmos mug",
+     "cup mug",
+     "coffee mug",
+     "11oz mug",
+     "galaxy mug",
+     "mug mug",
+     "midnight",
+     "cosmos",
+     "galaxy"
+    ],
+    "categories": [
+     "Home & Living",
+     "Kitchen & Dining",
+     "Drinkware"
+    ],
+    "score": 72,
+    "suggestions": []
+   },
+   "qa": {
+    "meta": {
+     "source": "offline-heuristic",
+     "generatedAt": "2026-07-18T12:32:09.956Z",
+     "durationMs": 1
+    },
+    "passed": true,
+    "checks": [
+     {
+      "id": "tags-budget",
+      "label": "Tags ≤ 13 (limite Etsy)",
+      "passed": true,
+      "detail": "13/13 tags"
+     },
+     {
+      "id": "tag-length",
+      "label": "Tags ≤ 20 caractères",
+      "passed": true,
+      "detail": "ok"
+     },
+     {
+      "id": "title-length",
+      "label": "Titre ≤ 140 caractères",
+      "passed": true,
+      "detail": "139/140"
+     },
+     {
+      "id": "has-design",
+      "label": "Au moins un design",
+      "passed": true,
+      "detail": "3 asset(s)"
+     },
+     {
+      "id": "has-mockups",
+      "label": "Au moins un mockup",
+      "passed": true,
+      "detail": "4 mockup(s)"
+     },
+     {
+      "id": "resolution",
+      "label": "Design ≥ 2000px (print-ready)",
+      "passed": true,
+      "detail": "4000x4000"
+     },
+     {
+      "id": "copyright",
+      "label": "Aucune marque protégée (copyright / politique Etsy)",
+      "passed": true,
+      "detail": "aucun terme bloqué"
+     },
+     {
+      "id": "duplicates",
+      "label": "Pas de doublon de titre",
+      "passed": true,
+      "detail": "unique"
+     },
+     {
+      "id": "price",
+      "label": "Prix > 0",
+      "passed": true,
+      "detail": "22.92€"
+     }
+    ]
+   }
+  },
+  {
+   "id": "prod_sage-ceramic-mug",
+   "slug": "sage-ceramic-mug",
+   "title": "Sage Green Ceramic Coffee Mug — Minimalist Handmade Style Cup, 11oz & 15oz",
+   "category": "Mugs",
+   "createdAt": "2026-07-18T12:32:09.964Z",
+   "updatedAt": "2026-07-18T12:32:09.991Z",
+   "stage": "publishing",
+   "listingPath": "Products/Mugs/Listings/sage-ceramic-mug.md",
+   "history": [
+    {
+     "at": "2026-07-18T12:32:09.964Z",
+     "step": "engine",
+     "event": "created"
+    },
+    {
+     "at": "2026-07-18T12:32:09.968Z",
+     "step": "trend-discovery",
+     "event": "completed"
+    },
+    {
+     "at": "2026-07-18T12:32:09.970Z",
+     "step": "market-analysis",
+     "event": "completed"
+    },
+    {
+     "at": "2026-07-18T12:32:09.972Z",
+     "step": "opportunity-scoring",
+     "event": "completed"
+    },
+    {
+     "at": "2026-07-18T12:32:09.974Z",
+     "step": "product-planner",
+     "event": "completed"
+    },
+    {
+     "at": "2026-07-18T12:32:09.977Z",
+     "step": "product-generator",
+     "event": "completed"
+    },
+    {
+     "at": "2026-07-18T12:32:09.979Z",
+     "step": "image-generator",
+     "event": "completed"
+    },
+    {
+     "at": "2026-07-18T12:32:09.981Z",
+     "step": "mockup-generator",
+     "event": "completed"
+    },
+    {
+     "at": "2026-07-18T12:32:09.983Z",
+     "step": "seo-generator",
+     "event": "completed"
+    },
+    {
+     "at": "2026-07-18T12:32:09.986Z",
+     "step": "quality-assurance",
+     "event": "completed"
+    },
+    {
+     "at": "2026-07-18T12:32:09.989Z",
+     "step": "validation",
+     "event": "completed"
+    },
+    {
+     "at": "2026-07-18T12:32:09.991Z",
+     "step": "publishing",
+     "event": "completed"
+    }
+   ],
+   "trend": {
+    "meta": {
+     "source": "offline-heuristic",
+     "generatedAt": "2026-07-18T12:32:09.968Z",
+     "durationMs": 0
+    },
+    "keywords": [
+     {
+      "keyword": "ceramic mug",
+      "popularity": 94,
+      "momentum": -0.4,
+      "source": "offline-heuristic"
+     },
+     {
+      "keyword": "sage mug",
+      "popularity": 83,
+      "momentum": 0.1,
+      "source": "offline-heuristic"
+     },
+     {
+      "keyword": "minimalist mug",
+      "popularity": 83,
+      "momentum": -0.9,
+      "source": "offline-heuristic"
+     },
+     {
+      "keyword": "style mug",
+      "popularity": 81,
+      "momentum": 0.5,
+      "source": "offline-heuristic"
+     },
+     {
+      "keyword": "coffee mug",
+      "popularity": 80,
+      "momentum": -0.1,
+      "source": "offline-heuristic"
+     },
+     {
+      "keyword": "mug mug",
+      "popularity": 61,
+      "momentum": 0.8,
+      "source": "offline-heuristic"
+     },
+     {
+      "keyword": "handmade mug",
+      "popularity": 56,
+      "momentum": -0.6,
+      "source": "offline-heuristic"
+     },
+     {
+      "keyword": "11oz mug",
+      "popularity": 54,
+      "momentum": -0.2,
+      "source": "offline-heuristic"
+     },
+     {
+      "keyword": "cup mug",
+      "popularity": 50,
+      "momentum": 1,
+      "source": "offline-heuristic"
+     },
+     {
+      "keyword": "green mug",
+      "popularity": 39,
+      "momentum": 0.7,
+      "source": "offline-heuristic"
+     }
+    ],
+    "season": "summer",
+    "summary": "Top keyword \"ceramic mug\" (popularity 94/100), season window: summer."
+   },
+   "market": {
+    "meta": {
+     "source": "offline-heuristic",
+     "generatedAt": "2026-07-18T12:32:09.970Z",
+     "durationMs": 0
+    },
+    "competition": 32,
+    "demand": 76,
+    "priceLow": 12,
+    "priceMedian": 21.88,
+    "priceHigh": 25,
+    "monthlyVolumeEstimate": 608,
+    "seasonality": "summer",
+    "notes": "Heuristic estimate for \"ceramic mug\": demand 76/100 vs competition 32/100 in Mugs."
+   },
+   "opportunity": {
+    "meta": {
+     "source": "offline-heuristic",
+     "generatedAt": "2026-07-18T12:32:09.972Z",
+     "durationMs": 0
+    },
+    "total": 72,
+    "seo": 68,
+    "competition": 68,
+    "potential": 76,
+    "difficulty": 32,
+    "profitability": 76,
+    "explanation": [
+     "SEO 68/100 — moyenne de popularité des 10 mots-clés détectés (poids 25%).",
+     "Concurrence 68/100 — inverse de la saturation marché (32/100 de concurrence brute, poids 20%).",
+     "Potentiel 76/100 — demande estimée (poids 30%).",
+     "Rentabilité 76/100 — position du prix médian 21.88€ dans la fourchette 12–25€ (poids 25%).",
+     "Difficulté 32/100 — indicatif, non pondéré dans le total.",
+     "Score global: 72/100."
+    ]
+   },
+   "plan": {
+    "meta": {
+     "source": "offline-heuristic",
+     "generatedAt": "2026-07-18T12:32:09.974Z",
+     "durationMs": 0
+    },
+    "productType": "mug",
+    "collection": "summer-mugs",
+    "priority": "high",
+    "variants": [
+     {
+      "name": "Size",
+      "options": [
+       "11oz",
+       "15oz"
+      ]
+     }
+    ],
+    "colors": [
+     "White",
+     "Black"
+    ],
+    "formats": [
+     "11oz",
+     "15oz"
+    ]
+   },
+   "generation": {
+    "meta": {
+     "source": "offline-heuristic",
+     "generatedAt": "2026-07-18T12:32:09.977Z",
+     "durationMs": 0
+    },
+    "prompt": "Design for a mug: \"Sage Green Ceramic Coffee Mug — Minimalist Handmade Style Cup, 11oz & 15oz\". Style keywords: ceramic mug, sage mug, minimalist mug. Colors: White, Black. Formats: 11oz, 15oz. High resolution, print-ready, no text artifacts, no watermark.",
+    "negativePrompt": "blurry, low quality, watermark, trademarked characters, brand logos",
+    "version": 1,
+    "previousVersions": [],
+    "concept": "Sage Green Ceramic Coffee Mug — Minimalist Handmade Style Cup, 11oz & 15oz — mug design for the \"summer-mugs\" collection, aimed at the \"ceramic mug\" niche."
+   },
+   "images": {
+    "meta": {
+     "source": "offline-heuristic",
+     "generatedAt": "2026-07-18T12:32:09.979Z",
+     "durationMs": 0
+    },
+    "assets": [
+     {
+      "key": "products/sage-ceramic-mug/v1/design.png",
+      "kind": "design",
+      "width": 4000,
+      "height": 4000,
+      "provider": "image-generation-mcp",
+      "simulated": true
+     },
+     {
+      "key": "products/sage-ceramic-mug/v1/design-alt.png",
+      "kind": "variant",
+      "width": 4000,
+      "height": 4000,
+      "provider": "image-generation-mcp",
+      "simulated": true
+     },
+     {
+      "key": "products/sage-ceramic-mug/v1/thumb.png",
+      "kind": "thumbnail",
+      "width": 800,
+      "height": 800,
+      "provider": "image-generation-mcp",
+      "simulated": true
+     }
+    ]
+   },
+   "mockups": {
+    "meta": {
+     "source": "offline-heuristic",
+     "generatedAt": "2026-07-18T12:32:09.981Z",
+     "durationMs": 0
+    },
+    "assets": [
+     {
+      "key": "products/sage-ceramic-mug/v1/mockup-kitchen-table.png",
+      "scene": "kitchen-table",
+      "provider": "image-generation-mcp",
+      "simulated": true
+     },
+     {
+      "key": "products/sage-ceramic-mug/v1/mockup-office-desk.png",
+      "scene": "office-desk",
+      "provider": "image-generation-mcp",
+      "simulated": true
+     },
+     {
+      "key": "products/sage-ceramic-mug/v1/mockup-gift-box.png",
+      "scene": "gift-box",
+      "provider": "image-generation-mcp",
+      "simulated": true
+     },
+     {
+      "key": "products/sage-ceramic-mug/v1/mockup-hands-holding.png",
+      "scene": "hands-holding",
+      "provider": "image-generation-mcp",
+      "simulated": true
+     }
+    ]
+   },
+   "seo": {
+    "meta": {
+     "source": "offline-heuristic",
+     "generatedAt": "2026-07-18T12:32:09.983Z",
+     "durationMs": 0
+    },
+    "title": "Sage Green Ceramic Coffee Mug — Minimalist Handmade Style Cup, 11oz & 15oz | ceramic mug | sage mug | minimalist mug | style mug",
+    "description": "Sage Green Ceramic Coffee Mug — Minimalist Handmade Style Cup, 11oz & 15oz — mug design for the \"summer-mugs\" collection, aimed at the \"ceramic mug\" niche.\n\n• Size: 11oz / 15oz\n• Colors: White, Black\n\nPerfect for: ceramic mug, sage mug, minimalist mug.\nShips worldwide via print-on-demand.",
+    "tags": [
+     "ceramic mug",
+     "sage mug",
+     "minimalist mug",
+     "style mug",
+     "coffee mug",
+     "mug mug",
+     "handmade mug",
+     "11oz mug",
+     "cup mug",
+     "green mug",
+     "sage",
+     "green",
+     "ceramic"
+    ],
+    "categories": [
+     "Home & Living",
+     "Kitchen & Dining",
+     "Drinkware"
+    ],
+    "score": 72,
+    "suggestions": []
+   },
+   "qa": {
+    "meta": {
+     "source": "offline-heuristic",
+     "generatedAt": "2026-07-18T12:32:09.986Z",
+     "durationMs": 1
+    },
+    "passed": true,
+    "checks": [
+     {
+      "id": "tags-budget",
+      "label": "Tags ≤ 13 (limite Etsy)",
+      "passed": true,
+      "detail": "13/13 tags"
+     },
+     {
+      "id": "tag-length",
+      "label": "Tags ≤ 20 caractères",
+      "passed": true,
+      "detail": "ok"
+     },
+     {
+      "id": "title-length",
+      "label": "Titre ≤ 140 caractères",
+      "passed": true,
+      "detail": "128/140"
+     },
+     {
+      "id": "has-design",
+      "label": "Au moins un design",
+      "passed": true,
+      "detail": "3 asset(s)"
+     },
+     {
+      "id": "has-mockups",
+      "label": "Au moins un mockup",
+      "passed": true,
+      "detail": "4 mockup(s)"
+     },
+     {
+      "id": "resolution",
+      "label": "Design ≥ 2000px (print-ready)",
+      "passed": true,
+      "detail": "4000x4000"
+     },
+     {
+      "id": "copyright",
+      "label": "Aucune marque protégée (copyright / politique Etsy)",
+      "passed": true,
+      "detail": "aucun terme bloqué"
+     },
+     {
+      "id": "duplicates",
+      "label": "Pas de doublon de titre",
+      "passed": true,
+      "detail": "unique"
+     },
+     {
+      "id": "price",
+      "label": "Prix > 0",
+      "passed": true,
+      "detail": "21.88€"
+     }
+    ]
+   },
+   "validation": {
+    "meta": {
+     "source": "human",
+     "generatedAt": "2026-07-18T12:32:09.989Z",
+     "durationMs": 1
+    },
+    "fiche_status": "Approved",
+    "approved": true,
+    "decidedBy": "console"
+   },
+   "publication": {
+    "meta": {
+     "source": "offline-heuristic",
+     "generatedAt": "2026-07-18T12:32:09.991Z",
+     "durationMs": 0
+    },
+    "published": false,
+    "simulated": true,
+    "printifyProductId": null,
+    "etsyListingId": null,
+    "blockedReason": null
+   }
+  }
+ ],
+ "workflows": [
+  {
+   "id": "wf_abstract-horizon-print_1",
+   "productId": "prod_abstract-horizon-print",
+   "slug": "abstract-horizon-print",
+   "pipeline": [
+    "trend-discovery",
+    "market-analysis",
+    "opportunity-scoring",
+    "product-planner",
+    "product-generator",
+    "image-generator",
+    "mockup-generator",
+    "seo-generator",
+    "quality-assurance",
+    "validation",
+    "publishing"
+   ],
+   "dryRun": true,
+   "status": "completed",
+   "createdAt": "2026-07-18T12:32:10.095Z",
+   "updatedAt": "2026-07-18T12:32:10.126Z",
+   "pausedReason": null,
+   "steps": [
+    {
+     "id": "trend-discovery",
+     "status": "completed",
+     "startedAt": "2026-07-18T12:32:10.098Z",
+     "finishedAt": "2026-07-18T12:32:10.100Z",
+     "durationMs": 1,
+     "attempts": 1,
+     "logs": [
+      "[2026-07-18T12:32:10.100Z] Derived 10 keywords for \"Abstract Horizon Fine Art Print — Modern Minimalist Wall Decor, Terracotta\" (season: summer)"
+     ],
+     "error": null,
+     "result": {
+      "keywords": 10,
+      "topKeyword": "abstract art print",
+      "season": "summer"
+     }
+    },
+    {
+     "id": "market-analysis",
+     "status": "completed",
+     "startedAt": "2026-07-18T12:32:10.101Z",
+     "finishedAt": "2026-07-18T12:32:10.102Z",
+     "durationMs": 0,
+     "attempts": 1,
+     "logs": [
+      "[2026-07-18T12:32:10.102Z] Market: demand 85, competition 30, median price 39.45€"
+     ],
+     "error": null,
+     "result": {
+      "demand": 85,
+      "competition": 30,
+      "priceMedian": 39.45
+     }
+    },
+    {
+     "id": "opportunity-scoring",
+     "status": "completed",
+     "startedAt": "2026-07-18T12:32:10.103Z",
+     "finishedAt": "2026-07-18T12:32:10.104Z",
+     "durationMs": 0,
+     "attempts": 1,
+     "logs": [
+      "[2026-07-18T12:32:10.104Z] Opportunity score 77/100"
+     ],
+     "error": null,
+     "result": {
+      "total": 77,
+      "seo": 63,
+      "competition": 70,
+      "potential": 85,
+      "difficulty": 34,
+      "profitability": 85
+     }
+    },
+    {
+     "id": "product-planner",
+     "status": "completed",
+     "startedAt": "2026-07-18T12:32:10.105Z",
+     "finishedAt": "2026-07-18T12:32:10.106Z",
+     "durationMs": 0,
+     "attempts": 1,
+     "logs": [
+      "[2026-07-18T12:32:10.106Z] Plan: art print, priority high, 1 variant group(s)"
+     ],
+     "error": null,
+     "result": {
+      "priority": "high",
+      "productType": "art print",
+      "collection": "summer-wall-art"
+     }
+    },
+    {
+     "id": "product-generator",
+     "status": "completed",
+     "startedAt": "2026-07-18T12:32:10.107Z",
+     "finishedAt": "2026-07-18T12:32:10.108Z",
+     "durationMs": 0,
+     "attempts": 1,
+     "logs": [
+      "[2026-07-18T12:32:10.108Z] Prompt v1 built (292 chars)"
+     ],
+     "error": null,
+     "result": {
+      "version": 1,
+      "concept": "Abstract Horizon Fine Art Print — Modern Minimalist Wall Decor, Terracotta — art print design for the \"summer-wall-art\" collection, aimed at the \"abstract art print\" niche."
+     }
+    },
+    {
+     "id": "image-generator",
+     "status": "completed",
+     "startedAt": "2026-07-18T12:32:10.109Z",
+     "finishedAt": "2026-07-18T12:32:10.111Z",
+     "durationMs": 0,
+     "attempts": 1,
+     "logs": [
+      "[2026-07-18T12:32:10.111Z] Planned 3 assets under products/abstract-horizon-print/v1/ (simulated — image-generation MCP not invoked from this run)"
+     ],
+     "error": null,
+     "result": {
+      "assets": 3,
+      "simulated": true,
+      "baseKey": "products/abstract-horizon-print/v1"
+     }
+    },
+    {
+     "id": "mockup-generator",
+     "status": "completed",
+     "startedAt": "2026-07-18T12:32:10.112Z",
+     "finishedAt": "2026-07-18T12:32:10.114Z",
+     "durationMs": 0,
+     "attempts": 1,
+     "logs": [
+      "[2026-07-18T12:32:10.114Z] Planned 4 mockup scenes: living-room, bedroom, frame-closeup, gallery-wall"
+     ],
+     "error": null,
+     "result": {
+      "mockups": 4,
+      "scenes": [
+       "living-room",
+       "bedroom",
+       "frame-closeup",
+       "gallery-wall"
+      ]
+     }
+    },
+    {
+     "id": "seo-generator",
+     "status": "completed",
+     "startedAt": "2026-07-18T12:32:10.116Z",
+     "finishedAt": "2026-07-18T12:32:10.117Z",
+     "durationMs": 0,
+     "attempts": 1,
+     "logs": [
+      "[2026-07-18T12:32:10.117Z] SEO: title 131 chars, 13 tags, score 71/100"
+     ],
+     "error": null,
+     "result": {
+      "score": 71,
+      "tags": 13,
+      "titleLength": 131
+     }
+    },
+    {
+     "id": "quality-assurance",
+     "status": "completed",
+     "startedAt": "2026-07-18T12:32:10.118Z",
+     "finishedAt": "2026-07-18T12:32:10.121Z",
+     "durationMs": 1,
+     "attempts": 1,
+     "logs": [
+      "[2026-07-18T12:32:10.121Z] QA PASSED — 9/9 checks ok"
+     ],
+     "error": null,
+     "result": {
+      "passed": true,
+      "checks": 9,
+      "failed": []
+     }
+    },
+    {
+     "id": "validation",
+     "status": "completed",
+     "startedAt": "2026-07-18T12:32:10.122Z",
+     "finishedAt": "2026-07-18T12:32:10.123Z",
+     "durationMs": 0,
+     "attempts": 1,
+     "logs": [
+      "[2026-07-18T12:32:10.123Z] Fiche status: Published"
+     ],
+     "error": null,
+     "result": {
+      "fiche_status": "Published",
+      "approved": true
+     }
+    },
+    {
+     "id": "publishing",
+     "status": "completed",
+     "startedAt": "2026-07-18T12:32:10.124Z",
+     "finishedAt": "2026-07-18T12:32:10.125Z",
+     "durationMs": 0,
+     "attempts": 1,
+     "logs": [
+      "[2026-07-18T12:32:10.125Z] Dry-run: publication simulée — aurait créé le produit Printify puis le listing Etsy (draft) via les MCP."
+     ],
+     "error": null,
+     "result": {
+      "published": false,
+      "simulated": true,
+      "note": "dry-run — aucun appel Printify/Etsy"
+     }
+    }
+   ]
+  },
+  {
+   "id": "wf_cozy-knit-sweater_1",
+   "productId": "prod_cozy-knit-sweater",
+   "slug": "cozy-knit-sweater",
+   "pipeline": [
+    "trend-discovery",
+    "market-analysis",
+    "opportunity-scoring",
+    "product-planner",
+    "product-generator",
+    "image-generator",
+    "mockup-generator",
+    "seo-generator",
+    "quality-assurance",
+    "validation",
+    "publishing"
+   ],
+   "dryRun": true,
+   "status": "completed",
+   "createdAt": "2026-07-18T12:32:10.001Z",
+   "updatedAt": "2026-07-18T12:32:10.035Z",
+   "pausedReason": null,
+   "steps": [
+    {
+     "id": "trend-discovery",
+     "status": "completed",
+     "startedAt": "2026-07-18T12:32:10.003Z",
+     "finishedAt": "2026-07-18T12:32:10.004Z",
+     "durationMs": 0,
+     "attempts": 1,
+     "logs": [
+      "[2026-07-18T12:32:10.004Z] Derived 10 keywords for \"Cozy Oversized Knit Sweater — Handmade-Style Wool Blend Pullover, Unisex\" (season: summer)"
+     ],
+     "error": null,
+     "result": {
+      "keywords": 10,
+      "topKeyword": "unisex t-shirt",
+      "season": "summer"
+     }
+    },
+    {
+     "id": "market-analysis",
+     "status": "completed",
+     "startedAt": "2026-07-18T12:32:10.005Z",
+     "finishedAt": "2026-07-18T12:32:10.006Z",
+     "durationMs": 0,
+     "attempts": 1,
+     "logs": [
+      "[2026-07-18T12:32:10.006Z] Market: demand 88, competition 67, median price 32.96€"
+     ],
+     "error": null,
+     "result": {
+      "demand": 88,
+      "competition": 67,
+      "priceMedian": 32.96
+     }
+    },
+    {
+     "id": "opportunity-scoring",
+     "status": "completed",
+     "startedAt": "2026-07-18T12:32:10.007Z",
+     "finishedAt": "2026-07-18T12:32:10.008Z",
+     "durationMs": 0,
+     "attempts": 1,
+     "logs": [
+      "[2026-07-18T12:32:10.008Z] Opportunity score 72/100"
+     ],
+     "error": null,
+     "result": {
+      "total": 72,
+      "seo": 66,
+      "competition": 33,
+      "potential": 88,
+      "difficulty": 51,
+      "profitability": 88
+     }
+    },
+    {
+     "id": "product-planner",
+     "status": "completed",
+     "startedAt": "2026-07-18T12:32:10.011Z",
+     "finishedAt": "2026-07-18T12:32:10.012Z",
+     "durationMs": 0,
+     "attempts": 1,
+     "logs": [
+      "[2026-07-18T12:32:10.012Z] Plan: t-shirt, priority high, 2 variant group(s)"
+     ],
+     "error": null,
+     "result": {
+      "priority": "high",
+      "productType": "t-shirt",
+      "collection": "summer-shirts"
+     }
+    },
+    {
+     "id": "product-generator",
+     "status": "completed",
+     "startedAt": "2026-07-18T12:32:10.013Z",
+     "finishedAt": "2026-07-18T12:32:10.016Z",
+     "durationMs": 0,
+     "attempts": 1,
+     "logs": [
+      "[2026-07-18T12:32:10.016Z] Prompt v1 built (296 chars)"
+     ],
+     "error": null,
+     "result": {
+      "version": 1,
+      "concept": "Cozy Oversized Knit Sweater — Handmade-Style Wool Blend Pullover, Unisex — t-shirt design for the \"summer-shirts\" collection, aimed at the \"unisex t-shirt\" niche."
+     }
+    },
+    {
+     "id": "image-generator",
+     "status": "completed",
+     "startedAt": "2026-07-18T12:32:10.017Z",
+     "finishedAt": "2026-07-18T12:32:10.018Z",
+     "durationMs": 0,
+     "attempts": 1,
+     "logs": [
+      "[2026-07-18T12:32:10.018Z] Planned 3 assets under products/cozy-knit-sweater/v1/ (simulated — image-generation MCP not invoked from this run)"
+     ],
+     "error": null,
+     "result": {
+      "assets": 3,
+      "simulated": true,
+      "baseKey": "products/cozy-knit-sweater/v1"
+     }
+    },
+    {
+     "id": "mockup-generator",
+     "status": "completed",
+     "startedAt": "2026-07-18T12:32:10.020Z",
+     "finishedAt": "2026-07-18T12:32:10.021Z",
+     "durationMs": 0,
+     "attempts": 1,
+     "logs": [
+      "[2026-07-18T12:32:10.021Z] Planned 4 mockup scenes: flat-lay, model-front, model-back, hanger"
+     ],
+     "error": null,
+     "result": {
+      "mockups": 4,
+      "scenes": [
+       "flat-lay",
+       "model-front",
+       "model-back",
+       "hanger"
+      ]
+     }
+    },
+    {
+     "id": "seo-generator",
+     "status": "completed",
+     "startedAt": "2026-07-18T12:32:10.022Z",
+     "finishedAt": "2026-07-18T12:32:10.023Z",
+     "durationMs": 0,
+     "attempts": 1,
+     "logs": [
+      "[2026-07-18T12:32:10.023Z] SEO: title 137 chars, 13 tags, score 74/100"
+     ],
+     "error": null,
+     "result": {
+      "score": 74,
+      "tags": 13,
+      "titleLength": 137
+     }
+    },
+    {
+     "id": "quality-assurance",
+     "status": "completed",
+     "startedAt": "2026-07-18T12:32:10.026Z",
+     "finishedAt": "2026-07-18T12:32:10.028Z",
+     "durationMs": 1,
+     "attempts": 1,
+     "logs": [
+      "[2026-07-18T12:32:10.028Z] QA PASSED — 9/9 checks ok"
+     ],
+     "error": null,
+     "result": {
+      "passed": true,
+      "checks": 9,
+      "failed": []
+     }
+    },
+    {
+     "id": "validation",
+     "status": "completed",
+     "startedAt": "2026-07-18T12:32:10.030Z",
+     "finishedAt": "2026-07-18T12:32:10.031Z",
+     "durationMs": 0,
+     "attempts": 1,
+     "logs": [
+      "[2026-07-18T12:32:10.031Z] Fiche status: PublishRequested"
+     ],
+     "error": null,
+     "result": {
+      "fiche_status": "PublishRequested",
+      "approved": true
+     }
+    },
+    {
+     "id": "publishing",
+     "status": "completed",
+     "startedAt": "2026-07-18T12:32:10.033Z",
+     "finishedAt": "2026-07-18T12:32:10.033Z",
+     "durationMs": 0,
+     "attempts": 1,
+     "logs": [
+      "[2026-07-18T12:32:10.033Z] Dry-run: publication simulée — aurait créé le produit Printify puis le listing Etsy (draft) via les MCP."
+     ],
+     "error": null,
+     "result": {
+      "published": false,
+      "simulated": true,
+      "note": "dry-run — aucun appel Printify/Etsy"
+     }
+    }
+   ]
+  },
+  {
+   "id": "wf_golden-ratio-poster_1",
+   "productId": "prod_golden-ratio-poster",
+   "slug": "golden-ratio-poster",
+   "pipeline": [
+    "trend-discovery",
+    "market-analysis",
+    "opportunity-scoring",
+    "product-planner",
+    "product-generator",
+    "image-generator",
+    "mockup-generator",
+    "seo-generator",
+    "quality-assurance",
+    "validation",
+    "publishing"
+   ],
+   "dryRun": true,
+   "status": "paused",
+   "createdAt": "2026-07-18T12:32:10.134Z",
+   "updatedAt": "2026-07-18T12:32:10.165Z",
+   "pausedReason": "En attente de validation humaine (fiche Products/Wall-Art/Listings/golden-ratio-poster.md, statut OnHold)",
+   "steps": [
+    {
+     "id": "trend-discovery",
+     "status": "completed",
+     "startedAt": "2026-07-18T12:32:10.137Z",
+     "finishedAt": "2026-07-18T12:32:10.138Z",
+     "durationMs": 0,
+     "attempts": 1,
+     "logs": [
+      "[2026-07-18T12:32:10.138Z] Derived 10 keywords for \"Golden Ratio Sacred Geometry Poster — Nautilus Spiral Art Print, Fibonacci\" (season: summer)"
+     ],
+     "error": null,
+     "result": {
+      "keywords": 10,
+      "topKeyword": "golden art print",
+      "season": "summer"
+     }
+    },
+    {
+     "id": "market-analysis",
+     "status": "completed",
+     "startedAt": "2026-07-18T12:32:10.139Z",
+     "finishedAt": "2026-07-18T12:32:10.140Z",
+     "durationMs": 0,
+     "attempts": 1,
+     "logs": [
+      "[2026-07-18T12:32:10.140Z] Market: demand 84, competition 53, median price 39.08€"
+     ],
+     "error": null,
+     "result": {
+      "demand": 84,
+      "competition": 53,
+      "priceMedian": 39.08
+     }
+    },
+    {
+     "id": "opportunity-scoring",
+     "status": "completed",
+     "startedAt": "2026-07-18T12:32:10.141Z",
+     "finishedAt": "2026-07-18T12:32:10.142Z",
+     "durationMs": 0,
+     "attempts": 1,
+     "logs": [
+      "[2026-07-18T12:32:10.142Z] Opportunity score 73/100"
+     ],
+     "error": null,
+     "result": {
+      "total": 73,
+      "seo": 70,
+      "competition": 47,
+      "potential": 84,
+      "difficulty": 42,
+      "profitability": 84
+     }
+    },
+    {
+     "id": "product-planner",
+     "status": "completed",
+     "startedAt": "2026-07-18T12:32:10.143Z",
+     "finishedAt": "2026-07-18T12:32:10.144Z",
+     "durationMs": 0,
+     "attempts": 1,
+     "logs": [
+      "[2026-07-18T12:32:10.144Z] Plan: art print, priority high, 1 variant group(s)"
+     ],
+     "error": null,
+     "result": {
+      "priority": "high",
+      "productType": "art print",
+      "collection": "summer-wall-art"
+     }
+    },
+    {
+     "id": "product-generator",
+     "status": "completed",
+     "startedAt": "2026-07-18T12:32:10.145Z",
+     "finishedAt": "2026-07-18T12:32:10.147Z",
+     "durationMs": 1,
+     "attempts": 1,
+     "logs": [
+      "[2026-07-18T12:32:10.147Z] Prompt v1 built (297 chars)"
+     ],
+     "error": null,
+     "result": {
+      "version": 1,
+      "concept": "Golden Ratio Sacred Geometry Poster — Nautilus Spiral Art Print, Fibonacci — art print design for the \"summer-wall-art\" collection, aimed at the \"golden art print\" niche."
+     }
+    },
+    {
+     "id": "image-generator",
+     "status": "completed",
+     "startedAt": "2026-07-18T12:32:10.148Z",
+     "finishedAt": "2026-07-18T12:32:10.149Z",
+     "durationMs": 0,
+     "attempts": 1,
+     "logs": [
+      "[2026-07-18T12:32:10.149Z] Planned 3 assets under products/golden-ratio-poster/v1/ (simulated — image-generation MCP not invoked from this run)"
+     ],
+     "error": null,
+     "result": {
+      "assets": 3,
+      "simulated": true,
+      "baseKey": "products/golden-ratio-poster/v1"
+     }
+    },
+    {
+     "id": "mockup-generator",
+     "status": "completed",
+     "startedAt": "2026-07-18T12:32:10.150Z",
+     "finishedAt": "2026-07-18T12:32:10.151Z",
+     "durationMs": 0,
+     "attempts": 1,
+     "logs": [
+      "[2026-07-18T12:32:10.151Z] Planned 4 mockup scenes: living-room, bedroom, frame-closeup, gallery-wall"
+     ],
+     "error": null,
+     "result": {
+      "mockups": 4,
+      "scenes": [
+       "living-room",
+       "bedroom",
+       "frame-closeup",
+       "gallery-wall"
+      ]
+     }
+    },
+    {
+     "id": "seo-generator",
+     "status": "completed",
+     "startedAt": "2026-07-18T12:32:10.153Z",
+     "finishedAt": "2026-07-18T12:32:10.154Z",
+     "durationMs": 0,
+     "attempts": 1,
+     "logs": [
+      "[2026-07-18T12:32:10.154Z] SEO: title 136 chars, 13 tags, score 71/100"
+     ],
+     "error": null,
+     "result": {
+      "score": 71,
+      "tags": 13,
+      "titleLength": 136
+     }
+    },
+    {
+     "id": "quality-assurance",
+     "status": "completed",
+     "startedAt": "2026-07-18T12:32:10.156Z",
+     "finishedAt": "2026-07-18T12:32:10.161Z",
+     "durationMs": 4,
+     "attempts": 1,
+     "logs": [
+      "[2026-07-18T12:32:10.161Z] QA PASSED — 9/9 checks ok"
+     ],
+     "error": null,
+     "result": {
+      "passed": true,
+      "checks": 9,
+      "failed": []
+     }
+    },
+    {
+     "id": "validation",
+     "status": "paused",
+     "startedAt": "2026-07-18T12:32:10.163Z",
+     "finishedAt": "2026-07-18T12:32:10.164Z",
+     "durationMs": 0,
+     "attempts": 1,
+     "logs": [
+      "[2026-07-18T12:32:10.164Z] Fiche status: OnHold"
+     ],
+     "error": null,
+     "result": {
+      "fiche_status": "OnHold",
+      "approved": false
+     }
+    },
+    {
+     "id": "publishing",
+     "status": "pending",
+     "startedAt": null,
+     "finishedAt": null,
+     "durationMs": null,
+     "attempts": 0,
+     "logs": [],
+     "error": null,
+     "result": null
+    }
+   ]
+  },
+  {
+   "id": "wf_highland-wool-pullover_1",
+   "productId": "prod_highland-wool-pullover",
+   "slug": "highland-wool-pullover",
+   "pipeline": [
+    "trend-discovery",
+    "market-analysis",
+    "opportunity-scoring",
+    "product-planner",
+    "product-generator",
+    "image-generator",
+    "mockup-generator",
+    "seo-generator",
+    "quality-assurance",
+    "validation",
+    "publishing"
+   ],
+   "dryRun": true,
+   "status": "completed",
+   "createdAt": "2026-07-18T12:32:10.042Z",
+   "updatedAt": "2026-07-18T12:32:10.083Z",
+   "pausedReason": null,
+   "steps": [
+    {
+     "id": "trend-discovery",
+     "status": "completed",
+     "startedAt": "2026-07-18T12:32:10.045Z",
+     "finishedAt": "2026-07-18T12:32:10.046Z",
+     "durationMs": 0,
+     "attempts": 1,
+     "logs": [
+      "[2026-07-18T12:32:10.046Z] Derived 10 keywords for \"Highland Wool Pullover — Rustic Fair Isle Knit Sweater, Nordic Style\" (season: summer)"
+     ],
+     "error": null,
+     "result": {
+      "keywords": 10,
+      "topKeyword": "wool t-shirt",
+      "season": "summer"
+     }
+    },
+    {
+     "id": "market-analysis",
+     "status": "completed",
+     "startedAt": "2026-07-18T12:32:10.048Z",
+     "finishedAt": "2026-07-18T12:32:10.049Z",
+     "durationMs": 0,
+     "attempts": 1,
+     "logs": [
+      "[2026-07-18T12:32:10.049Z] Market: demand 89, competition 82, median price 33.13€"
+     ],
+     "error": null,
+     "result": {
+      "demand": 89,
+      "competition": 82,
+      "priceMedian": 33.13
+     }
+    },
+    {
+     "id": "opportunity-scoring",
+     "status": "completed",
+     "startedAt": "2026-07-18T12:32:10.051Z",
+     "finishedAt": "2026-07-18T12:32:10.053Z",
+     "durationMs": 0,
+     "attempts": 1,
+     "logs": [
+      "[2026-07-18T12:32:10.053Z] Opportunity score 69/100"
+     ],
+     "error": null,
+     "result": {
+      "total": 69,
+      "seo": 67,
+      "competition": 18,
+      "potential": 89,
+      "difficulty": 58,
+      "profitability": 89
+     }
+    },
+    {
+     "id": "product-planner",
+     "status": "completed",
+     "startedAt": "2026-07-18T12:32:10.054Z",
+     "finishedAt": "2026-07-18T12:32:10.055Z",
+     "durationMs": 0,
+     "attempts": 1,
+     "logs": [
+      "[2026-07-18T12:32:10.055Z] Plan: t-shirt, priority medium, 2 variant group(s)"
+     ],
+     "error": null,
+     "result": {
+      "priority": "medium",
+      "productType": "t-shirt",
+      "collection": "summer-shirts"
+     }
+    },
+    {
+     "id": "product-generator",
+     "status": "completed",
+     "startedAt": "2026-07-18T12:32:10.057Z",
+     "finishedAt": "2026-07-18T12:32:10.059Z",
+     "durationMs": 0,
+     "attempts": 1,
+     "logs": [
+      "[2026-07-18T12:32:10.059Z] Prompt v1 built (291 chars)"
+     ],
+     "error": null,
+     "result": {
+      "version": 1,
+      "concept": "Highland Wool Pullover — Rustic Fair Isle Knit Sweater, Nordic Style — t-shirt design for the \"summer-shirts\" collection, aimed at the \"wool t-shirt\" niche."
+     }
+    },
+    {
+     "id": "image-generator",
+     "status": "completed",
+     "startedAt": "2026-07-18T12:32:10.061Z",
+     "finishedAt": "2026-07-18T12:32:10.062Z",
+     "durationMs": 0,
+     "attempts": 1,
+     "logs": [
+      "[2026-07-18T12:32:10.062Z] Planned 3 assets under products/highland-wool-pullover/v1/ (simulated — image-generation MCP not invoked from this run)"
+     ],
+     "error": null,
+     "result": {
+      "assets": 3,
+      "simulated": true,
+      "baseKey": "products/highland-wool-pullover/v1"
+     }
+    },
+    {
+     "id": "mockup-generator",
+     "status": "completed",
+     "startedAt": "2026-07-18T12:32:10.064Z",
+     "finishedAt": "2026-07-18T12:32:10.066Z",
+     "durationMs": 0,
+     "attempts": 1,
+     "logs": [
+      "[2026-07-18T12:32:10.066Z] Planned 4 mockup scenes: flat-lay, model-front, model-back, hanger"
+     ],
+     "error": null,
+     "result": {
+      "mockups": 4,
+      "scenes": [
+       "flat-lay",
+       "model-front",
+       "model-back",
+       "hanger"
+      ]
+     }
+    },
+    {
+     "id": "seo-generator",
+     "status": "completed",
+     "startedAt": "2026-07-18T12:32:10.067Z",
+     "finishedAt": "2026-07-18T12:32:10.069Z",
+     "durationMs": 0,
+     "attempts": 1,
+     "logs": [
+      "[2026-07-18T12:32:10.069Z] SEO: title 132 chars, 13 tags, score 74/100"
+     ],
+     "error": null,
+     "result": {
+      "score": 74,
+      "tags": 13,
+      "titleLength": 132
+     }
+    },
+    {
+     "id": "quality-assurance",
+     "status": "completed",
+     "startedAt": "2026-07-18T12:32:10.071Z",
+     "finishedAt": "2026-07-18T12:32:10.074Z",
+     "durationMs": 2,
+     "attempts": 1,
+     "logs": [
+      "[2026-07-18T12:32:10.074Z] QA PASSED — 9/9 checks ok"
+     ],
+     "error": null,
+     "result": {
+      "passed": true,
+      "checks": 9,
+      "failed": []
+     }
+    },
+    {
+     "id": "validation",
+     "status": "completed",
+     "startedAt": "2026-07-18T12:32:10.076Z",
+     "finishedAt": "2026-07-18T12:32:10.077Z",
+     "durationMs": 0,
+     "attempts": 1,
+     "logs": [
+      "[2026-07-18T12:32:10.077Z] Fiche status: Rejected"
+     ],
+     "error": null,
+     "result": {
+      "fiche_status": "Rejected",
+      "approved": false
+     }
+    },
+    {
+     "id": "publishing",
+     "status": "completed",
+     "startedAt": "2026-07-18T12:32:10.079Z",
+     "finishedAt": "2026-07-18T12:32:10.081Z",
+     "durationMs": 0,
+     "attempts": 1,
+     "logs": [
+      "[2026-07-18T12:32:10.081Z] Publication BLOCKED: Validation humaine absente ou refusée — publication interdite."
+     ],
+     "error": null,
+     "result": {
+      "published": false,
+      "blockedReason": "Validation humaine absente ou refusée — publication interdite."
+     }
+    }
+   ]
+  },
+  {
+   "id": "wf_midnight-cosmos-mug_1",
+   "productId": "prod_midnight-cosmos-mug",
+   "slug": "midnight-cosmos-mug",
+   "pipeline": [
+    "trend-discovery",
+    "market-analysis",
+    "opportunity-scoring",
+    "product-planner",
+    "product-generator",
+    "image-generator",
+    "mockup-generator",
+    "seo-generator",
+    "quality-assurance",
+    "validation",
+    "publishing"
+   ],
+   "dryRun": true,
+   "status": "paused",
+   "createdAt": "2026-07-18T12:32:09.909Z",
+   "updatedAt": "2026-07-18T12:32:09.959Z",
+   "pausedReason": "En attente de validation humaine (fiche Products/Mugs/Listings/midnight-cosmos-mug.md, statut Draft)",
+   "steps": [
+    {
+     "id": "trend-discovery",
+     "status": "completed",
+     "startedAt": "2026-07-18T12:32:09.927Z",
+     "finishedAt": "2026-07-18T12:32:09.929Z",
+     "durationMs": 1,
+     "attempts": 1,
+     "logs": [
+      "[2026-07-18T12:32:09.929Z] Derived 10 keywords for \"Midnight Cosmos Galaxy Mug — Celestial 11oz Ceramic Coffee Cup, Astronomy Gift\" (season: summer)"
+     ],
+     "error": null,
+     "result": {
+      "keywords": 10,
+      "topKeyword": "midnight mug",
+      "season": "summer"
+     }
+    },
+    {
+     "id": "market-analysis",
+     "status": "completed",
+     "startedAt": "2026-07-18T12:32:09.931Z",
+     "finishedAt": "2026-07-18T12:32:09.932Z",
+     "durationMs": 0,
+     "attempts": 1,
+     "logs": [
+      "[2026-07-18T12:32:09.932Z] Market: demand 84, competition 69, median price 22.92€"
+     ],
+     "error": null,
+     "result": {
+      "demand": 84,
+      "competition": 69,
+      "priceMedian": 22.92
+     }
+    },
+    {
+     "id": "opportunity-scoring",
+     "status": "completed",
+     "startedAt": "2026-07-18T12:32:09.934Z",
+     "finishedAt": "2026-07-18T12:32:09.936Z",
+     "durationMs": 1,
+     "attempts": 1,
+     "logs": [
+      "[2026-07-18T12:32:09.935Z] Opportunity score 68/100"
+     ],
+     "error": null,
+     "result": {
+      "total": 68,
+      "seo": 63,
+      "competition": 31,
+      "potential": 84,
+      "difficulty": 53,
+      "profitability": 84
+     }
+    },
+    {
+     "id": "product-planner",
+     "status": "completed",
+     "startedAt": "2026-07-18T12:32:09.937Z",
+     "finishedAt": "2026-07-18T12:32:09.939Z",
+     "durationMs": 1,
+     "attempts": 1,
+     "logs": [
+      "[2026-07-18T12:32:09.939Z] Plan: mug, priority medium, 1 variant group(s)"
+     ],
+     "error": null,
+     "result": {
+      "priority": "medium",
+      "productType": "mug",
+      "collection": "summer-mugs"
+     }
+    },
+    {
+     "id": "product-generator",
+     "status": "completed",
+     "startedAt": "2026-07-18T12:32:09.941Z",
+     "finishedAt": "2026-07-18T12:32:09.942Z",
+     "durationMs": 0,
+     "attempts": 1,
+     "logs": [
+      "[2026-07-18T12:32:09.942Z] Prompt v1 built (263 chars)"
+     ],
+     "error": null,
+     "result": {
+      "version": 1,
+      "concept": "Midnight Cosmos Galaxy Mug — Celestial 11oz Ceramic Coffee Cup, Astronomy Gift — mug design for the \"summer-mugs\" collection, aimed at the \"midnight mug\" niche."
+     }
+    },
+    {
+     "id": "image-generator",
+     "status": "completed",
+     "startedAt": "2026-07-18T12:32:09.944Z",
+     "finishedAt": "2026-07-18T12:32:09.945Z",
+     "durationMs": 0,
+     "attempts": 1,
+     "logs": [
+      "[2026-07-18T12:32:09.945Z] Planned 3 assets under products/midnight-cosmos-mug/v1/ (simulated — image-generation MCP not invoked from this run)"
+     ],
+     "error": null,
+     "result": {
+      "assets": 3,
+      "simulated": true,
+      "baseKey": "products/midnight-cosmos-mug/v1"
+     }
+    },
+    {
+     "id": "mockup-generator",
+     "status": "completed",
+     "startedAt": "2026-07-18T12:32:09.947Z",
+     "finishedAt": "2026-07-18T12:32:09.948Z",
+     "durationMs": 0,
+     "attempts": 1,
+     "logs": [
+      "[2026-07-18T12:32:09.948Z] Planned 4 mockup scenes: kitchen-table, office-desk, gift-box, hands-holding"
+     ],
+     "error": null,
+     "result": {
+      "mockups": 4,
+      "scenes": [
+       "kitchen-table",
+       "office-desk",
+       "gift-box",
+       "hands-holding"
+      ]
+     }
+    },
+    {
+     "id": "seo-generator",
+     "status": "completed",
+     "startedAt": "2026-07-18T12:32:09.950Z",
+     "finishedAt": "2026-07-18T12:32:09.952Z",
+     "durationMs": 1,
+     "attempts": 1,
+     "logs": [
+      "[2026-07-18T12:32:09.952Z] SEO: title 139 chars, 13 tags, score 72/100"
+     ],
+     "error": null,
+     "result": {
+      "score": 72,
+      "tags": 13,
+      "titleLength": 139
+     }
+    },
+    {
+     "id": "quality-assurance",
+     "status": "completed",
+     "startedAt": "2026-07-18T12:32:09.954Z",
+     "finishedAt": "2026-07-18T12:32:09.956Z",
+     "durationMs": 1,
+     "attempts": 1,
+     "logs": [
+      "[2026-07-18T12:32:09.956Z] QA PASSED — 9/9 checks ok"
+     ],
+     "error": null,
+     "result": {
+      "passed": true,
+      "checks": 9,
+      "failed": []
+     }
+    },
+    {
+     "id": "validation",
+     "status": "paused",
+     "startedAt": "2026-07-18T12:32:09.957Z",
+     "finishedAt": "2026-07-18T12:32:09.959Z",
+     "durationMs": 1,
+     "attempts": 1,
+     "logs": [
+      "[2026-07-18T12:32:09.959Z] Fiche status: Draft"
+     ],
+     "error": null,
+     "result": {
+      "fiche_status": "Draft",
+      "approved": false
+     }
+    },
+    {
+     "id": "publishing",
+     "status": "pending",
+     "startedAt": null,
+     "finishedAt": null,
+     "durationMs": null,
+     "attempts": 0,
+     "logs": [],
+     "error": null,
+     "result": null
+    }
+   ]
+  },
+  {
+   "id": "wf_sage-ceramic-mug_1",
+   "productId": "prod_sage-ceramic-mug",
+   "slug": "sage-ceramic-mug",
+   "pipeline": [
+    "trend-discovery",
+    "market-analysis",
+    "opportunity-scoring",
+    "product-planner",
+    "product-generator",
+    "image-generator",
+    "mockup-generator",
+    "seo-generator",
+    "quality-assurance",
+    "validation",
+    "publishing"
+   ],
+   "dryRun": true,
+   "status": "completed",
+   "createdAt": "2026-07-18T12:32:09.964Z",
+   "updatedAt": "2026-07-18T12:32:09.993Z",
+   "pausedReason": null,
+   "steps": [
+    {
+     "id": "trend-discovery",
+     "status": "completed",
+     "startedAt": "2026-07-18T12:32:09.967Z",
+     "finishedAt": "2026-07-18T12:32:09.968Z",
+     "durationMs": 0,
+     "attempts": 1,
+     "logs": [
+      "[2026-07-18T12:32:09.968Z] Derived 10 keywords for \"Sage Green Ceramic Coffee Mug — Minimalist Handmade Style Cup, 11oz & 15oz\" (season: summer)"
+     ],
+     "error": null,
+     "result": {
+      "keywords": 10,
+      "topKeyword": "ceramic mug",
+      "season": "summer"
+     }
+    },
+    {
+     "id": "market-analysis",
+     "status": "completed",
+     "startedAt": "2026-07-18T12:32:09.969Z",
+     "finishedAt": "2026-07-18T12:32:09.970Z",
+     "durationMs": 0,
+     "attempts": 1,
+     "logs": [
+      "[2026-07-18T12:32:09.970Z] Market: demand 76, competition 32, median price 21.88€"
+     ],
+     "error": null,
+     "result": {
+      "demand": 76,
+      "competition": 32,
+      "priceMedian": 21.88
+     }
+    },
+    {
+     "id": "opportunity-scoring",
+     "status": "completed",
+     "startedAt": "2026-07-18T12:32:09.971Z",
+     "finishedAt": "2026-07-18T12:32:09.972Z",
+     "durationMs": 0,
+     "attempts": 1,
+     "logs": [
+      "[2026-07-18T12:32:09.972Z] Opportunity score 72/100"
+     ],
+     "error": null,
+     "result": {
+      "total": 72,
+      "seo": 68,
+      "competition": 68,
+      "potential": 76,
+      "difficulty": 32,
+      "profitability": 76
+     }
+    },
+    {
+     "id": "product-planner",
+     "status": "completed",
+     "startedAt": "2026-07-18T12:32:09.973Z",
+     "finishedAt": "2026-07-18T12:32:09.974Z",
+     "durationMs": 0,
+     "attempts": 1,
+     "logs": [
+      "[2026-07-18T12:32:09.974Z] Plan: mug, priority high, 1 variant group(s)"
+     ],
+     "error": null,
+     "result": {
+      "priority": "high",
+      "productType": "mug",
+      "collection": "summer-mugs"
+     }
+    },
+    {
+     "id": "product-generator",
+     "status": "completed",
+     "startedAt": "2026-07-18T12:32:09.976Z",
+     "finishedAt": "2026-07-18T12:32:09.977Z",
+     "durationMs": 0,
+     "attempts": 1,
+     "logs": [
+      "[2026-07-18T12:32:09.977Z] Prompt v1 built (256 chars)"
+     ],
+     "error": null,
+     "result": {
+      "version": 1,
+      "concept": "Sage Green Ceramic Coffee Mug — Minimalist Handmade Style Cup, 11oz & 15oz — mug design for the \"summer-mugs\" collection, aimed at the \"ceramic mug\" niche."
+     }
+    },
+    {
+     "id": "image-generator",
+     "status": "completed",
+     "startedAt": "2026-07-18T12:32:09.978Z",
+     "finishedAt": "2026-07-18T12:32:09.979Z",
+     "durationMs": 0,
+     "attempts": 1,
+     "logs": [
+      "[2026-07-18T12:32:09.979Z] Planned 3 assets under products/sage-ceramic-mug/v1/ (simulated — image-generation MCP not invoked from this run)"
+     ],
+     "error": null,
+     "result": {
+      "assets": 3,
+      "simulated": true,
+      "baseKey": "products/sage-ceramic-mug/v1"
+     }
+    },
+    {
+     "id": "mockup-generator",
+     "status": "completed",
+     "startedAt": "2026-07-18T12:32:09.980Z",
+     "finishedAt": "2026-07-18T12:32:09.981Z",
+     "durationMs": 0,
+     "attempts": 1,
+     "logs": [
+      "[2026-07-18T12:32:09.981Z] Planned 4 mockup scenes: kitchen-table, office-desk, gift-box, hands-holding"
+     ],
+     "error": null,
+     "result": {
+      "mockups": 4,
+      "scenes": [
+       "kitchen-table",
+       "office-desk",
+       "gift-box",
+       "hands-holding"
+      ]
+     }
+    },
+    {
+     "id": "seo-generator",
+     "status": "completed",
+     "startedAt": "2026-07-18T12:32:09.982Z",
+     "finishedAt": "2026-07-18T12:32:09.983Z",
+     "durationMs": 0,
+     "attempts": 1,
+     "logs": [
+      "[2026-07-18T12:32:09.983Z] SEO: title 128 chars, 13 tags, score 72/100"
+     ],
+     "error": null,
+     "result": {
+      "score": 72,
+      "tags": 13,
+      "titleLength": 128
+     }
+    },
+    {
+     "id": "quality-assurance",
+     "status": "completed",
+     "startedAt": "2026-07-18T12:32:09.984Z",
+     "finishedAt": "2026-07-18T12:32:09.986Z",
+     "durationMs": 1,
+     "attempts": 1,
+     "logs": [
+      "[2026-07-18T12:32:09.986Z] QA PASSED — 9/9 checks ok"
+     ],
+     "error": null,
+     "result": {
+      "passed": true,
+      "checks": 9,
+      "failed": []
+     }
+    },
+    {
+     "id": "validation",
+     "status": "completed",
+     "startedAt": "2026-07-18T12:32:09.987Z",
+     "finishedAt": "2026-07-18T12:32:09.989Z",
+     "durationMs": 1,
+     "attempts": 1,
+     "logs": [
+      "[2026-07-18T12:32:09.989Z] Fiche status: Approved"
+     ],
+     "error": null,
+     "result": {
+      "fiche_status": "Approved",
+      "approved": true
+     }
+    },
+    {
+     "id": "publishing",
+     "status": "completed",
+     "startedAt": "2026-07-18T12:32:09.990Z",
+     "finishedAt": "2026-07-18T12:32:09.991Z",
+     "durationMs": 0,
+     "attempts": 1,
+     "logs": [
+      "[2026-07-18T12:32:09.991Z] Dry-run: publication simulée — aurait créé le produit Printify puis le listing Etsy (draft) via les MCP."
+     ],
+     "error": null,
+     "result": {
+      "published": false,
+      "simulated": true,
+      "note": "dry-run — aucun appel Printify/Etsy"
+     }
+    }
+   ]
+  }
+ ],
+ "events": [
+  {
+   "at": "2026-07-18T12:32:10.171Z",
+   "type": "workflow.paused",
+   "workflowId": "wf_golden-ratio-poster_1",
+   "productId": "prod_golden-ratio-poster",
+   "step": "validation",
+   "data": {
+    "reason": "En attente de validation humaine (fiche Products/Wall-Art/Listings/golden-ratio-poster.md, statut OnHold)"
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.163Z",
+   "type": "step.started",
+   "workflowId": "wf_golden-ratio-poster_1",
+   "productId": "prod_golden-ratio-poster",
+   "step": "validation",
+   "data": {
+    "attempt": 1,
+    "dryRun": true
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.162Z",
+   "type": "step.completed",
+   "workflowId": "wf_golden-ratio-poster_1",
+   "productId": "prod_golden-ratio-poster",
+   "step": "quality-assurance",
+   "data": {
+    "durationMs": 4,
+    "passed": true,
+    "checks": 9,
+    "failed": []
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.157Z",
+   "type": "step.started",
+   "workflowId": "wf_golden-ratio-poster_1",
+   "productId": "prod_golden-ratio-poster",
+   "step": "quality-assurance",
+   "data": {
+    "attempt": 1,
+    "dryRun": true
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.156Z",
+   "type": "step.completed",
+   "workflowId": "wf_golden-ratio-poster_1",
+   "productId": "prod_golden-ratio-poster",
+   "step": "seo-generator",
+   "data": {
+    "durationMs": 0,
+    "score": 71,
+    "tags": 13,
+    "titleLength": 136
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.154Z",
+   "type": "step.started",
+   "workflowId": "wf_golden-ratio-poster_1",
+   "productId": "prod_golden-ratio-poster",
+   "step": "seo-generator",
+   "data": {
+    "attempt": 1,
+    "dryRun": true
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.153Z",
+   "type": "step.completed",
+   "workflowId": "wf_golden-ratio-poster_1",
+   "productId": "prod_golden-ratio-poster",
+   "step": "mockup-generator",
+   "data": {
+    "durationMs": 0,
+    "mockups": 4,
+    "scenes": [
+     "living-room",
+     "bedroom",
+     "frame-closeup",
+     "gallery-wall"
+    ]
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.151Z",
+   "type": "step.started",
+   "workflowId": "wf_golden-ratio-poster_1",
+   "productId": "prod_golden-ratio-poster",
+   "step": "mockup-generator",
+   "data": {
+    "attempt": 1,
+    "dryRun": true
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.150Z",
+   "type": "step.completed",
+   "workflowId": "wf_golden-ratio-poster_1",
+   "productId": "prod_golden-ratio-poster",
+   "step": "image-generator",
+   "data": {
+    "durationMs": 0,
+    "assets": 3,
+    "simulated": true,
+    "baseKey": "products/golden-ratio-poster/v1"
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.148Z",
+   "type": "step.started",
+   "workflowId": "wf_golden-ratio-poster_1",
+   "productId": "prod_golden-ratio-poster",
+   "step": "image-generator",
+   "data": {
+    "attempt": 1,
+    "dryRun": true
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.147Z",
+   "type": "step.completed",
+   "workflowId": "wf_golden-ratio-poster_1",
+   "productId": "prod_golden-ratio-poster",
+   "step": "product-generator",
+   "data": {
+    "durationMs": 1,
+    "version": 1,
+    "concept": "Golden Ratio Sacred Geometry Poster — Nautilus Spiral Art Print, Fibonacci — art print design for the \"summer-wall-art\" collection, aimed at the \"golden art print\" niche."
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.146Z",
+   "type": "step.started",
+   "workflowId": "wf_golden-ratio-poster_1",
+   "productId": "prod_golden-ratio-poster",
+   "step": "product-generator",
+   "data": {
+    "attempt": 1,
+    "dryRun": true
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.145Z",
+   "type": "step.completed",
+   "workflowId": "wf_golden-ratio-poster_1",
+   "productId": "prod_golden-ratio-poster",
+   "step": "product-planner",
+   "data": {
+    "durationMs": 0,
+    "priority": "high",
+    "productType": "art print",
+    "collection": "summer-wall-art"
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.143Z",
+   "type": "step.started",
+   "workflowId": "wf_golden-ratio-poster_1",
+   "productId": "prod_golden-ratio-poster",
+   "step": "product-planner",
+   "data": {
+    "attempt": 1,
+    "dryRun": true
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.143Z",
+   "type": "step.completed",
+   "workflowId": "wf_golden-ratio-poster_1",
+   "productId": "prod_golden-ratio-poster",
+   "step": "opportunity-scoring",
+   "data": {
+    "durationMs": 0,
+    "total": 73,
+    "seo": 70,
+    "competition": 47,
+    "potential": 84,
+    "difficulty": 42,
+    "profitability": 84
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.141Z",
+   "type": "step.started",
+   "workflowId": "wf_golden-ratio-poster_1",
+   "productId": "prod_golden-ratio-poster",
+   "step": "opportunity-scoring",
+   "data": {
+    "attempt": 1,
+    "dryRun": true
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.141Z",
+   "type": "step.completed",
+   "workflowId": "wf_golden-ratio-poster_1",
+   "productId": "prod_golden-ratio-poster",
+   "step": "market-analysis",
+   "data": {
+    "durationMs": 0,
+    "demand": 84,
+    "competition": 53,
+    "priceMedian": 39.08
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.140Z",
+   "type": "step.started",
+   "workflowId": "wf_golden-ratio-poster_1",
+   "productId": "prod_golden-ratio-poster",
+   "step": "market-analysis",
+   "data": {
+    "attempt": 1,
+    "dryRun": true
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.139Z",
+   "type": "step.completed",
+   "workflowId": "wf_golden-ratio-poster_1",
+   "productId": "prod_golden-ratio-poster",
+   "step": "trend-discovery",
+   "data": {
+    "durationMs": 0,
+    "keywords": 10,
+    "topKeyword": "golden art print",
+    "season": "summer"
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.137Z",
+   "type": "step.started",
+   "workflowId": "wf_golden-ratio-poster_1",
+   "productId": "prod_golden-ratio-poster",
+   "step": "trend-discovery",
+   "data": {
+    "attempt": 1,
+    "dryRun": true
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.136Z",
+   "type": "workflow.started",
+   "workflowId": "wf_golden-ratio-poster_1",
+   "productId": "prod_golden-ratio-poster",
+   "data": {
+    "dryRun": true,
+    "pipeline": [
+     "trend-discovery",
+     "market-analysis",
+     "opportunity-scoring",
+     "product-planner",
+     "product-generator",
+     "image-generator",
+     "mockup-generator",
+     "seo-generator",
+     "quality-assurance",
+     "validation",
+     "publishing"
+    ]
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.130Z",
+   "type": "workflow.completed",
+   "workflowId": "wf_abstract-horizon-print_1",
+   "productId": "prod_abstract-horizon-print",
+   "data": {
+    "dryRun": true
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.126Z",
+   "type": "step.completed",
+   "workflowId": "wf_abstract-horizon-print_1",
+   "productId": "prod_abstract-horizon-print",
+   "step": "publishing",
+   "data": {
+    "durationMs": 0,
+    "published": false,
+    "simulated": true,
+    "note": "dry-run — aucun appel Printify/Etsy"
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.125Z",
+   "type": "step.started",
+   "workflowId": "wf_abstract-horizon-print_1",
+   "productId": "prod_abstract-horizon-print",
+   "step": "publishing",
+   "data": {
+    "attempt": 1,
+    "dryRun": true
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.124Z",
+   "type": "step.completed",
+   "workflowId": "wf_abstract-horizon-print_1",
+   "productId": "prod_abstract-horizon-print",
+   "step": "validation",
+   "data": {
+    "durationMs": 0,
+    "fiche_status": "Published",
+    "approved": true
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.123Z",
+   "type": "step.started",
+   "workflowId": "wf_abstract-horizon-print_1",
+   "productId": "prod_abstract-horizon-print",
+   "step": "validation",
+   "data": {
+    "attempt": 1,
+    "dryRun": true
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.122Z",
+   "type": "step.completed",
+   "workflowId": "wf_abstract-horizon-print_1",
+   "productId": "prod_abstract-horizon-print",
+   "step": "quality-assurance",
+   "data": {
+    "durationMs": 1,
+    "passed": true,
+    "checks": 9,
+    "failed": []
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.119Z",
+   "type": "step.started",
+   "workflowId": "wf_abstract-horizon-print_1",
+   "productId": "prod_abstract-horizon-print",
+   "step": "quality-assurance",
+   "data": {
+    "attempt": 1,
+    "dryRun": true
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.118Z",
+   "type": "step.completed",
+   "workflowId": "wf_abstract-horizon-print_1",
+   "productId": "prod_abstract-horizon-print",
+   "step": "seo-generator",
+   "data": {
+    "durationMs": 0,
+    "score": 71,
+    "tags": 13,
+    "titleLength": 131
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.116Z",
+   "type": "step.started",
+   "workflowId": "wf_abstract-horizon-print_1",
+   "productId": "prod_abstract-horizon-print",
+   "step": "seo-generator",
+   "data": {
+    "attempt": 1,
+    "dryRun": true
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.115Z",
+   "type": "step.completed",
+   "workflowId": "wf_abstract-horizon-print_1",
+   "productId": "prod_abstract-horizon-print",
+   "step": "mockup-generator",
+   "data": {
+    "durationMs": 0,
+    "mockups": 4,
+    "scenes": [
+     "living-room",
+     "bedroom",
+     "frame-closeup",
+     "gallery-wall"
+    ]
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.113Z",
+   "type": "step.started",
+   "workflowId": "wf_abstract-horizon-print_1",
+   "productId": "prod_abstract-horizon-print",
+   "step": "mockup-generator",
+   "data": {
+    "attempt": 1,
+    "dryRun": true
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.112Z",
+   "type": "step.completed",
+   "workflowId": "wf_abstract-horizon-print_1",
+   "productId": "prod_abstract-horizon-print",
+   "step": "image-generator",
+   "data": {
+    "durationMs": 0,
+    "assets": 3,
+    "simulated": true,
+    "baseKey": "products/abstract-horizon-print/v1"
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.110Z",
+   "type": "step.started",
+   "workflowId": "wf_abstract-horizon-print_1",
+   "productId": "prod_abstract-horizon-print",
+   "step": "image-generator",
+   "data": {
+    "attempt": 1,
+    "dryRun": true
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.109Z",
+   "type": "step.completed",
+   "workflowId": "wf_abstract-horizon-print_1",
+   "productId": "prod_abstract-horizon-print",
+   "step": "product-generator",
+   "data": {
+    "durationMs": 0,
+    "version": 1,
+    "concept": "Abstract Horizon Fine Art Print — Modern Minimalist Wall Decor, Terracotta — art print design for the \"summer-wall-art\" collection, aimed at the \"abstract art print\" niche."
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.107Z",
+   "type": "step.started",
+   "workflowId": "wf_abstract-horizon-print_1",
+   "productId": "prod_abstract-horizon-print",
+   "step": "product-generator",
+   "data": {
+    "attempt": 1,
+    "dryRun": true
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.106Z",
+   "type": "step.completed",
+   "workflowId": "wf_abstract-horizon-print_1",
+   "productId": "prod_abstract-horizon-print",
+   "step": "product-planner",
+   "data": {
+    "durationMs": 0,
+    "priority": "high",
+    "productType": "art print",
+    "collection": "summer-wall-art"
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.105Z",
+   "type": "step.started",
+   "workflowId": "wf_abstract-horizon-print_1",
+   "productId": "prod_abstract-horizon-print",
+   "step": "product-planner",
+   "data": {
+    "attempt": 1,
+    "dryRun": true
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.104Z",
+   "type": "step.completed",
+   "workflowId": "wf_abstract-horizon-print_1",
+   "productId": "prod_abstract-horizon-print",
+   "step": "opportunity-scoring",
+   "data": {
+    "durationMs": 0,
+    "total": 77,
+    "seo": 63,
+    "competition": 70,
+    "potential": 85,
+    "difficulty": 34,
+    "profitability": 85
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.103Z",
+   "type": "step.started",
+   "workflowId": "wf_abstract-horizon-print_1",
+   "productId": "prod_abstract-horizon-print",
+   "step": "opportunity-scoring",
+   "data": {
+    "attempt": 1,
+    "dryRun": true
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.103Z",
+   "type": "step.completed",
+   "workflowId": "wf_abstract-horizon-print_1",
+   "productId": "prod_abstract-horizon-print",
+   "step": "market-analysis",
+   "data": {
+    "durationMs": 0,
+    "demand": 85,
+    "competition": 30,
+    "priceMedian": 39.45
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.101Z",
+   "type": "step.started",
+   "workflowId": "wf_abstract-horizon-print_1",
+   "productId": "prod_abstract-horizon-print",
+   "step": "market-analysis",
+   "data": {
+    "attempt": 1,
+    "dryRun": true
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.101Z",
+   "type": "step.completed",
+   "workflowId": "wf_abstract-horizon-print_1",
+   "productId": "prod_abstract-horizon-print",
+   "step": "trend-discovery",
+   "data": {
+    "durationMs": 1,
+    "keywords": 10,
+    "topKeyword": "abstract art print",
+    "season": "summer"
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.099Z",
+   "type": "step.started",
+   "workflowId": "wf_abstract-horizon-print_1",
+   "productId": "prod_abstract-horizon-print",
+   "step": "trend-discovery",
+   "data": {
+    "attempt": 1,
+    "dryRun": true
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.097Z",
+   "type": "workflow.started",
+   "workflowId": "wf_abstract-horizon-print_1",
+   "productId": "prod_abstract-horizon-print",
+   "data": {
+    "dryRun": true,
+    "pipeline": [
+     "trend-discovery",
+     "market-analysis",
+     "opportunity-scoring",
+     "product-planner",
+     "product-generator",
+     "image-generator",
+     "mockup-generator",
+     "seo-generator",
+     "quality-assurance",
+     "validation",
+     "publishing"
+    ]
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.090Z",
+   "type": "workflow.completed",
+   "workflowId": "wf_highland-wool-pullover_1",
+   "productId": "prod_highland-wool-pullover",
+   "data": {
+    "dryRun": true
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.082Z",
+   "type": "step.completed",
+   "workflowId": "wf_highland-wool-pullover_1",
+   "productId": "prod_highland-wool-pullover",
+   "step": "publishing",
+   "data": {
+    "durationMs": 0,
+    "published": false,
+    "blockedReason": "Validation humaine absente ou refusée — publication interdite."
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.080Z",
+   "type": "step.started",
+   "workflowId": "wf_highland-wool-pullover_1",
+   "productId": "prod_highland-wool-pullover",
+   "step": "publishing",
+   "data": {
+    "attempt": 1,
+    "dryRun": true
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.079Z",
+   "type": "step.completed",
+   "workflowId": "wf_highland-wool-pullover_1",
+   "productId": "prod_highland-wool-pullover",
+   "step": "validation",
+   "data": {
+    "durationMs": 0,
+    "fiche_status": "Rejected",
+    "approved": false
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.076Z",
+   "type": "step.started",
+   "workflowId": "wf_highland-wool-pullover_1",
+   "productId": "prod_highland-wool-pullover",
+   "step": "validation",
+   "data": {
+    "attempt": 1,
+    "dryRun": true
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.075Z",
+   "type": "step.completed",
+   "workflowId": "wf_highland-wool-pullover_1",
+   "productId": "prod_highland-wool-pullover",
+   "step": "quality-assurance",
+   "data": {
+    "durationMs": 2,
+    "passed": true,
+    "checks": 9,
+    "failed": []
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.071Z",
+   "type": "step.started",
+   "workflowId": "wf_highland-wool-pullover_1",
+   "productId": "prod_highland-wool-pullover",
+   "step": "quality-assurance",
+   "data": {
+    "attempt": 1,
+    "dryRun": true
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.070Z",
+   "type": "step.completed",
+   "workflowId": "wf_highland-wool-pullover_1",
+   "productId": "prod_highland-wool-pullover",
+   "step": "seo-generator",
+   "data": {
+    "durationMs": 0,
+    "score": 74,
+    "tags": 13,
+    "titleLength": 132
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.068Z",
+   "type": "step.started",
+   "workflowId": "wf_highland-wool-pullover_1",
+   "productId": "prod_highland-wool-pullover",
+   "step": "seo-generator",
+   "data": {
+    "attempt": 1,
+    "dryRun": true
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.067Z",
+   "type": "step.completed",
+   "workflowId": "wf_highland-wool-pullover_1",
+   "productId": "prod_highland-wool-pullover",
+   "step": "mockup-generator",
+   "data": {
+    "durationMs": 0,
+    "mockups": 4,
+    "scenes": [
+     "flat-lay",
+     "model-front",
+     "model-back",
+     "hanger"
+    ]
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.065Z",
+   "type": "step.started",
+   "workflowId": "wf_highland-wool-pullover_1",
+   "productId": "prod_highland-wool-pullover",
+   "step": "mockup-generator",
+   "data": {
+    "attempt": 1,
+    "dryRun": true
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.064Z",
+   "type": "step.completed",
+   "workflowId": "wf_highland-wool-pullover_1",
+   "productId": "prod_highland-wool-pullover",
+   "step": "image-generator",
+   "data": {
+    "durationMs": 0,
+    "assets": 3,
+    "simulated": true,
+    "baseKey": "products/highland-wool-pullover/v1"
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.062Z",
+   "type": "step.started",
+   "workflowId": "wf_highland-wool-pullover_1",
+   "productId": "prod_highland-wool-pullover",
+   "step": "image-generator",
+   "data": {
+    "attempt": 1,
+    "dryRun": true
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.060Z",
+   "type": "step.completed",
+   "workflowId": "wf_highland-wool-pullover_1",
+   "productId": "prod_highland-wool-pullover",
+   "step": "product-generator",
+   "data": {
+    "durationMs": 0,
+    "version": 1,
+    "concept": "Highland Wool Pullover — Rustic Fair Isle Knit Sweater, Nordic Style — t-shirt design for the \"summer-shirts\" collection, aimed at the \"wool t-shirt\" niche."
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.058Z",
+   "type": "step.started",
+   "workflowId": "wf_highland-wool-pullover_1",
+   "productId": "prod_highland-wool-pullover",
+   "step": "product-generator",
+   "data": {
+    "attempt": 1,
+    "dryRun": true
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.057Z",
+   "type": "step.completed",
+   "workflowId": "wf_highland-wool-pullover_1",
+   "productId": "prod_highland-wool-pullover",
+   "step": "product-planner",
+   "data": {
+    "durationMs": 0,
+    "priority": "medium",
+    "productType": "t-shirt",
+    "collection": "summer-shirts"
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.055Z",
+   "type": "step.started",
+   "workflowId": "wf_highland-wool-pullover_1",
+   "productId": "prod_highland-wool-pullover",
+   "step": "product-planner",
+   "data": {
+    "attempt": 1,
+    "dryRun": true
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.054Z",
+   "type": "step.completed",
+   "workflowId": "wf_highland-wool-pullover_1",
+   "productId": "prod_highland-wool-pullover",
+   "step": "opportunity-scoring",
+   "data": {
+    "durationMs": 0,
+    "total": 69,
+    "seo": 67,
+    "competition": 18,
+    "potential": 89,
+    "difficulty": 58,
+    "profitability": 89
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.052Z",
+   "type": "step.started",
+   "workflowId": "wf_highland-wool-pullover_1",
+   "productId": "prod_highland-wool-pullover",
+   "step": "opportunity-scoring",
+   "data": {
+    "attempt": 1,
+    "dryRun": true
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.051Z",
+   "type": "step.completed",
+   "workflowId": "wf_highland-wool-pullover_1",
+   "productId": "prod_highland-wool-pullover",
+   "step": "market-analysis",
+   "data": {
+    "durationMs": 0,
+    "demand": 89,
+    "competition": 82,
+    "priceMedian": 33.13
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.048Z",
+   "type": "step.started",
+   "workflowId": "wf_highland-wool-pullover_1",
+   "productId": "prod_highland-wool-pullover",
+   "step": "market-analysis",
+   "data": {
+    "attempt": 1,
+    "dryRun": true
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.047Z",
+   "type": "step.completed",
+   "workflowId": "wf_highland-wool-pullover_1",
+   "productId": "prod_highland-wool-pullover",
+   "step": "trend-discovery",
+   "data": {
+    "durationMs": 0,
+    "keywords": 10,
+    "topKeyword": "wool t-shirt",
+    "season": "summer"
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.046Z",
+   "type": "step.started",
+   "workflowId": "wf_highland-wool-pullover_1",
+   "productId": "prod_highland-wool-pullover",
+   "step": "trend-discovery",
+   "data": {
+    "attempt": 1,
+    "dryRun": true
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.044Z",
+   "type": "workflow.started",
+   "workflowId": "wf_highland-wool-pullover_1",
+   "productId": "prod_highland-wool-pullover",
+   "data": {
+    "dryRun": true,
+    "pipeline": [
+     "trend-discovery",
+     "market-analysis",
+     "opportunity-scoring",
+     "product-planner",
+     "product-generator",
+     "image-generator",
+     "mockup-generator",
+     "seo-generator",
+     "quality-assurance",
+     "validation",
+     "publishing"
+    ]
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.038Z",
+   "type": "workflow.completed",
+   "workflowId": "wf_cozy-knit-sweater_1",
+   "productId": "prod_cozy-knit-sweater",
+   "data": {
+    "dryRun": true
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.034Z",
+   "type": "step.completed",
+   "workflowId": "wf_cozy-knit-sweater_1",
+   "productId": "prod_cozy-knit-sweater",
+   "step": "publishing",
+   "data": {
+    "durationMs": 0,
+    "published": false,
+    "simulated": true,
+    "note": "dry-run — aucun appel Printify/Etsy"
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.033Z",
+   "type": "step.started",
+   "workflowId": "wf_cozy-knit-sweater_1",
+   "productId": "prod_cozy-knit-sweater",
+   "step": "publishing",
+   "data": {
+    "attempt": 1,
+    "dryRun": true
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.032Z",
+   "type": "step.completed",
+   "workflowId": "wf_cozy-knit-sweater_1",
+   "productId": "prod_cozy-knit-sweater",
+   "step": "validation",
+   "data": {
+    "durationMs": 0,
+    "fiche_status": "PublishRequested",
+    "approved": true
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.030Z",
+   "type": "step.started",
+   "workflowId": "wf_cozy-knit-sweater_1",
+   "productId": "prod_cozy-knit-sweater",
+   "step": "validation",
+   "data": {
+    "attempt": 1,
+    "dryRun": true
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.029Z",
+   "type": "step.completed",
+   "workflowId": "wf_cozy-knit-sweater_1",
+   "productId": "prod_cozy-knit-sweater",
+   "step": "quality-assurance",
+   "data": {
+    "durationMs": 1,
+    "passed": true,
+    "checks": 9,
+    "failed": []
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.026Z",
+   "type": "step.started",
+   "workflowId": "wf_cozy-knit-sweater_1",
+   "productId": "prod_cozy-knit-sweater",
+   "step": "quality-assurance",
+   "data": {
+    "attempt": 1,
+    "dryRun": true
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.025Z",
+   "type": "step.completed",
+   "workflowId": "wf_cozy-knit-sweater_1",
+   "productId": "prod_cozy-knit-sweater",
+   "step": "seo-generator",
+   "data": {
+    "durationMs": 0,
+    "score": 74,
+    "tags": 13,
+    "titleLength": 137
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.022Z",
+   "type": "step.started",
+   "workflowId": "wf_cozy-knit-sweater_1",
+   "productId": "prod_cozy-knit-sweater",
+   "step": "seo-generator",
+   "data": {
+    "attempt": 1,
+    "dryRun": true
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.022Z",
+   "type": "step.completed",
+   "workflowId": "wf_cozy-knit-sweater_1",
+   "productId": "prod_cozy-knit-sweater",
+   "step": "mockup-generator",
+   "data": {
+    "durationMs": 0,
+    "mockups": 4,
+    "scenes": [
+     "flat-lay",
+     "model-front",
+     "model-back",
+     "hanger"
+    ]
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.020Z",
+   "type": "step.started",
+   "workflowId": "wf_cozy-knit-sweater_1",
+   "productId": "prod_cozy-knit-sweater",
+   "step": "mockup-generator",
+   "data": {
+    "attempt": 1,
+    "dryRun": true
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.020Z",
+   "type": "step.completed",
+   "workflowId": "wf_cozy-knit-sweater_1",
+   "productId": "prod_cozy-knit-sweater",
+   "step": "image-generator",
+   "data": {
+    "durationMs": 0,
+    "assets": 3,
+    "simulated": true,
+    "baseKey": "products/cozy-knit-sweater/v1"
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.018Z",
+   "type": "step.started",
+   "workflowId": "wf_cozy-knit-sweater_1",
+   "productId": "prod_cozy-knit-sweater",
+   "step": "image-generator",
+   "data": {
+    "attempt": 1,
+    "dryRun": true
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.017Z",
+   "type": "step.completed",
+   "workflowId": "wf_cozy-knit-sweater_1",
+   "productId": "prod_cozy-knit-sweater",
+   "step": "product-generator",
+   "data": {
+    "durationMs": 0,
+    "version": 1,
+    "concept": "Cozy Oversized Knit Sweater — Handmade-Style Wool Blend Pullover, Unisex — t-shirt design for the \"summer-shirts\" collection, aimed at the \"unisex t-shirt\" niche."
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.015Z",
+   "type": "step.started",
+   "workflowId": "wf_cozy-knit-sweater_1",
+   "productId": "prod_cozy-knit-sweater",
+   "step": "product-generator",
+   "data": {
+    "attempt": 1,
+    "dryRun": true
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.013Z",
+   "type": "step.completed",
+   "workflowId": "wf_cozy-knit-sweater_1",
+   "productId": "prod_cozy-knit-sweater",
+   "step": "product-planner",
+   "data": {
+    "durationMs": 0,
+    "priority": "high",
+    "productType": "t-shirt",
+    "collection": "summer-shirts"
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.011Z",
+   "type": "step.started",
+   "workflowId": "wf_cozy-knit-sweater_1",
+   "productId": "prod_cozy-knit-sweater",
+   "step": "product-planner",
+   "data": {
+    "attempt": 1,
+    "dryRun": true
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.010Z",
+   "type": "step.completed",
+   "workflowId": "wf_cozy-knit-sweater_1",
+   "productId": "prod_cozy-knit-sweater",
+   "step": "opportunity-scoring",
+   "data": {
+    "durationMs": 0,
+    "total": 72,
+    "seo": 66,
+    "competition": 33,
+    "potential": 88,
+    "difficulty": 51,
+    "profitability": 88
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.008Z",
+   "type": "step.started",
+   "workflowId": "wf_cozy-knit-sweater_1",
+   "productId": "prod_cozy-knit-sweater",
+   "step": "opportunity-scoring",
+   "data": {
+    "attempt": 1,
+    "dryRun": true
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.007Z",
+   "type": "step.completed",
+   "workflowId": "wf_cozy-knit-sweater_1",
+   "productId": "prod_cozy-knit-sweater",
+   "step": "market-analysis",
+   "data": {
+    "durationMs": 0,
+    "demand": 88,
+    "competition": 67,
+    "priceMedian": 32.96
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.005Z",
+   "type": "step.started",
+   "workflowId": "wf_cozy-knit-sweater_1",
+   "productId": "prod_cozy-knit-sweater",
+   "step": "market-analysis",
+   "data": {
+    "attempt": 1,
+    "dryRun": true
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.005Z",
+   "type": "step.completed",
+   "workflowId": "wf_cozy-knit-sweater_1",
+   "productId": "prod_cozy-knit-sweater",
+   "step": "trend-discovery",
+   "data": {
+    "durationMs": 0,
+    "keywords": 10,
+    "topKeyword": "unisex t-shirt",
+    "season": "summer"
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.003Z",
+   "type": "step.started",
+   "workflowId": "wf_cozy-knit-sweater_1",
+   "productId": "prod_cozy-knit-sweater",
+   "step": "trend-discovery",
+   "data": {
+    "attempt": 1,
+    "dryRun": true
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:10.002Z",
+   "type": "workflow.started",
+   "workflowId": "wf_cozy-knit-sweater_1",
+   "productId": "prod_cozy-knit-sweater",
+   "data": {
+    "dryRun": true,
+    "pipeline": [
+     "trend-discovery",
+     "market-analysis",
+     "opportunity-scoring",
+     "product-planner",
+     "product-generator",
+     "image-generator",
+     "mockup-generator",
+     "seo-generator",
+     "quality-assurance",
+     "validation",
+     "publishing"
+    ]
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:09.996Z",
+   "type": "workflow.completed",
+   "workflowId": "wf_sage-ceramic-mug_1",
+   "productId": "prod_sage-ceramic-mug",
+   "data": {
+    "dryRun": true
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:09.993Z",
+   "type": "step.completed",
+   "workflowId": "wf_sage-ceramic-mug_1",
+   "productId": "prod_sage-ceramic-mug",
+   "step": "publishing",
+   "data": {
+    "durationMs": 0,
+    "published": false,
+    "simulated": true,
+    "note": "dry-run — aucun appel Printify/Etsy"
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:09.991Z",
+   "type": "step.started",
+   "workflowId": "wf_sage-ceramic-mug_1",
+   "productId": "prod_sage-ceramic-mug",
+   "step": "publishing",
+   "data": {
+    "attempt": 1,
+    "dryRun": true
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:09.990Z",
+   "type": "step.completed",
+   "workflowId": "wf_sage-ceramic-mug_1",
+   "productId": "prod_sage-ceramic-mug",
+   "step": "validation",
+   "data": {
+    "durationMs": 1,
+    "fiche_status": "Approved",
+    "approved": true
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:09.988Z",
+   "type": "step.started",
+   "workflowId": "wf_sage-ceramic-mug_1",
+   "productId": "prod_sage-ceramic-mug",
+   "step": "validation",
+   "data": {
+    "attempt": 1,
+    "dryRun": true
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:09.987Z",
+   "type": "step.completed",
+   "workflowId": "wf_sage-ceramic-mug_1",
+   "productId": "prod_sage-ceramic-mug",
+   "step": "quality-assurance",
+   "data": {
+    "durationMs": 1,
+    "passed": true,
+    "checks": 9,
+    "failed": []
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:09.984Z",
+   "type": "step.started",
+   "workflowId": "wf_sage-ceramic-mug_1",
+   "productId": "prod_sage-ceramic-mug",
+   "step": "quality-assurance",
+   "data": {
+    "attempt": 1,
+    "dryRun": true
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:09.984Z",
+   "type": "step.completed",
+   "workflowId": "wf_sage-ceramic-mug_1",
+   "productId": "prod_sage-ceramic-mug",
+   "step": "seo-generator",
+   "data": {
+    "durationMs": 0,
+    "score": 72,
+    "tags": 13,
+    "titleLength": 128
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:09.982Z",
+   "type": "step.started",
+   "workflowId": "wf_sage-ceramic-mug_1",
+   "productId": "prod_sage-ceramic-mug",
+   "step": "seo-generator",
+   "data": {
+    "attempt": 1,
+    "dryRun": true
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:09.981Z",
+   "type": "step.completed",
+   "workflowId": "wf_sage-ceramic-mug_1",
+   "productId": "prod_sage-ceramic-mug",
+   "step": "mockup-generator",
+   "data": {
+    "durationMs": 0,
+    "mockups": 4,
+    "scenes": [
+     "kitchen-table",
+     "office-desk",
+     "gift-box",
+     "hands-holding"
+    ]
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:09.980Z",
+   "type": "step.started",
+   "workflowId": "wf_sage-ceramic-mug_1",
+   "productId": "prod_sage-ceramic-mug",
+   "step": "mockup-generator",
+   "data": {
+    "attempt": 1,
+    "dryRun": true
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:09.979Z",
+   "type": "step.completed",
+   "workflowId": "wf_sage-ceramic-mug_1",
+   "productId": "prod_sage-ceramic-mug",
+   "step": "image-generator",
+   "data": {
+    "durationMs": 0,
+    "assets": 3,
+    "simulated": true,
+    "baseKey": "products/sage-ceramic-mug/v1"
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:09.978Z",
+   "type": "step.started",
+   "workflowId": "wf_sage-ceramic-mug_1",
+   "productId": "prod_sage-ceramic-mug",
+   "step": "image-generator",
+   "data": {
+    "attempt": 1,
+    "dryRun": true
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:09.977Z",
+   "type": "step.completed",
+   "workflowId": "wf_sage-ceramic-mug_1",
+   "productId": "prod_sage-ceramic-mug",
+   "step": "product-generator",
+   "data": {
+    "durationMs": 0,
+    "version": 1,
+    "concept": "Sage Green Ceramic Coffee Mug — Minimalist Handmade Style Cup, 11oz & 15oz — mug design for the \"summer-mugs\" collection, aimed at the \"ceramic mug\" niche."
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:09.976Z",
+   "type": "step.started",
+   "workflowId": "wf_sage-ceramic-mug_1",
+   "productId": "prod_sage-ceramic-mug",
+   "step": "product-generator",
+   "data": {
+    "attempt": 1,
+    "dryRun": true
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:09.975Z",
+   "type": "step.completed",
+   "workflowId": "wf_sage-ceramic-mug_1",
+   "productId": "prod_sage-ceramic-mug",
+   "step": "product-planner",
+   "data": {
+    "durationMs": 0,
+    "priority": "high",
+    "productType": "mug",
+    "collection": "summer-mugs"
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:09.974Z",
+   "type": "step.started",
+   "workflowId": "wf_sage-ceramic-mug_1",
+   "productId": "prod_sage-ceramic-mug",
+   "step": "product-planner",
+   "data": {
+    "attempt": 1,
+    "dryRun": true
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:09.973Z",
+   "type": "step.completed",
+   "workflowId": "wf_sage-ceramic-mug_1",
+   "productId": "prod_sage-ceramic-mug",
+   "step": "opportunity-scoring",
+   "data": {
+    "durationMs": 0,
+    "total": 72,
+    "seo": 68,
+    "competition": 68,
+    "potential": 76,
+    "difficulty": 32,
+    "profitability": 76
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:09.971Z",
+   "type": "step.started",
+   "workflowId": "wf_sage-ceramic-mug_1",
+   "productId": "prod_sage-ceramic-mug",
+   "step": "opportunity-scoring",
+   "data": {
+    "attempt": 1,
+    "dryRun": true
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:09.971Z",
+   "type": "step.completed",
+   "workflowId": "wf_sage-ceramic-mug_1",
+   "productId": "prod_sage-ceramic-mug",
+   "step": "market-analysis",
+   "data": {
+    "durationMs": 0,
+    "demand": 76,
+    "competition": 32,
+    "priceMedian": 21.88
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:09.969Z",
+   "type": "step.started",
+   "workflowId": "wf_sage-ceramic-mug_1",
+   "productId": "prod_sage-ceramic-mug",
+   "step": "market-analysis",
+   "data": {
+    "attempt": 1,
+    "dryRun": true
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:09.969Z",
+   "type": "step.completed",
+   "workflowId": "wf_sage-ceramic-mug_1",
+   "productId": "prod_sage-ceramic-mug",
+   "step": "trend-discovery",
+   "data": {
+    "durationMs": 0,
+    "keywords": 10,
+    "topKeyword": "ceramic mug",
+    "season": "summer"
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:09.967Z",
+   "type": "step.started",
+   "workflowId": "wf_sage-ceramic-mug_1",
+   "productId": "prod_sage-ceramic-mug",
+   "step": "trend-discovery",
+   "data": {
+    "attempt": 1,
+    "dryRun": true
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:09.965Z",
+   "type": "workflow.started",
+   "workflowId": "wf_sage-ceramic-mug_1",
+   "productId": "prod_sage-ceramic-mug",
+   "data": {
+    "dryRun": true,
+    "pipeline": [
+     "trend-discovery",
+     "market-analysis",
+     "opportunity-scoring",
+     "product-planner",
+     "product-generator",
+     "image-generator",
+     "mockup-generator",
+     "seo-generator",
+     "quality-assurance",
+     "validation",
+     "publishing"
+    ]
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:09.961Z",
+   "type": "workflow.paused",
+   "workflowId": "wf_midnight-cosmos-mug_1",
+   "productId": "prod_midnight-cosmos-mug",
+   "step": "validation",
+   "data": {
+    "reason": "En attente de validation humaine (fiche Products/Mugs/Listings/midnight-cosmos-mug.md, statut Draft)"
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:09.958Z",
+   "type": "step.started",
+   "workflowId": "wf_midnight-cosmos-mug_1",
+   "productId": "prod_midnight-cosmos-mug",
+   "step": "validation",
+   "data": {
+    "attempt": 1,
+    "dryRun": true
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:09.957Z",
+   "type": "step.completed",
+   "workflowId": "wf_midnight-cosmos-mug_1",
+   "productId": "prod_midnight-cosmos-mug",
+   "step": "quality-assurance",
+   "data": {
+    "durationMs": 1,
+    "passed": true,
+    "checks": 9,
+    "failed": []
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:09.954Z",
+   "type": "step.started",
+   "workflowId": "wf_midnight-cosmos-mug_1",
+   "productId": "prod_midnight-cosmos-mug",
+   "step": "quality-assurance",
+   "data": {
+    "attempt": 1,
+    "dryRun": true
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:09.954Z",
+   "type": "step.completed",
+   "workflowId": "wf_midnight-cosmos-mug_1",
+   "productId": "prod_midnight-cosmos-mug",
+   "step": "seo-generator",
+   "data": {
+    "durationMs": 1,
+    "score": 72,
+    "tags": 13,
+    "titleLength": 139
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:09.951Z",
+   "type": "step.started",
+   "workflowId": "wf_midnight-cosmos-mug_1",
+   "productId": "prod_midnight-cosmos-mug",
+   "step": "seo-generator",
+   "data": {
+    "attempt": 1,
+    "dryRun": true
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:09.950Z",
+   "type": "step.completed",
+   "workflowId": "wf_midnight-cosmos-mug_1",
+   "productId": "prod_midnight-cosmos-mug",
+   "step": "mockup-generator",
+   "data": {
+    "durationMs": 0,
+    "mockups": 4,
+    "scenes": [
+     "kitchen-table",
+     "office-desk",
+     "gift-box",
+     "hands-holding"
+    ]
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:09.948Z",
+   "type": "step.started",
+   "workflowId": "wf_midnight-cosmos-mug_1",
+   "productId": "prod_midnight-cosmos-mug",
+   "step": "mockup-generator",
+   "data": {
+    "attempt": 1,
+    "dryRun": true
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:09.947Z",
+   "type": "step.completed",
+   "workflowId": "wf_midnight-cosmos-mug_1",
+   "productId": "prod_midnight-cosmos-mug",
+   "step": "image-generator",
+   "data": {
+    "durationMs": 0,
+    "assets": 3,
+    "simulated": true,
+    "baseKey": "products/midnight-cosmos-mug/v1"
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:09.945Z",
+   "type": "step.started",
+   "workflowId": "wf_midnight-cosmos-mug_1",
+   "productId": "prod_midnight-cosmos-mug",
+   "step": "image-generator",
+   "data": {
+    "attempt": 1,
+    "dryRun": true
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:09.944Z",
+   "type": "step.completed",
+   "workflowId": "wf_midnight-cosmos-mug_1",
+   "productId": "prod_midnight-cosmos-mug",
+   "step": "product-generator",
+   "data": {
+    "durationMs": 0,
+    "version": 1,
+    "concept": "Midnight Cosmos Galaxy Mug — Celestial 11oz Ceramic Coffee Cup, Astronomy Gift — mug design for the \"summer-mugs\" collection, aimed at the \"midnight mug\" niche."
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:09.941Z",
+   "type": "step.started",
+   "workflowId": "wf_midnight-cosmos-mug_1",
+   "productId": "prod_midnight-cosmos-mug",
+   "step": "product-generator",
+   "data": {
+    "attempt": 1,
+    "dryRun": true
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:09.940Z",
+   "type": "step.completed",
+   "workflowId": "wf_midnight-cosmos-mug_1",
+   "productId": "prod_midnight-cosmos-mug",
+   "step": "product-planner",
+   "data": {
+    "durationMs": 1,
+    "priority": "medium",
+    "productType": "mug",
+    "collection": "summer-mugs"
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:09.938Z",
+   "type": "step.started",
+   "workflowId": "wf_midnight-cosmos-mug_1",
+   "productId": "prod_midnight-cosmos-mug",
+   "step": "product-planner",
+   "data": {
+    "attempt": 1,
+    "dryRun": true
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:09.937Z",
+   "type": "step.completed",
+   "workflowId": "wf_midnight-cosmos-mug_1",
+   "productId": "prod_midnight-cosmos-mug",
+   "step": "opportunity-scoring",
+   "data": {
+    "durationMs": 1,
+    "total": 68,
+    "seo": 63,
+    "competition": 31,
+    "potential": 84,
+    "difficulty": 53,
+    "profitability": 84
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:09.935Z",
+   "type": "step.started",
+   "workflowId": "wf_midnight-cosmos-mug_1",
+   "productId": "prod_midnight-cosmos-mug",
+   "step": "opportunity-scoring",
+   "data": {
+    "attempt": 1,
+    "dryRun": true
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:09.933Z",
+   "type": "step.completed",
+   "workflowId": "wf_midnight-cosmos-mug_1",
+   "productId": "prod_midnight-cosmos-mug",
+   "step": "market-analysis",
+   "data": {
+    "durationMs": 0,
+    "demand": 84,
+    "competition": 69,
+    "priceMedian": 22.92
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:09.932Z",
+   "type": "step.started",
+   "workflowId": "wf_midnight-cosmos-mug_1",
+   "productId": "prod_midnight-cosmos-mug",
+   "step": "market-analysis",
+   "data": {
+    "attempt": 1,
+    "dryRun": true
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:09.931Z",
+   "type": "step.completed",
+   "workflowId": "wf_midnight-cosmos-mug_1",
+   "productId": "prod_midnight-cosmos-mug",
+   "step": "trend-discovery",
+   "data": {
+    "durationMs": 1,
+    "keywords": 10,
+    "topKeyword": "midnight mug",
+    "season": "summer"
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:09.928Z",
+   "type": "step.started",
+   "workflowId": "wf_midnight-cosmos-mug_1",
+   "productId": "prod_midnight-cosmos-mug",
+   "step": "trend-discovery",
+   "data": {
+    "attempt": 1,
+    "dryRun": true
+   }
+  },
+  {
+   "at": "2026-07-18T12:32:09.911Z",
+   "type": "workflow.started",
+   "workflowId": "wf_midnight-cosmos-mug_1",
+   "productId": "prod_midnight-cosmos-mug",
+   "data": {
+    "dryRun": true,
+    "pipeline": [
+     "trend-discovery",
+     "market-analysis",
+     "opportunity-scoring",
+     "product-planner",
+     "product-generator",
+     "image-generator",
+     "mockup-generator",
+     "seo-generator",
+     "quality-assurance",
+     "validation",
+     "publishing"
+    ]
+   }
+  }
+ ],
+ "queue": {
+  "tasks": [
+   {
+    "id": "task_1784377929898_1",
+    "kind": "run-pipeline",
+    "payload": {
+     "slug": "midnight-cosmos-mug",
+     "category": "Mugs",
+     "title": "Midnight Cosmos Galaxy Mug — Celestial 11oz Ceramic Coffee Cup, Astronomy Gift",
+     "dryRun": true
+    },
+    "status": "completed",
+    "attempts": 1,
+    "maxAttempts": 3,
+    "createdAt": "2026-07-18T12:32:09.898Z",
+    "updatedAt": "2026-07-18T12:32:09.962Z",
+    "lastError": null
+   },
+   {
+    "id": "task_1784377929900_2",
+    "kind": "run-pipeline",
+    "payload": {
+     "slug": "sage-ceramic-mug",
+     "category": "Mugs",
+     "title": "Sage Green Ceramic Coffee Mug — Minimalist Handmade Style Cup, 11oz & 15oz",
+     "dryRun": true
+    },
+    "status": "completed",
+    "attempts": 1,
+    "maxAttempts": 3,
+    "createdAt": "2026-07-18T12:32:09.900Z",
+    "updatedAt": "2026-07-18T12:32:09.998Z",
+    "lastError": null
+   },
+   {
+    "id": "task_1784377929902_3",
+    "kind": "run-pipeline",
+    "payload": {
+     "slug": "cozy-knit-sweater",
+     "category": "Shirts",
+     "title": "Cozy Oversized Knit Sweater — Handmade-Style Wool Blend Pullover, Unisex",
+     "dryRun": true
+    },
+    "status": "completed",
+    "attempts": 1,
+    "maxAttempts": 3,
+    "createdAt": "2026-07-18T12:32:09.902Z",
+    "updatedAt": "2026-07-18T12:32:10.039Z",
+    "lastError": null
+   },
+   {
+    "id": "task_1784377929904_4",
+    "kind": "run-pipeline",
+    "payload": {
+     "slug": "highland-wool-pullover",
+     "category": "Shirts",
+     "title": "Highland Wool Pullover — Rustic Fair Isle Knit Sweater, Nordic Style",
+     "dryRun": true
+    },
+    "status": "completed",
+    "attempts": 1,
+    "maxAttempts": 3,
+    "createdAt": "2026-07-18T12:32:09.904Z",
+    "updatedAt": "2026-07-18T12:32:10.091Z",
+    "lastError": null
+   },
+   {
+    "id": "task_1784377929905_5",
+    "kind": "run-pipeline",
+    "payload": {
+     "slug": "abstract-horizon-print",
+     "category": "Wall-Art",
+     "title": "Abstract Horizon Fine Art Print — Modern Minimalist Wall Decor, Terracotta",
+     "dryRun": true
+    },
+    "status": "completed",
+    "attempts": 1,
+    "maxAttempts": 3,
+    "createdAt": "2026-07-18T12:32:09.905Z",
+    "updatedAt": "2026-07-18T12:32:10.131Z",
+    "lastError": null
+   },
+   {
+    "id": "task_1784377929906_6",
+    "kind": "run-pipeline",
+    "payload": {
+     "slug": "golden-ratio-poster",
+     "category": "Wall-Art",
+     "title": "Golden Ratio Sacred Geometry Poster — Nautilus Spiral Art Print, Fibonacci",
+     "dryRun": true
+    },
+    "status": "completed",
+    "attempts": 1,
+    "maxAttempts": 3,
+    "createdAt": "2026-07-18T12:32:09.906Z",
+    "updatedAt": "2026-07-18T12:32:10.172Z",
+    "lastError": null
+   }
+  ]
+ }
+}

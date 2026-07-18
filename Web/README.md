@@ -1,12 +1,30 @@
-# Web — Console de validation EtsyOS
+# Web — EtsyOS Control Center
 
-Console web (Next.js 15, App Router) où un humain **valide chaque produit généré
-par l'IA avant qu'il n'approche Etsy**. C'est le point de contrôle humain
-d'EtsyOS : rien ne se publie sans qu'une personne clique un vrai bouton.
+L'interface graphique officielle d'EtsyOS (Next.js 15, App Router). Elle affiche
+l'intégralité du fonctionnement interne du **Workflow Engine** (`Core/engine`) :
+chaque étape de la pipeline, chaque Product Object, chaque workflow, chaque
+événement, chaque asset planifié — et reste le point de contrôle humain où un
+produit est validé avant d'approcher Etsy. Rien ne se publie sans qu'une
+personne clique un vrai bouton **et** que la Quality Assurance ait passé.
 
-Déployée sur **Cloudflare Pages** (runtime Workers). Sœur de `Products/`, `MCP/`,
-`Agents/` — pas un dossier Obsidian numéroté (comme `Core/`, `Infrastructure/`,
-`Storage/`, `Scripts/`, elle n'a pas d'index numéroté).
+Déployée sur **Cloudflare Pages** (runtime Workers), déploiement automatique via
+`.github/workflows/deploy.yml` sur chaque push vers `main`. Sœur de `Products/`,
+`MCP/`, `Agents/`, `Core/` — pas un dossier Obsidian numéroté.
+
+## Deux sources de données, une seule règle : lecture seule sur le moteur
+
+- **`lib/data.ts` / `lib/listings.ts`** — les fiches produit (`Products/*/Listings/*.md`),
+  inchangé depuis la console de validation d'origine.
+- **`lib/state.ts` / `lib/engine-types.ts`** — l'état du Workflow Engine
+  (`Core/state/**` : Product Objects, workflows, événements, file d'attente),
+  lu à travers la même GitHub Contents API, avec le même cache de lecture ~30s.
+
+Le Control Center ne réimplémente jamais la logique du moteur — il l'observe.
+Le seul chemin d'écriture vers `Core/state` est l'ajout d'une **intention** dans
+la Task Queue (`enqueueTask` dans `lib/state.ts`, utilisé par le bouton
+"Reprendre"/"Relancer" des pages Workflows) : exactement la même frontière de
+sécurité que l'écriture de frontmatter ci-dessous — la console écrit une
+demande, le moteur (Claude Code / une routine GitHub Actions) l'exécute.
 
 ---
 
@@ -62,12 +80,21 @@ Pages déployé n'a pas `Products/` à côté de lui). Donc :
 
 ### Mode mock (dev / CI uniquement)
 
-Si `MOCK_DATA=1` **ou** si `GITHUB_TOKEN` est absent, l'app sert les 6 fiches de
-seed depuis `lib/mock.ts` et ne touche pas GitHub — pour lancer/vérifier l'app
-sans token. En mock, les écritures ne sont pas persistées (la fiche mutée est
-renvoyée pour un affichage optimiste). **Ne jamais activer `MOCK_DATA` en prod.**
-Le chemin de production (GitHub API) et le chemin mock partagent exactement le
-même code d'affichage ; seule la source des données diffère.
+Si `MOCK_DATA=1`, l'app sert les 6 fiches de seed depuis `lib/mock.ts` **et**
+l'état du Workflow Engine depuis `lib/mock-state.json` — un snapshot **réel**
+d'une exécution dry-run du moteur (`Core/state/**`), pas des données
+inventées. Le snapshot est régénéré avec :
+
+```bash
+cd Web && node scripts/build-mock-state.mjs
+```
+
+à relancer après tout `npm run pipeline -- run-all --dry-run` dans
+`Core/engine` dont on veut refléter le nouvel état en mode mock/CI. En mock,
+les écritures (fiches, file d'attente) ne sont pas persistées (réponse
+optimiste). **Ne jamais activer `MOCK_DATA` en prod.** Le chemin de production
+(GitHub API) et le chemin mock partagent exactement le même code d'affichage ;
+seule la source des données diffère.
 
 ---
 
@@ -86,16 +113,43 @@ Archived`. `history` conserve chaque transition pour toujours.
 
 ## Pages
 
-- **`/`** — Dashboard : grille de cartes (image, titre, prix, badge statut,
-  catégorie, actions rapides Valider/Refuser/Favori). Recherche instantanée
-  (client), filtres (statut, catégorie, boutique, couleur, fournisseur image,
-  plage de dates), tri (date/prix/titre), pagination client.
-- **`/products/[slug]`** — Validation, deux onglets :
-  - **Fiche** : tous les champs, tous les boutons d'action, formulaire d'édition
-    inline (modal) qui PUT la fiche sur GitHub, timeline d'historique.
-  - **Aperçu Etsy** : composant stylé comme une vraie page produit Etsy (galerie
-    + miniatures, titre, prix, sélecteurs de variantes, description, tags), avec
-    bascule desktop/mobile (contraint la largeur max).
+Navigation latérale permanente (`components/control/sidebar.tsx`) + palette de
+commande `⌘K`/`Ctrl+K` (`components/control/command-palette.tsx`) donnant accès
+à toutes les pages et à tous les produits.
+
+- **`/`** — Dashboard : KPIs (workflows actifs, en attente de validation,
+  produits, rejets, erreurs, taille de file, durée moyenne pipeline), workflows
+  en cours, répartition des produits par étape de pipeline, activité récente.
+- **`/workflows`**, **`/workflows/[id]`** — Toutes les exécutions du moteur ;
+  détail = Workflow Visualizer (`components/control/workflow-graph.tsx`) avec
+  état/durée/logs par étape, bouton Reprendre/Relancer.
+- **`/queue`** — Task Queue du moteur (tentatives, échecs, tâches mortes).
+- **`/trends`**, **`/market`**, **`/scoring`**, **`/planner`**,
+  **`/generator`**, **`/images`**, **`/mockups`**, **`/seo`**, **`/qa`** — une
+  page par étape de pipeline (`components/control/section-page.tsx`), un
+  produit par carte, données réelles issues du Product Object correspondant.
+- **`/validation`** — la console de validation d'origine, inchangée dans son
+  fonctionnement (grille de cartes, recherche, filtres, actions), maintenant
+  documentée comme l'étape `validation` du moteur : les workflows en pause sur
+  ce gate sont listés en tête de page.
+- **`/products/[slug]`** — **Product Inspector** : la fiche (Validation, Aperçu
+  Etsy — inchangés) + le Product Object complet section par section, les
+  workflows associés (mini Workflow Visualizer), l'historique, un inspecteur
+  JSON brut.
+- **`/publishing`** — état de publication par produit (bloqué / simulé / publié
+  + raison de blocage).
+- **`/analytics`** — métriques de production réelles du moteur (débit,
+  durées moyennes par étape, taux de passage QA/validation) ; les métriques de
+  vente Etsy (revenus, CTR…) restent en attente du provider MCP `etsy` (Phase 5)
+  et ne sont jamais simulées.
+- **`/learning`** — signaux extraits de l'état réel (score vs décision humaine,
+  échecs QA récurrents, régénérations) en attendant le `Learning-Agent`.
+- **`/assets`** — manifeste des assets R2 dérivé des Product Objects.
+- **`/mcp`** — registre des serveurs MCP du dépôt et leur statut ROADMAP.
+- **`/logs`** — journal complet de l'Event Bus + logs par étape de chaque
+  workflow.
+- **`/config`** — variables attendues côté Pages/Actions et leur présence
+  (jamais leur valeur).
 
 ---
 
@@ -143,24 +197,38 @@ dans `.env.local`, laisser `MOCK_DATA=0`.
 
 ---
 
-## Déploiement — Cloudflare Pages
+## Déploiement — Cloudflare Pages (automatique)
 
-Build adaptateur : `npx @cloudflare/next-on-pages` → sortie `.vercel/output/static`.
+`.github/workflows/deploy.yml` déploie automatiquement à chaque push sur `main` :
+Tests (typecheck + lint + build) → Build adaptateur Cloudflare
+(`npx @cloudflare/next-on-pages` → `.vercel/output/static`) → Déploiement
+(`cloudflare/wrangler-action` → `wrangler pages deploy`) → invalidation du cache
+en périphérie (automatique côté Cloudflare Pages à chaque déploiement) → mise en
+ligne (alias de production mis à jour de façon atomique par `wrangler`). Le job
+`web` de `.github/workflows/tests.yml` couvre déjà typecheck/lint/build sur
+chaque PR ; `deploy.yml` re-vérifie avant de déployer car un merge peut combiner
+des changements individuellement verts en un état rouge.
 
-**Réglages du projet Pages :**
+**Secrets requis (GitHub Actions, repo secrets) :**
 
-| Réglage | Valeur |
+| Secret | Rôle |
 |---|---|
-| Root directory | `Web` |
-| Build command | `npx @cloudflare/next-on-pages@1` |
-| Build output directory | `.vercel/output/static` |
-| Compatibility flags | `nodejs_compat` |
-| Env vars (Production + Preview) | `GITHUB_TOKEN`, `GITHUB_REPO`, `GITHUB_BRANCH` |
+| `CLOUDFLARE_API_TOKEN` | Token avec permission "Cloudflare Pages: Edit" sur le compte |
+| `CLOUDFLARE_ACCOUNT_ID` | ID du compte Cloudflare hébergeant le projet Pages |
 
 Toutes les Route Handlers / pages dynamiques déclarent `export const runtime =
 "edge"` (requis par next-on-pages). Images non optimisées (`images.unoptimized`)
 — servies directement par le CDN Cloudflare/R2.
 
+**Réglages du projet Pages (créé une fois, manuellement, par Reda) :**
+
+| Réglage | Valeur |
+|---|---|
+| Nom du projet | `etsyos-control-center` (doit correspondre à `--project-name` dans `deploy.yml`) |
+| Compatibility flags | `nodejs_compat` |
+| Env vars (Production + Preview) | `GITHUB_TOKEN`, `GITHUB_REPO`, `GITHUB_BRANCH` |
+
 Étapes **manuelles une seule fois** (non scriptées, réalisées par Reda) : création
-du projet Pages, intégration git GitHub Actions, configuration de Cloudflare
-Access, création du `GITHUB_TOKEN`.
+du projet Pages, création de `CLOUDFLARE_API_TOKEN`/`CLOUDFLARE_ACCOUNT_ID` comme
+secrets GitHub Actions, configuration de Cloudflare Access, création du
+`GITHUB_TOKEN`. Voir DEPLOYMENT.md pour le détail.

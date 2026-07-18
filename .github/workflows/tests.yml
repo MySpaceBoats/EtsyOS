@@ -1,8 +1,9 @@
 name: tests
-# Runs the real test suites that exist today (MCP/storage, MCP/image-generation,
-# MCP/assets, Web). Each has its own package.json — no root workspace. Other
-# MCP servers/agents/routines are still skeletons with nothing to test yet; add
-# them here as they gain real code, don't pre-add placeholder steps for them.
+# Runs the real test suites that exist today (Core/engine, MCP/storage,
+# MCP/image-generation, MCP/assets, Web). Each has its own package.json — no
+# root workspace. Other MCP servers/agents/routines are still skeletons with
+# nothing to test yet; add them here as they gain real code, don't pre-add
+# placeholder steps for them.
 on:
   push:
     branches: [main]
@@ -10,6 +11,20 @@ on:
     branches: [main]
 
 jobs:
+  engine:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - working-directory: Core/engine
+        run: npm ci
+      - working-directory: Core/engine
+        run: npm run typecheck
+      - working-directory: Core/engine
+        run: npm test
+
   mcp-storage:
     runs-on: ubuntu-latest
     steps:

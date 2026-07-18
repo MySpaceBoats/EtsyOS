@@ -25,7 +25,11 @@ Chaque agent expose : `README.md` (role, responsabilites, I/O, statut), `config.
 
 ## Regle
 
-Un agent ne parle jamais directement a une API externe — il passe systematiquement par un serveur MCP.
+Un agent ne parle jamais directement a une API externe — il passe systematiquement par un serveur MCP. Un
+agent n'est jamais declenche de facon independante non plus : il est invoque **depuis une etape du Workflow
+Engine** (`Core/engine`) dont il devient le provider (ex. `Market-Agent` deviendra le provider de l'etape
+`market-analysis`, remplaçant la source `offline-heuristic` par `mcp-etsy`). Voir ARCHITECTURE.md et
+Core/engine/README.md.
 
 ## Statut
 
