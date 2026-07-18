@@ -1,0 +1,216 @@
+{
+  "id": "wf_highland-wool-pullover_1",
+  "productId": "prod_highland-wool-pullover",
+  "slug": "highland-wool-pullover",
+  "pipeline": [
+    "trend-discovery",
+    "market-analysis",
+    "opportunity-scoring",
+    "product-planner",
+    "product-generator",
+    "image-generator",
+    "mockup-generator",
+    "seo-generator",
+    "quality-assurance",
+    "validation",
+    "publishing"
+  ],
+  "dryRun": true,
+  "status": "completed",
+  "createdAt": "2026-07-18T12:32:10.042Z",
+  "updatedAt": "2026-07-18T12:32:10.083Z",
+  "pausedReason": null,
+  "steps": [
+    {
+      "id": "trend-discovery",
+      "status": "completed",
+      "startedAt": "2026-07-18T12:32:10.045Z",
+      "finishedAt": "2026-07-18T12:32:10.046Z",
+      "durationMs": 0,
+      "attempts": 1,
+      "logs": [
+        "[2026-07-18T12:32:10.046Z] Derived 10 keywords for \"Highland Wool Pullover — Rustic Fair Isle Knit Sweater, Nordic Style\" (season: summer)"
+      ],
+      "error": null,
+      "result": {
+        "keywords": 10,
+        "topKeyword": "wool t-shirt",
+        "season": "summer"
+      }
+    },
+    {
+      "id": "market-analysis",
+      "status": "completed",
+      "startedAt": "2026-07-18T12:32:10.048Z",
+      "finishedAt": "2026-07-18T12:32:10.049Z",
+      "durationMs": 0,
+      "attempts": 1,
+      "logs": [
+        "[2026-07-18T12:32:10.049Z] Market: demand 89, competition 82, median price 33.13€"
+      ],
+      "error": null,
+      "result": {
+        "demand": 89,
+        "competition": 82,
+        "priceMedian": 33.13
+      }
+    },
+    {
+      "id": "opportunity-scoring",
+      "status": "completed",
+      "startedAt": "2026-07-18T12:32:10.051Z",
+      "finishedAt": "2026-07-18T12:32:10.053Z",
+      "durationMs": 0,
+      "attempts": 1,
+      "logs": [
+        "[2026-07-18T12:32:10.053Z] Opportunity score 69/100"
+      ],
+      "error": null,
+      "result": {
+        "total": 69,
+        "seo": 67,
+        "competition": 18,
+        "potential": 89,
+        "difficulty": 58,
+        "profitability": 89
+      }
+    },
+    {
+      "id": "product-planner",
+      "status": "completed",
+      "startedAt": "2026-07-18T12:32:10.054Z",
+      "finishedAt": "2026-07-18T12:32:10.055Z",
+      "durationMs": 0,
+      "attempts": 1,
+      "logs": [
+        "[2026-07-18T12:32:10.055Z] Plan: t-shirt, priority medium, 2 variant group(s)"
+      ],
+      "error": null,
+      "result": {
+        "priority": "medium",
+        "productType": "t-shirt",
+        "collection": "summer-shirts"
+      }
+    },
+    {
+      "id": "product-generator",
+      "status": "completed",
+      "startedAt": "2026-07-18T12:32:10.057Z",
+      "finishedAt": "2026-07-18T12:32:10.059Z",
+      "durationMs": 0,
+      "attempts": 1,
+      "logs": [
+        "[2026-07-18T12:32:10.059Z] Prompt v1 built (291 chars)"
+      ],
+      "error": null,
+      "result": {
+        "version": 1,
+        "concept": "Highland Wool Pullover — Rustic Fair Isle Knit Sweater, Nordic Style — t-shirt design for the \"summer-shirts\" collection, aimed at the \"wool t-shirt\" niche."
+      }
+    },
+    {
+      "id": "image-generator",
+      "status": "completed",
+      "startedAt": "2026-07-18T12:32:10.061Z",
+      "finishedAt": "2026-07-18T12:32:10.062Z",
+      "durationMs": 0,
+      "attempts": 1,
+      "logs": [
+        "[2026-07-18T12:32:10.062Z] Planned 3 assets under products/highland-wool-pullover/v1/ (simulated — image-generation MCP not invoked from this run)"
+      ],
+      "error": null,
+      "result": {
+        "assets": 3,
+        "simulated": true,
+        "baseKey": "products/highland-wool-pullover/v1"
+      }
+    },
+    {
+      "id": "mockup-generator",
+      "status": "completed",
+      "startedAt": "2026-07-18T12:32:10.064Z",
+      "finishedAt": "2026-07-18T12:32:10.066Z",
+      "durationMs": 0,
+      "attempts": 1,
+      "logs": [
+        "[2026-07-18T12:32:10.066Z] Planned 4 mockup scenes: flat-lay, model-front, model-back, hanger"
+      ],
+      "error": null,
+      "result": {
+        "mockups": 4,
+        "scenes": [
+          "flat-lay",
+          "model-front",
+          "model-back",
+          "hanger"
+        ]
+      }
+    },
+    {
+      "id": "seo-generator",
+      "status": "completed",
+      "startedAt": "2026-07-18T12:32:10.067Z",
+      "finishedAt": "2026-07-18T12:32:10.069Z",
+      "durationMs": 0,
+      "attempts": 1,
+      "logs": [
+        "[2026-07-18T12:32:10.069Z] SEO: title 132 chars, 13 tags, score 74/100"
+      ],
+      "error": null,
+      "result": {
+        "score": 74,
+        "tags": 13,
+        "titleLength": 132
+      }
+    },
+    {
+      "id": "quality-assurance",
+      "status": "completed",
+      "startedAt": "2026-07-18T12:32:10.071Z",
+      "finishedAt": "2026-07-18T12:32:10.074Z",
+      "durationMs": 2,
+      "attempts": 1,
+      "logs": [
+        "[2026-07-18T12:32:10.074Z] QA PASSED — 9/9 checks ok"
+      ],
+      "error": null,
+      "result": {
+        "passed": true,
+        "checks": 9,
+        "failed": []
+      }
+    },
+    {
+      "id": "validation",
+      "status": "completed",
+      "startedAt": "2026-07-18T12:32:10.076Z",
+      "finishedAt": "2026-07-18T12:32:10.077Z",
+      "durationMs": 0,
+      "attempts": 1,
+      "logs": [
+        "[2026-07-18T12:32:10.077Z] Fiche status: Rejected"
+      ],
+      "error": null,
+      "result": {
+        "fiche_status": "Rejected",
+        "approved": false
+      }
+    },
+    {
+      "id": "publishing",
+      "status": "completed",
+      "startedAt": "2026-07-18T12:32:10.079Z",
+      "finishedAt": "2026-07-18T12:32:10.081Z",
+      "durationMs": 0,
+      "attempts": 1,
+      "logs": [
+        "[2026-07-18T12:32:10.081Z] Publication BLOCKED: Validation humaine absente ou refusée — publication interdite."
+      ],
+      "error": null,
+      "result": {
+        "published": false,
+        "blockedReason": "Validation humaine absente ou refusée — publication interdite."
+      }
+    }
+  ]
+}

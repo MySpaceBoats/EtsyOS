@@ -1,0 +1,217 @@
+{
+  "id": "wf_sage-ceramic-mug_1",
+  "productId": "prod_sage-ceramic-mug",
+  "slug": "sage-ceramic-mug",
+  "pipeline": [
+    "trend-discovery",
+    "market-analysis",
+    "opportunity-scoring",
+    "product-planner",
+    "product-generator",
+    "image-generator",
+    "mockup-generator",
+    "seo-generator",
+    "quality-assurance",
+    "validation",
+    "publishing"
+  ],
+  "dryRun": true,
+  "status": "completed",
+  "createdAt": "2026-07-18T12:32:09.964Z",
+  "updatedAt": "2026-07-18T12:32:09.993Z",
+  "pausedReason": null,
+  "steps": [
+    {
+      "id": "trend-discovery",
+      "status": "completed",
+      "startedAt": "2026-07-18T12:32:09.967Z",
+      "finishedAt": "2026-07-18T12:32:09.968Z",
+      "durationMs": 0,
+      "attempts": 1,
+      "logs": [
+        "[2026-07-18T12:32:09.968Z] Derived 10 keywords for \"Sage Green Ceramic Coffee Mug — Minimalist Handmade Style Cup, 11oz & 15oz\" (season: summer)"
+      ],
+      "error": null,
+      "result": {
+        "keywords": 10,
+        "topKeyword": "ceramic mug",
+        "season": "summer"
+      }
+    },
+    {
+      "id": "market-analysis",
+      "status": "completed",
+      "startedAt": "2026-07-18T12:32:09.969Z",
+      "finishedAt": "2026-07-18T12:32:09.970Z",
+      "durationMs": 0,
+      "attempts": 1,
+      "logs": [
+        "[2026-07-18T12:32:09.970Z] Market: demand 76, competition 32, median price 21.88€"
+      ],
+      "error": null,
+      "result": {
+        "demand": 76,
+        "competition": 32,
+        "priceMedian": 21.88
+      }
+    },
+    {
+      "id": "opportunity-scoring",
+      "status": "completed",
+      "startedAt": "2026-07-18T12:32:09.971Z",
+      "finishedAt": "2026-07-18T12:32:09.972Z",
+      "durationMs": 0,
+      "attempts": 1,
+      "logs": [
+        "[2026-07-18T12:32:09.972Z] Opportunity score 72/100"
+      ],
+      "error": null,
+      "result": {
+        "total": 72,
+        "seo": 68,
+        "competition": 68,
+        "potential": 76,
+        "difficulty": 32,
+        "profitability": 76
+      }
+    },
+    {
+      "id": "product-planner",
+      "status": "completed",
+      "startedAt": "2026-07-18T12:32:09.973Z",
+      "finishedAt": "2026-07-18T12:32:09.974Z",
+      "durationMs": 0,
+      "attempts": 1,
+      "logs": [
+        "[2026-07-18T12:32:09.974Z] Plan: mug, priority high, 1 variant group(s)"
+      ],
+      "error": null,
+      "result": {
+        "priority": "high",
+        "productType": "mug",
+        "collection": "summer-mugs"
+      }
+    },
+    {
+      "id": "product-generator",
+      "status": "completed",
+      "startedAt": "2026-07-18T12:32:09.976Z",
+      "finishedAt": "2026-07-18T12:32:09.977Z",
+      "durationMs": 0,
+      "attempts": 1,
+      "logs": [
+        "[2026-07-18T12:32:09.977Z] Prompt v1 built (256 chars)"
+      ],
+      "error": null,
+      "result": {
+        "version": 1,
+        "concept": "Sage Green Ceramic Coffee Mug — Minimalist Handmade Style Cup, 11oz & 15oz — mug design for the \"summer-mugs\" collection, aimed at the \"ceramic mug\" niche."
+      }
+    },
+    {
+      "id": "image-generator",
+      "status": "completed",
+      "startedAt": "2026-07-18T12:32:09.978Z",
+      "finishedAt": "2026-07-18T12:32:09.979Z",
+      "durationMs": 0,
+      "attempts": 1,
+      "logs": [
+        "[2026-07-18T12:32:09.979Z] Planned 3 assets under products/sage-ceramic-mug/v1/ (simulated — image-generation MCP not invoked from this run)"
+      ],
+      "error": null,
+      "result": {
+        "assets": 3,
+        "simulated": true,
+        "baseKey": "products/sage-ceramic-mug/v1"
+      }
+    },
+    {
+      "id": "mockup-generator",
+      "status": "completed",
+      "startedAt": "2026-07-18T12:32:09.980Z",
+      "finishedAt": "2026-07-18T12:32:09.981Z",
+      "durationMs": 0,
+      "attempts": 1,
+      "logs": [
+        "[2026-07-18T12:32:09.981Z] Planned 4 mockup scenes: kitchen-table, office-desk, gift-box, hands-holding"
+      ],
+      "error": null,
+      "result": {
+        "mockups": 4,
+        "scenes": [
+          "kitchen-table",
+          "office-desk",
+          "gift-box",
+          "hands-holding"
+        ]
+      }
+    },
+    {
+      "id": "seo-generator",
+      "status": "completed",
+      "startedAt": "2026-07-18T12:32:09.982Z",
+      "finishedAt": "2026-07-18T12:32:09.983Z",
+      "durationMs": 0,
+      "attempts": 1,
+      "logs": [
+        "[2026-07-18T12:32:09.983Z] SEO: title 128 chars, 13 tags, score 72/100"
+      ],
+      "error": null,
+      "result": {
+        "score": 72,
+        "tags": 13,
+        "titleLength": 128
+      }
+    },
+    {
+      "id": "quality-assurance",
+      "status": "completed",
+      "startedAt": "2026-07-18T12:32:09.984Z",
+      "finishedAt": "2026-07-18T12:32:09.986Z",
+      "durationMs": 1,
+      "attempts": 1,
+      "logs": [
+        "[2026-07-18T12:32:09.986Z] QA PASSED — 9/9 checks ok"
+      ],
+      "error": null,
+      "result": {
+        "passed": true,
+        "checks": 9,
+        "failed": []
+      }
+    },
+    {
+      "id": "validation",
+      "status": "completed",
+      "startedAt": "2026-07-18T12:32:09.987Z",
+      "finishedAt": "2026-07-18T12:32:09.989Z",
+      "durationMs": 1,
+      "attempts": 1,
+      "logs": [
+        "[2026-07-18T12:32:09.989Z] Fiche status: Approved"
+      ],
+      "error": null,
+      "result": {
+        "fiche_status": "Approved",
+        "approved": true
+      }
+    },
+    {
+      "id": "publishing",
+      "status": "completed",
+      "startedAt": "2026-07-18T12:32:09.990Z",
+      "finishedAt": "2026-07-18T12:32:09.991Z",
+      "durationMs": 0,
+      "attempts": 1,
+      "logs": [
+        "[2026-07-18T12:32:09.991Z] Dry-run: publication simulée — aurait créé le produit Printify puis le listing Etsy (draft) via les MCP."
+      ],
+      "error": null,
+      "result": {
+        "published": false,
+        "simulated": true,
+        "note": "dry-run — aucun appel Printify/Etsy"
+      }
+    }
+  ]
+}

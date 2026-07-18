@@ -1,0 +1,48 @@
+{
+  "updatedAt": "2026-07-18T12:32:10.178Z",
+  "products": {
+    "total": 6,
+    "byStage": {
+      "publishing": 4,
+      "quality-assurance": 2
+    }
+  },
+  "workflows": {
+    "total": 6,
+    "byStatus": {
+      "completed": 4,
+      "paused": 2
+    },
+    "active": [
+      {
+        "id": "wf_golden-ratio-poster_1",
+        "slug": "golden-ratio-poster",
+        "status": "paused",
+        "currentStep": "validation",
+        "dryRun": true,
+        "updatedAt": "2026-07-18T12:32:10.165Z"
+      },
+      {
+        "id": "wf_midnight-cosmos-mug_1",
+        "slug": "midnight-cosmos-mug",
+        "status": "paused",
+        "currentStep": "validation",
+        "dryRun": true,
+        "updatedAt": "2026-07-18T12:32:09.959Z"
+      }
+    ]
+  },
+  "avgStepDurationMs": {
+    "trend-discovery": 0,
+    "market-analysis": 0,
+    "opportunity-scoring": 0,
+    "product-planner": 0,
+    "product-generator": 0,
+    "image-generator": 0,
+    "mockup-generator": 0,
+    "seo-generator": 0,
+    "quality-assurance": 2,
+    "validation": 0,
+    "publishing": 0
+  }
+}

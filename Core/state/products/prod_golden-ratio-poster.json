@@ -1,0 +1,373 @@
+{
+  "id": "prod_golden-ratio-poster",
+  "slug": "golden-ratio-poster",
+  "title": "Golden Ratio Sacred Geometry Poster — Nautilus Spiral Art Print, Fibonacci",
+  "category": "Wall-Art",
+  "createdAt": "2026-07-18T12:32:10.134Z",
+  "updatedAt": "2026-07-18T12:32:10.164Z",
+  "stage": "quality-assurance",
+  "listingPath": "Products/Wall-Art/Listings/golden-ratio-poster.md",
+  "history": [
+    {
+      "at": "2026-07-18T12:32:10.134Z",
+      "step": "engine",
+      "event": "created"
+    },
+    {
+      "at": "2026-07-18T12:32:10.138Z",
+      "step": "trend-discovery",
+      "event": "completed"
+    },
+    {
+      "at": "2026-07-18T12:32:10.140Z",
+      "step": "market-analysis",
+      "event": "completed"
+    },
+    {
+      "at": "2026-07-18T12:32:10.142Z",
+      "step": "opportunity-scoring",
+      "event": "completed"
+    },
+    {
+      "at": "2026-07-18T12:32:10.144Z",
+      "step": "product-planner",
+      "event": "completed"
+    },
+    {
+      "at": "2026-07-18T12:32:10.147Z",
+      "step": "product-generator",
+      "event": "completed"
+    },
+    {
+      "at": "2026-07-18T12:32:10.149Z",
+      "step": "image-generator",
+      "event": "completed"
+    },
+    {
+      "at": "2026-07-18T12:32:10.151Z",
+      "step": "mockup-generator",
+      "event": "completed"
+    },
+    {
+      "at": "2026-07-18T12:32:10.154Z",
+      "step": "seo-generator",
+      "event": "completed"
+    },
+    {
+      "at": "2026-07-18T12:32:10.161Z",
+      "step": "quality-assurance",
+      "event": "completed"
+    }
+  ],
+  "trend": {
+    "meta": {
+      "source": "offline-heuristic",
+      "generatedAt": "2026-07-18T12:32:10.138Z",
+      "durationMs": 0
+    },
+    "keywords": [
+      {
+        "keyword": "golden art print",
+        "popularity": 95,
+        "momentum": 0.3,
+        "source": "offline-heuristic"
+      },
+      {
+        "keyword": "nautilus art print",
+        "popularity": 85,
+        "momentum": -0.6,
+        "source": "offline-heuristic"
+      },
+      {
+        "keyword": "fibonacci art print",
+        "popularity": 83,
+        "momentum": 0.5,
+        "source": "offline-heuristic"
+      },
+      {
+        "keyword": "spiral art print",
+        "popularity": 73,
+        "momentum": 0.6,
+        "source": "offline-heuristic"
+      },
+      {
+        "keyword": "geometry art print",
+        "popularity": 71,
+        "momentum": 0.6,
+        "source": "offline-heuristic"
+      },
+      {
+        "keyword": "art art print",
+        "popularity": 71,
+        "momentum": -1,
+        "source": "offline-heuristic"
+      },
+      {
+        "keyword": "sacred art print",
+        "popularity": 60,
+        "momentum": 0.7,
+        "source": "offline-heuristic"
+      },
+      {
+        "keyword": "print art print",
+        "popularity": 57,
+        "momentum": -0.6,
+        "source": "offline-heuristic"
+      },
+      {
+        "keyword": "ratio art print",
+        "popularity": 55,
+        "momentum": -0.2,
+        "source": "offline-heuristic"
+      },
+      {
+        "keyword": "poster art print",
+        "popularity": 54,
+        "momentum": 0,
+        "source": "offline-heuristic"
+      }
+    ],
+    "season": "summer",
+    "summary": "Top keyword \"golden art print\" (popularity 95/100), season window: summer."
+  },
+  "market": {
+    "meta": {
+      "source": "offline-heuristic",
+      "generatedAt": "2026-07-18T12:32:10.140Z",
+      "durationMs": 0
+    },
+    "competition": 53,
+    "demand": 84,
+    "priceLow": 8,
+    "priceMedian": 39.08,
+    "priceHigh": 45,
+    "monthlyVolumeEstimate": 1680,
+    "seasonality": "summer",
+    "notes": "Heuristic estimate for \"golden art print\": demand 84/100 vs competition 53/100 in Wall-Art."
+  },
+  "opportunity": {
+    "meta": {
+      "source": "offline-heuristic",
+      "generatedAt": "2026-07-18T12:32:10.142Z",
+      "durationMs": 0
+    },
+    "total": 73,
+    "seo": 70,
+    "competition": 47,
+    "potential": 84,
+    "difficulty": 42,
+    "profitability": 84,
+    "explanation": [
+      "SEO 70/100 — moyenne de popularité des 10 mots-clés détectés (poids 25%).",
+      "Concurrence 47/100 — inverse de la saturation marché (53/100 de concurrence brute, poids 20%).",
+      "Potentiel 84/100 — demande estimée (poids 30%).",
+      "Rentabilité 84/100 — position du prix médian 39.08€ dans la fourchette 8–45€ (poids 25%).",
+      "Difficulté 42/100 — indicatif, non pondéré dans le total.",
+      "Score global: 73/100."
+    ]
+  },
+  "plan": {
+    "meta": {
+      "source": "offline-heuristic",
+      "generatedAt": "2026-07-18T12:32:10.144Z",
+      "durationMs": 0
+    },
+    "productType": "art print",
+    "collection": "summer-wall-art",
+    "priority": "high",
+    "variants": [
+      {
+        "name": "Size",
+        "options": [
+          "A4",
+          "A3",
+          "30x40cm",
+          "50x70cm"
+        ]
+      }
+    ],
+    "colors": [
+      "Full Color"
+    ],
+    "formats": [
+      "Portrait",
+      "Landscape",
+      "Square"
+    ]
+  },
+  "generation": {
+    "meta": {
+      "source": "offline-heuristic",
+      "generatedAt": "2026-07-18T12:32:10.147Z",
+      "durationMs": 1
+    },
+    "prompt": "Design for a art print: \"Golden Ratio Sacred Geometry Poster — Nautilus Spiral Art Print, Fibonacci\". Style keywords: golden art print, nautilus art print, fibonacci art print. Colors: Full Color. Formats: Portrait, Landscape, Square. High resolution, print-ready, no text artifacts, no watermark.",
+    "negativePrompt": "blurry, low quality, watermark, trademarked characters, brand logos",
+    "version": 1,
+    "previousVersions": [],
+    "concept": "Golden Ratio Sacred Geometry Poster — Nautilus Spiral Art Print, Fibonacci — art print design for the \"summer-wall-art\" collection, aimed at the \"golden art print\" niche."
+  },
+  "images": {
+    "meta": {
+      "source": "offline-heuristic",
+      "generatedAt": "2026-07-18T12:32:10.149Z",
+      "durationMs": 0
+    },
+    "assets": [
+      {
+        "key": "products/golden-ratio-poster/v1/design.png",
+        "kind": "design",
+        "width": 4000,
+        "height": 4000,
+        "provider": "image-generation-mcp",
+        "simulated": true
+      },
+      {
+        "key": "products/golden-ratio-poster/v1/design-alt.png",
+        "kind": "variant",
+        "width": 4000,
+        "height": 4000,
+        "provider": "image-generation-mcp",
+        "simulated": true
+      },
+      {
+        "key": "products/golden-ratio-poster/v1/thumb.png",
+        "kind": "thumbnail",
+        "width": 800,
+        "height": 800,
+        "provider": "image-generation-mcp",
+        "simulated": true
+      }
+    ]
+  },
+  "mockups": {
+    "meta": {
+      "source": "offline-heuristic",
+      "generatedAt": "2026-07-18T12:32:10.151Z",
+      "durationMs": 0
+    },
+    "assets": [
+      {
+        "key": "products/golden-ratio-poster/v1/mockup-living-room.png",
+        "scene": "living-room",
+        "provider": "image-generation-mcp",
+        "simulated": true
+      },
+      {
+        "key": "products/golden-ratio-poster/v1/mockup-bedroom.png",
+        "scene": "bedroom",
+        "provider": "image-generation-mcp",
+        "simulated": true
+      },
+      {
+        "key": "products/golden-ratio-poster/v1/mockup-frame-closeup.png",
+        "scene": "frame-closeup",
+        "provider": "image-generation-mcp",
+        "simulated": true
+      },
+      {
+        "key": "products/golden-ratio-poster/v1/mockup-gallery-wall.png",
+        "scene": "gallery-wall",
+        "provider": "image-generation-mcp",
+        "simulated": true
+      }
+    ]
+  },
+  "seo": {
+    "meta": {
+      "source": "offline-heuristic",
+      "generatedAt": "2026-07-18T12:32:10.154Z",
+      "durationMs": 0
+    },
+    "title": "Golden Ratio Sacred Geometry Poster — Nautilus Spiral Art Print, Fibonacci | golden art print | nautilus art print | fibonacci art print",
+    "description": "Golden Ratio Sacred Geometry Poster — Nautilus Spiral Art Print, Fibonacci — art print design for the \"summer-wall-art\" collection, aimed at the \"golden art print\" niche.\n\n• Size: A4 / A3 / 30x40cm / 50x70cm\n• Colors: Full Color\n\nPerfect for: golden art print, nautilus art print, fibonacci art print.\nShips worldwide via print-on-demand.",
+    "tags": [
+      "golden art print",
+      "nautilus art print",
+      "fibonacci art print",
+      "spiral art print",
+      "geometry art print",
+      "art art print",
+      "sacred art print",
+      "print art print",
+      "ratio art print",
+      "poster art print",
+      "golden",
+      "ratio",
+      "sacred"
+    ],
+    "categories": [
+      "Art & Collectibles",
+      "Prints",
+      "Digital Prints"
+    ],
+    "score": 71,
+    "suggestions": [
+      "Couvrir plus de mots-clés tendance dans le titre."
+    ]
+  },
+  "qa": {
+    "meta": {
+      "source": "offline-heuristic",
+      "generatedAt": "2026-07-18T12:32:10.161Z",
+      "durationMs": 4
+    },
+    "passed": true,
+    "checks": [
+      {
+        "id": "tags-budget",
+        "label": "Tags ≤ 13 (limite Etsy)",
+        "passed": true,
+        "detail": "13/13 tags"
+      },
+      {
+        "id": "tag-length",
+        "label": "Tags ≤ 20 caractères",
+        "passed": true,
+        "detail": "ok"
+      },
+      {
+        "id": "title-length",
+        "label": "Titre ≤ 140 caractères",
+        "passed": true,
+        "detail": "136/140"
+      },
+      {
+        "id": "has-design",
+        "label": "Au moins un design",
+        "passed": true,
+        "detail": "3 asset(s)"
+      },
+      {
+        "id": "has-mockups",
+        "label": "Au moins un mockup",
+        "passed": true,
+        "detail": "4 mockup(s)"
+      },
+      {
+        "id": "resolution",
+        "label": "Design ≥ 2000px (print-ready)",
+        "passed": true,
+        "detail": "4000x4000"
+      },
+      {
+        "id": "copyright",
+        "label": "Aucune marque protégée (copyright / politique Etsy)",
+        "passed": true,
+        "detail": "aucun terme bloqué"
+      },
+      {
+        "id": "duplicates",
+        "label": "Pas de doublon de titre",
+        "passed": true,
+        "detail": "unique"
+      },
+      {
+        "id": "price",
+        "label": "Prix > 0",
+        "passed": true,
+        "detail": "39.08€"
+      }
+    ]
+  }
+}

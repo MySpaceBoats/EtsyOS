@@ -1,0 +1,369 @@
+{
+  "id": "prod_midnight-cosmos-mug",
+  "slug": "midnight-cosmos-mug",
+  "title": "Midnight Cosmos Galaxy Mug — Celestial 11oz Ceramic Coffee Cup, Astronomy Gift",
+  "category": "Mugs",
+  "createdAt": "2026-07-18T12:32:09.908Z",
+  "updatedAt": "2026-07-18T12:32:09.959Z",
+  "stage": "quality-assurance",
+  "listingPath": "Products/Mugs/Listings/midnight-cosmos-mug.md",
+  "history": [
+    {
+      "at": "2026-07-18T12:32:09.908Z",
+      "step": "engine",
+      "event": "created"
+    },
+    {
+      "at": "2026-07-18T12:32:09.929Z",
+      "step": "trend-discovery",
+      "event": "completed"
+    },
+    {
+      "at": "2026-07-18T12:32:09.932Z",
+      "step": "market-analysis",
+      "event": "completed"
+    },
+    {
+      "at": "2026-07-18T12:32:09.936Z",
+      "step": "opportunity-scoring",
+      "event": "completed"
+    },
+    {
+      "at": "2026-07-18T12:32:09.939Z",
+      "step": "product-planner",
+      "event": "completed"
+    },
+    {
+      "at": "2026-07-18T12:32:09.942Z",
+      "step": "product-generator",
+      "event": "completed"
+    },
+    {
+      "at": "2026-07-18T12:32:09.945Z",
+      "step": "image-generator",
+      "event": "completed"
+    },
+    {
+      "at": "2026-07-18T12:32:09.948Z",
+      "step": "mockup-generator",
+      "event": "completed"
+    },
+    {
+      "at": "2026-07-18T12:32:09.952Z",
+      "step": "seo-generator",
+      "event": "completed"
+    },
+    {
+      "at": "2026-07-18T12:32:09.956Z",
+      "step": "quality-assurance",
+      "event": "completed"
+    }
+  ],
+  "trend": {
+    "meta": {
+      "source": "offline-heuristic",
+      "generatedAt": "2026-07-18T12:32:09.929Z",
+      "durationMs": 0
+    },
+    "keywords": [
+      {
+        "keyword": "midnight mug",
+        "popularity": 86,
+        "momentum": 0.3,
+        "source": "offline-heuristic"
+      },
+      {
+        "keyword": "ceramic mug",
+        "popularity": 86,
+        "momentum": -1,
+        "source": "offline-heuristic"
+      },
+      {
+        "keyword": "astronomy mug",
+        "popularity": 81,
+        "momentum": 0.4,
+        "source": "offline-heuristic"
+      },
+      {
+        "keyword": "celestial mug",
+        "popularity": 74,
+        "momentum": 0.4,
+        "source": "offline-heuristic"
+      },
+      {
+        "keyword": "cosmos mug",
+        "popularity": 67,
+        "momentum": -1,
+        "source": "offline-heuristic"
+      },
+      {
+        "keyword": "cup mug",
+        "popularity": 59,
+        "momentum": 0.4,
+        "source": "offline-heuristic"
+      },
+      {
+        "keyword": "coffee mug",
+        "popularity": 49,
+        "momentum": 1,
+        "source": "offline-heuristic"
+      },
+      {
+        "keyword": "11oz mug",
+        "popularity": 46,
+        "momentum": 0.9,
+        "source": "offline-heuristic"
+      },
+      {
+        "keyword": "galaxy mug",
+        "popularity": 45,
+        "momentum": -0.5,
+        "source": "offline-heuristic"
+      },
+      {
+        "keyword": "mug mug",
+        "popularity": 40,
+        "momentum": 0.2,
+        "source": "offline-heuristic"
+      }
+    ],
+    "season": "summer",
+    "summary": "Top keyword \"midnight mug\" (popularity 86/100), season window: summer."
+  },
+  "market": {
+    "meta": {
+      "source": "offline-heuristic",
+      "generatedAt": "2026-07-18T12:32:09.932Z",
+      "durationMs": 0
+    },
+    "competition": 69,
+    "demand": 84,
+    "priceLow": 12,
+    "priceMedian": 22.92,
+    "priceHigh": 25,
+    "monthlyVolumeEstimate": 840,
+    "seasonality": "summer",
+    "notes": "Heuristic estimate for \"midnight mug\": demand 84/100 vs competition 69/100 in Mugs."
+  },
+  "opportunity": {
+    "meta": {
+      "source": "offline-heuristic",
+      "generatedAt": "2026-07-18T12:32:09.935Z",
+      "durationMs": 0
+    },
+    "total": 68,
+    "seo": 63,
+    "competition": 31,
+    "potential": 84,
+    "difficulty": 53,
+    "profitability": 84,
+    "explanation": [
+      "SEO 63/100 — moyenne de popularité des 10 mots-clés détectés (poids 25%).",
+      "Concurrence 31/100 — inverse de la saturation marché (69/100 de concurrence brute, poids 20%).",
+      "Potentiel 84/100 — demande estimée (poids 30%).",
+      "Rentabilité 84/100 — position du prix médian 22.92€ dans la fourchette 12–25€ (poids 25%).",
+      "Difficulté 53/100 — indicatif, non pondéré dans le total.",
+      "Score global: 68/100."
+    ]
+  },
+  "plan": {
+    "meta": {
+      "source": "offline-heuristic",
+      "generatedAt": "2026-07-18T12:32:09.939Z",
+      "durationMs": 0
+    },
+    "productType": "mug",
+    "collection": "summer-mugs",
+    "priority": "medium",
+    "variants": [
+      {
+        "name": "Size",
+        "options": [
+          "11oz",
+          "15oz"
+        ]
+      }
+    ],
+    "colors": [
+      "White",
+      "Black"
+    ],
+    "formats": [
+      "11oz",
+      "15oz"
+    ]
+  },
+  "generation": {
+    "meta": {
+      "source": "offline-heuristic",
+      "generatedAt": "2026-07-18T12:32:09.942Z",
+      "durationMs": 0
+    },
+    "prompt": "Design for a mug: \"Midnight Cosmos Galaxy Mug — Celestial 11oz Ceramic Coffee Cup, Astronomy Gift\". Style keywords: midnight mug, ceramic mug, astronomy mug. Colors: White, Black. Formats: 11oz, 15oz. High resolution, print-ready, no text artifacts, no watermark.",
+    "negativePrompt": "blurry, low quality, watermark, trademarked characters, brand logos",
+    "version": 1,
+    "previousVersions": [],
+    "concept": "Midnight Cosmos Galaxy Mug — Celestial 11oz Ceramic Coffee Cup, Astronomy Gift — mug design for the \"summer-mugs\" collection, aimed at the \"midnight mug\" niche."
+  },
+  "images": {
+    "meta": {
+      "source": "offline-heuristic",
+      "generatedAt": "2026-07-18T12:32:09.945Z",
+      "durationMs": 0
+    },
+    "assets": [
+      {
+        "key": "products/midnight-cosmos-mug/v1/design.png",
+        "kind": "design",
+        "width": 4000,
+        "height": 4000,
+        "provider": "image-generation-mcp",
+        "simulated": true
+      },
+      {
+        "key": "products/midnight-cosmos-mug/v1/design-alt.png",
+        "kind": "variant",
+        "width": 4000,
+        "height": 4000,
+        "provider": "image-generation-mcp",
+        "simulated": true
+      },
+      {
+        "key": "products/midnight-cosmos-mug/v1/thumb.png",
+        "kind": "thumbnail",
+        "width": 800,
+        "height": 800,
+        "provider": "image-generation-mcp",
+        "simulated": true
+      }
+    ]
+  },
+  "mockups": {
+    "meta": {
+      "source": "offline-heuristic",
+      "generatedAt": "2026-07-18T12:32:09.948Z",
+      "durationMs": 0
+    },
+    "assets": [
+      {
+        "key": "products/midnight-cosmos-mug/v1/mockup-kitchen-table.png",
+        "scene": "kitchen-table",
+        "provider": "image-generation-mcp",
+        "simulated": true
+      },
+      {
+        "key": "products/midnight-cosmos-mug/v1/mockup-office-desk.png",
+        "scene": "office-desk",
+        "provider": "image-generation-mcp",
+        "simulated": true
+      },
+      {
+        "key": "products/midnight-cosmos-mug/v1/mockup-gift-box.png",
+        "scene": "gift-box",
+        "provider": "image-generation-mcp",
+        "simulated": true
+      },
+      {
+        "key": "products/midnight-cosmos-mug/v1/mockup-hands-holding.png",
+        "scene": "hands-holding",
+        "provider": "image-generation-mcp",
+        "simulated": true
+      }
+    ]
+  },
+  "seo": {
+    "meta": {
+      "source": "offline-heuristic",
+      "generatedAt": "2026-07-18T12:32:09.952Z",
+      "durationMs": 0
+    },
+    "title": "Midnight Cosmos Galaxy Mug — Celestial 11oz Ceramic Coffee Cup, Astronomy Gift | midnight mug | ceramic mug | astronomy mug | celestial mug",
+    "description": "Midnight Cosmos Galaxy Mug — Celestial 11oz Ceramic Coffee Cup, Astronomy Gift — mug design for the \"summer-mugs\" collection, aimed at the \"midnight mug\" niche.\n\n• Size: 11oz / 15oz\n• Colors: White, Black\n\nPerfect for: midnight mug, ceramic mug, astronomy mug.\nShips worldwide via print-on-demand.",
+    "tags": [
+      "midnight mug",
+      "ceramic mug",
+      "astronomy mug",
+      "celestial mug",
+      "cosmos mug",
+      "cup mug",
+      "coffee mug",
+      "11oz mug",
+      "galaxy mug",
+      "mug mug",
+      "midnight",
+      "cosmos",
+      "galaxy"
+    ],
+    "categories": [
+      "Home & Living",
+      "Kitchen & Dining",
+      "Drinkware"
+    ],
+    "score": 72,
+    "suggestions": []
+  },
+  "qa": {
+    "meta": {
+      "source": "offline-heuristic",
+      "generatedAt": "2026-07-18T12:32:09.956Z",
+      "durationMs": 1
+    },
+    "passed": true,
+    "checks": [
+      {
+        "id": "tags-budget",
+        "label": "Tags ≤ 13 (limite Etsy)",
+        "passed": true,
+        "detail": "13/13 tags"
+      },
+      {
+        "id": "tag-length",
+        "label": "Tags ≤ 20 caractères",
+        "passed": true,
+        "detail": "ok"
+      },
+      {
+        "id": "title-length",
+        "label": "Titre ≤ 140 caractères",
+        "passed": true,
+        "detail": "139/140"
+      },
+      {
+        "id": "has-design",
+        "label": "Au moins un design",
+        "passed": true,
+        "detail": "3 asset(s)"
+      },
+      {
+        "id": "has-mockups",
+        "label": "Au moins un mockup",
+        "passed": true,
+        "detail": "4 mockup(s)"
+      },
+      {
+        "id": "resolution",
+        "label": "Design ≥ 2000px (print-ready)",
+        "passed": true,
+        "detail": "4000x4000"
+      },
+      {
+        "id": "copyright",
+        "label": "Aucune marque protégée (copyright / politique Etsy)",
+        "passed": true,
+        "detail": "aucun terme bloqué"
+      },
+      {
+        "id": "duplicates",
+        "label": "Pas de doublon de titre",
+        "passed": true,
+        "detail": "unique"
+      },
+      {
+        "id": "price",
+        "label": "Prix > 0",
+        "passed": true,
+        "detail": "22.92€"
+      }
+    ]
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "id": "wf_midnight-cosmos-mug_1",
+  "productId": "prod_midnight-cosmos-mug",
+  "slug": "midnight-cosmos-mug",
+  "pipeline": [
+    "trend-discovery",
+    "market-analysis",
+    "opportunity-scoring",
+    "product-planner",
+    "product-generator",
+    "image-generator",
+    "mockup-generator",
+    "seo-generator",
+    "quality-assurance",
+    "validation",
+    "publishing"
+  ],
+  "dryRun": true,
+  "status": "paused",
+  "createdAt": "2026-07-18T12:32:09.909Z",
+  "updatedAt": "2026-07-18T12:32:09.959Z",
+  "pausedReason": "En attente de validation humaine (fiche Products/Mugs/Listings/midnight-cosmos-mug.md, statut Draft)",
+  "steps": [
+    {
+      "id": "trend-discovery",
+      "status": "completed",
+      "startedAt": "2026-07-18T12:32:09.927Z",
+      "finishedAt": "2026-07-18T12:32:09.929Z",
+      "durationMs": 1,
+      "attempts": 1,
+      "logs": [
+        "[2026-07-18T12:32:09.929Z] Derived 10 keywords for \"Midnight Cosmos Galaxy Mug — Celestial 11oz Ceramic Coffee Cup, Astronomy Gift\" (season: summer)"
+      ],
+      "error": null,
+      "result": {
+        "keywords": 10,
+        "topKeyword": "midnight mug",
+        "season": "summer"
+      }
+    },
+    {
+      "id": "market-analysis",
+      "status": "completed",
+      "startedAt": "2026-07-18T12:32:09.931Z",
+      "finishedAt": "2026-07-18T12:32:09.932Z",
+      "durationMs": 0,
+      "attempts": 1,
+      "logs": [
+        "[2026-07-18T12:32:09.932Z] Market: demand 84, competition 69, median price 22.92€"
+      ],
+      "error": null,
+      "result": {
+        "demand": 84,
+        "competition": 69,
+        "priceMedian": 22.92
+      }
+    },
+    {
+      "id": "opportunity-scoring",
+      "status": "completed",
+      "startedAt": "2026-07-18T12:32:09.934Z",
+      "finishedAt": "2026-07-18T12:32:09.936Z",
+      "durationMs": 1,
+      "attempts": 1,
+      "logs": [
+        "[2026-07-18T12:32:09.935Z] Opportunity score 68/100"
+      ],
+      "error": null,
+      "result": {
+        "total": 68,
+        "seo": 63,
+        "competition": 31,
+        "potential": 84,
+        "difficulty": 53,
+        "profitability": 84
+      }
+    },
+    {
+      "id": "product-planner",
+      "status": "completed",
+      "startedAt": "2026-07-18T12:32:09.937Z",
+      "finishedAt": "2026-07-18T12:32:09.939Z",
+      "durationMs": 1,
+      "attempts": 1,
+      "logs": [
+        "[2026-07-18T12:32:09.939Z] Plan: mug, priority medium, 1 variant group(s)"
+      ],
+      "error": null,
+      "result": {
+        "priority": "medium",
+        "productType": "mug",
+        "collection": "summer-mugs"
+      }
+    },
+    {
+      "id": "product-generator",
+      "status": "completed",
+      "startedAt": "2026-07-18T12:32:09.941Z",
+      "finishedAt": "2026-07-18T12:32:09.942Z",
+      "durationMs": 0,
+      "attempts": 1,
+      "logs": [
+        "[2026-07-18T12:32:09.942Z] Prompt v1 built (263 chars)"
+      ],
+      "error": null,
+      "result": {
+        "version": 1,
+        "concept": "Midnight Cosmos Galaxy Mug — Celestial 11oz Ceramic Coffee Cup, Astronomy Gift — mug design for the \"summer-mugs\" collection, aimed at the \"midnight mug\" niche."
+      }
+    },
+    {
+      "id": "image-generator",
+      "status": "completed",
+      "startedAt": "2026-07-18T12:32:09.944Z",
+      "finishedAt": "2026-07-18T12:32:09.945Z",
+      "durationMs": 0,
+      "attempts": 1,
+      "logs": [
+        "[2026-07-18T12:32:09.945Z] Planned 3 assets under products/midnight-cosmos-mug/v1/ (simulated — image-generation MCP not invoked from this run)"
+      ],
+      "error": null,
+      "result": {
+        "assets": 3,
+        "simulated": true,
+        "baseKey": "products/midnight-cosmos-mug/v1"
+      }
+    },
+    {
+      "id": "mockup-generator",
+      "status": "completed",
+      "startedAt": "2026-07-18T12:32:09.947Z",
+      "finishedAt": "2026-07-18T12:32:09.948Z",
+      "durationMs": 0,
+      "attempts": 1,
+      "logs": [
+        "[2026-07-18T12:32:09.948Z] Planned 4 mockup scenes: kitchen-table, office-desk, gift-box, hands-holding"
+      ],
+      "error": null,
+      "result": {
+        "mockups": 4,
+        "scenes": [
+          "kitchen-table",
+          "office-desk",
+          "gift-box",
+          "hands-holding"
+        ]
+      }
+    },
+    {
+      "id": "seo-generator",
+      "status": "completed",
+      "startedAt": "2026-07-18T12:32:09.950Z",
+      "finishedAt": "2026-07-18T12:32:09.952Z",
+      "durationMs": 1,
+      "attempts": 1,
+      "logs": [
+        "[2026-07-18T12:32:09.952Z] SEO: title 139 chars, 13 tags, score 72/100"
+      ],
+      "error": null,
+      "result": {
+        "score": 72,
+        "tags": 13,
+        "titleLength": 139
+      }
+    },
+    {
+      "id": "quality-assurance",
+      "status": "completed",
+      "startedAt": "2026-07-18T12:32:09.954Z",
+      "finishedAt": "2026-07-18T12:32:09.956Z",
+      "durationMs": 1,
+      "attempts": 1,
+      "logs": [
+        "[2026-07-18T12:32:09.956Z] QA PASSED — 9/9 checks ok"
+      ],
+      "error": null,
+      "result": {
+        "passed": true,
+        "checks": 9,
+        "failed": []
+      }
+    },
+    {
+      "id": "validation",
+      "status": "paused",
+      "startedAt": "2026-07-18T12:32:09.957Z",
+      "finishedAt": "2026-07-18T12:32:09.959Z",
+      "durationMs": 1,
+      "attempts": 1,
+      "logs": [
+        "[2026-07-18T12:32:09.959Z] Fiche status: Draft"
+      ],
+      "error": null,
+      "result": {
+        "fiche_status": "Draft",
+        "approved": false
+      }
+    },
+    {
+      "id": "publishing",
+      "status": "pending",
+      "startedAt": null,
+      "finishedAt": null,
+      "durationMs": null,
+      "attempts": 0,
+      "logs": [],
+      "error": null,
+      "result": null
+    }
+  ]
+}

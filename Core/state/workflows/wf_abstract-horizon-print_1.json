@@ -1,0 +1,217 @@
+{
+  "id": "wf_abstract-horizon-print_1",
+  "productId": "prod_abstract-horizon-print",
+  "slug": "abstract-horizon-print",
+  "pipeline": [
+    "trend-discovery",
+    "market-analysis",
+    "opportunity-scoring",
+    "product-planner",
+    "product-generator",
+    "image-generator",
+    "mockup-generator",
+    "seo-generator",
+    "quality-assurance",
+    "validation",
+    "publishing"
+  ],
+  "dryRun": true,
+  "status": "completed",
+  "createdAt": "2026-07-18T12:32:10.095Z",
+  "updatedAt": "2026-07-18T12:32:10.126Z",
+  "pausedReason": null,
+  "steps": [
+    {
+      "id": "trend-discovery",
+      "status": "completed",
+      "startedAt": "2026-07-18T12:32:10.098Z",
+      "finishedAt": "2026-07-18T12:32:10.100Z",
+      "durationMs": 1,
+      "attempts": 1,
+      "logs": [
+        "[2026-07-18T12:32:10.100Z] Derived 10 keywords for \"Abstract Horizon Fine Art Print — Modern Minimalist Wall Decor, Terracotta\" (season: summer)"
+      ],
+      "error": null,
+      "result": {
+        "keywords": 10,
+        "topKeyword": "abstract art print",
+        "season": "summer"
+      }
+    },
+    {
+      "id": "market-analysis",
+      "status": "completed",
+      "startedAt": "2026-07-18T12:32:10.101Z",
+      "finishedAt": "2026-07-18T12:32:10.102Z",
+      "durationMs": 0,
+      "attempts": 1,
+      "logs": [
+        "[2026-07-18T12:32:10.102Z] Market: demand 85, competition 30, median price 39.45€"
+      ],
+      "error": null,
+      "result": {
+        "demand": 85,
+        "competition": 30,
+        "priceMedian": 39.45
+      }
+    },
+    {
+      "id": "opportunity-scoring",
+      "status": "completed",
+      "startedAt": "2026-07-18T12:32:10.103Z",
+      "finishedAt": "2026-07-18T12:32:10.104Z",
+      "durationMs": 0,
+      "attempts": 1,
+      "logs": [
+        "[2026-07-18T12:32:10.104Z] Opportunity score 77/100"
+      ],
+      "error": null,
+      "result": {
+        "total": 77,
+        "seo": 63,
+        "competition": 70,
+        "potential": 85,
+        "difficulty": 34,
+        "profitability": 85
+      }
+    },
+    {
+      "id": "product-planner",
+      "status": "completed",
+      "startedAt": "2026-07-18T12:32:10.105Z",
+      "finishedAt": "2026-07-18T12:32:10.106Z",
+      "durationMs": 0,
+      "attempts": 1,
+      "logs": [
+        "[2026-07-18T12:32:10.106Z] Plan: art print, priority high, 1 variant group(s)"
+      ],
+      "error": null,
+      "result": {
+        "priority": "high",
+        "productType": "art print",
+        "collection": "summer-wall-art"
+      }
+    },
+    {
+      "id": "product-generator",
+      "status": "completed",
+      "startedAt": "2026-07-18T12:32:10.107Z",
+      "finishedAt": "2026-07-18T12:32:10.108Z",
+      "durationMs": 0,
+      "attempts": 1,
+      "logs": [
+        "[2026-07-18T12:32:10.108Z] Prompt v1 built (292 chars)"
+      ],
+      "error": null,
+      "result": {
+        "version": 1,
+        "concept": "Abstract Horizon Fine Art Print — Modern Minimalist Wall Decor, Terracotta — art print design for the \"summer-wall-art\" collection, aimed at the \"abstract art print\" niche."
+      }
+    },
+    {
+      "id": "image-generator",
+      "status": "completed",
+      "startedAt": "2026-07-18T12:32:10.109Z",
+      "finishedAt": "2026-07-18T12:32:10.111Z",
+      "durationMs": 0,
+      "attempts": 1,
+      "logs": [
+        "[2026-07-18T12:32:10.111Z] Planned 3 assets under products/abstract-horizon-print/v1/ (simulated — image-generation MCP not invoked from this run)"
+      ],
+      "error": null,
+      "result": {
+        "assets": 3,
+        "simulated": true,
+        "baseKey": "products/abstract-horizon-print/v1"
+      }
+    },
+    {
+      "id": "mockup-generator",
+      "status": "completed",
+      "startedAt": "2026-07-18T12:32:10.112Z",
+      "finishedAt": "2026-07-18T12:32:10.114Z",
+      "durationMs": 0,
+      "attempts": 1,
+      "logs": [
+        "[2026-07-18T12:32:10.114Z] Planned 4 mockup scenes: living-room, bedroom, frame-closeup, gallery-wall"
+      ],
+      "error": null,
+      "result": {
+        "mockups": 4,
+        "scenes": [
+          "living-room",
+          "bedroom",
+          "frame-closeup",
+          "gallery-wall"
+        ]
+      }
+    },
+    {
+      "id": "seo-generator",
+      "status": "completed",
+      "startedAt": "2026-07-18T12:32:10.116Z",
+      "finishedAt": "2026-07-18T12:32:10.117Z",
+      "durationMs": 0,
+      "attempts": 1,
+      "logs": [
+        "[2026-07-18T12:32:10.117Z] SEO: title 131 chars, 13 tags, score 71/100"
+      ],
+      "error": null,
+      "result": {
+        "score": 71,
+        "tags": 13,
+        "titleLength": 131
+      }
+    },
+    {
+      "id": "quality-assurance",
+      "status": "completed",
+      "startedAt": "2026-07-18T12:32:10.118Z",
+      "finishedAt": "2026-07-18T12:32:10.121Z",
+      "durationMs": 1,
+      "attempts": 1,
+      "logs": [
+        "[2026-07-18T12:32:10.121Z] QA PASSED — 9/9 checks ok"
+      ],
+      "error": null,
+      "result": {
+        "passed": true,
+        "checks": 9,
+        "failed": []
+      }
+    },
+    {
+      "id": "validation",
+      "status": "completed",
+      "startedAt": "2026-07-18T12:32:10.122Z",
+      "finishedAt": "2026-07-18T12:32:10.123Z",
+      "durationMs": 0,
+      "attempts": 1,
+      "logs": [
+        "[2026-07-18T12:32:10.123Z] Fiche status: Published"
+      ],
+      "error": null,
+      "result": {
+        "fiche_status": "Published",
+        "approved": true
+      }
+    },
+    {
+      "id": "publishing",
+      "status": "completed",
+      "startedAt": "2026-07-18T12:32:10.124Z",
+      "finishedAt": "2026-07-18T12:32:10.125Z",
+      "durationMs": 0,
+      "attempts": 1,
+      "logs": [
+        "[2026-07-18T12:32:10.125Z] Dry-run: publication simulée — aurait créé le produit Printify puis le listing Etsy (draft) via les MCP."
+      ],
+      "error": null,
+      "result": {
+        "published": false,
+        "simulated": true,
+        "note": "dry-run — aucun appel Printify/Etsy"
+      }
+    }
+  ]
+}
