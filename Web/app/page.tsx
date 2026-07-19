@@ -4,6 +4,7 @@ import { STEP_IDS, STEP_LABELS, type StepId } from "@/lib/engine-types";
 import { PageHeader, StatCard, Meter, StatusBadge, EmptyState, fmtMs, fmtDate } from "@/components/control/primitives";
 import { WorkflowProgress, WorkflowRowLink } from "@/components/control/workflow-graph";
 import { ActivityFeed } from "@/components/control/activity-feed";
+import printifySnapshot from "@/lib/printify-snapshot.json";
 
 export const runtime = "edge";
 export const dynamic = "force-dynamic";
@@ -64,6 +65,30 @@ export default async function DashboardPage() {
         <StatCard label="Durée moyenne pipeline" value={fmtMs(avgWorkflowMs)} hint={`${doneWfs.length} run(s) terminés`} />
         <StatCard label="Dernière activité" value={<span className="text-base">{fmtDate(index.updatedAt)}</span>} />
       </div>
+
+      <section className="mt-6 rounded-lg border bg-card p-4">
+        <div className="mb-3 flex items-center justify-between">
+          <h2 className="text-sm font-semibold">Boutique Printify connectée</h2>
+          <span className="text-xs text-muted-foreground">
+            Snapshot statique — jamais d&apos;appel live depuis cette page (voir /mcp) · relevé le{" "}
+            {fmtDate(printifySnapshot.fetchedAt)}
+          </span>
+        </div>
+        <div className="grid grid-cols-2 gap-3 md:grid-cols-4">
+          <StatCard label="Boutique" value={printifySnapshot.shopTitle} hint={`canal ${printifySnapshot.salesChannel}`} />
+          <StatCard
+            label="Produits"
+            value={printifySnapshot.totalProducts}
+            hint={`${printifySnapshot.visibleProducts} visibles`}
+          />
+          <StatCard label="Blueprints distincts" value={printifySnapshot.distinctBlueprints} />
+          <StatCard
+            label="Prix"
+            value={`$${printifySnapshot.avgPriceUsd}`}
+            hint={`moy. · $${printifySnapshot.minPriceUsd}–$${printifySnapshot.maxPriceUsd}`}
+          />
+        </div>
+      </section>
 
       <div className="mt-6 grid gap-6 xl:grid-cols-2">
         <section className="rounded-lg border bg-card p-4">
