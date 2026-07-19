@@ -11,7 +11,7 @@ export const dynamic = "force-dynamic";
 // Bus la publiera alors ici sans changer cette page.
 const MCP_REGISTRY = [
   { name: "etsy", role: "Auth OAuth2 PKCE + 50 outils Etsy (vendored)", status: "implémenté", phase: 1 },
-  { name: "printify", role: "Publication POD via @tsavo/printify-mcp", status: "vendored", phase: 1 },
+  { name: "printify", role: "Publication POD via @tsavo/printify-mcp — connecté : shop Belflami (id 22824531, canal Etsy, 169 produits existants)", status: "vendored", phase: 1 },
   { name: "storage", role: "Client Cloudflare R2 (upload/download/list/sign)", status: "implémenté", phase: 1 },
   { name: "image-generation", role: "Génération multi-providers avec bascule (Workers AI → Imagen → HF)", status: "implémenté", phase: 1 },
   { name: "assets", role: "Écriture des fiches assets dans le Vault", status: "implémenté", phase: 1 },

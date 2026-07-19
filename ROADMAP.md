@@ -18,7 +18,10 @@
 
 - [x] MCP `etsy` — auth OAuth2 PKCE (wrapper maison) + serveur vendored `etsy-mcp-2026-complete` (50+ outils,
       voir THIRD_PARTY_NOTICES.md) — smoke-teste bout-en-bout
-- [x] MCP `printify` — auth token personnel + dependance npm `@tsavo/printify-mcp` — smoke-teste bout-en-bout
+- [x] MCP `printify` — auth token personnel + dependance npm `@tsavo/printify-mcp` — smoke-teste bout-en-bout.
+      Connecte au vrai compte : shop `Belflami` (id 22824531, canal Etsy) avec **169 produits deja en ligne**
+      — ce n'est pas une boutique vide, le Workflow Engine ne doit pas re-generer/dupliquer ce catalogue
+      existant tant que la strategie d'import/synchronisation n'est pas definie (hors scope Phase 1)
 - [ ] **Gate d'ecriture** — les deux MCP exposent du CRUD complet, pas juste de la lecture comme prevu
       initialement. Rien n'empeche aujourd'hui la creation/suppression d'un listing/produit avant Phase 4
       (`Quality-Agent`). Discipline de prompt uniquement pour l'instant — voir README.md de chaque MCP. C'est
